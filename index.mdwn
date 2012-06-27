@@ -8,4 +8,4 @@
 actions=yes rootpage="posts"]]
 
 
-This blog is powered by [ikiwiki](http://ikiwiki.info).
+This blog is powered by [ikiwiki](http://ikiwiki.info). Umad?
