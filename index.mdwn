@@ -4,8 +4,11 @@
 [[!inline pages=sidebar raw=yes]]
 """]]
 
+
+
 [[!inline pages="page(./posts/*) and !*/Discussion" show="10"
 actions=yes rootpage="posts"]]
 
+[SSL](https://en.wikipedia.org/wiki/Secure_Socket_Layer) Fingerprint (SHA1): EC:FB:BA:99:03:63:3B:77:3B:38:03:4C:B8:A8:36:38:FC:20:08:BF
 
-This blog is powered by [ikiwiki](http://ikiwiki.info). Umad?
+Running [ikiwiki](http://ikiwiki.info).
