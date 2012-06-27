@@ -1,0 +1,7 @@
+This (sort of) blog should now flow through the intertubes, along with cats and dataporn.
+
+Though I'm not fond of making Web-related things, there are some stuff in my
+mind that I think I should write about, and this is a quite convenient way.
+
+The idea of using ikiwiki to serve static HTML pages was given to me by [okhin](https://about.okhin.fr),
+which explains why this blog might look similar to his.
