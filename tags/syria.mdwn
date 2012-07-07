@@ -1,0 +1,4 @@
+[[!meta title="pages tagged syria"]]
+
+[[!inline pages="tagged(syria)" actions="no" archive="yes"
+feedshow=10]]
