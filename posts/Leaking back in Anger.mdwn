@@ -19,7 +19,7 @@ BlueCoat finally [acknowledged the presence of their devices](http://online.wsj.
 In the end, Syrian activists on the ground did hear about the information, as shown by the interview performed in the "[Traqués](https://resources.telecomix.ceops.eu/press/videos/traques.avi)" ("Tracked", [English subtitles](https://resources.telecomix.ceops.eu/press/videos/Traques_EN_v1.2.srt)) documentary by Paul Moreira. The piece of information did indeed cross the Syrian borders in both directions and is now not a secret for anyone anymore. The US State Department even [probed](http://www.motherjones.com/mojo/2011/10/state-department-investigating-blue-coat-syria) the matter, and that whole shitstorm was [acknowledged](http://www.indexoncensorship.org/awards-2012-nominations/) by some NGOs as being something quite important in 2011 various fights against censorship.
 
 ## Failures
-Really important points are here. There were failures in that release, or at least risks, which has been pointed out by several people.
+Really important points are here. There were failures in that release, or at least risks, which have been pointed out by several people.
 
 These logs basically contained Web URLs visited by thousands of people in Syria, associated to their personal IP addresses and exact time and date of each request. To put it simply: a huge lot of private data.
 
