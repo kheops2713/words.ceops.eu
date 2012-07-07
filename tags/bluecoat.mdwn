@@ -1,0 +1,4 @@
+[[!meta title="pages tagged bluecoat"]]
+
+[[!inline pages="tagged(bluecoat)" actions="no" archive="yes"
+feedshow=10]]
