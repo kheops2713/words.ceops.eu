@@ -1,0 +1,37 @@
+Leaks, leaks and leaks again. WikiLeaks just released a [shitload of emails taken from Syrian servers](http://wikileaks.org/syria-files/), and shortly after, another burst of Syrian emails was [released on The Pirate Bay](https://thepiratebay.se/torrent/7416989). As every massive leak, they triggered a lot of various emotions and even some arguments on the [WNh IRC](https://chat.wnh.me).
+
+It gives me an occasion to clarify a few things about the leak of the BlueCoat logs that I triggered on [October, 4th, 2011](http://reflets.info/opsyria-syrian-censoship-log/), which also led to various reactions.
+
+## Why leaking?
+The idea was pretty simple: my idea (shared with a few people) of Telecomix is that it encourages the free flow of data over the Internet. By releasing such a big quantity of log files, several of us had the goal that it would first make a lot of noise in the Western various newspapers/intertubes and that the news would hopefully also make some noise back to people living in Syria.
+
+By doing this, we wanted more people, espescially Syrians, to become more sensitive to the massive surveillance they undergo, hopefully motivating them to protect themselves better. That was, at least, my first objective.
+
+Another goal was to provide the data to virtually anyone who wanted to study it and find out useful knowledge out of this huge quantity of data, or just take a look and realize what massive surveillance means.
+
+So, after sitting on the logfiles from July to October, a chat with several people led me to think that it was not a bad idea to leak them.
+
+## Successful shitstorm
+Quite everybody knows about the huge noise that happened afterwards. BlueCoat first [denied the facts](http://yro.slashdot.org/story/11/10/11/1629238/blue-coat-denies-its-devices-helping-syrian-govt), pretending the logs could have been falsified. This denial triggered an increased anger from within the community and notably led me to output [as many details as possible](http://reflets.info/bluecoats-presence-in-syria-finally-uncovered/) on the devices we had found to make sure everything was clear.
+
+BlueCoat finally [acknowledged the presence of their devices](http://online.wsj.com/article/SB10001424052970203687504577001911398596328.html). It made noise quite all over the Internet, led some people I appreciate a lot to perform studies on the logfiles, including [statistics on blocked websites](http://hellais.github.com/syria-censorship/) and [analysis on whether the devices were "calling home"](http://b.averysmallbird.com/entries/bluecoat-and-syria-indicators-and-culpability).
+
+In the end, Syrian activists on the ground did hear about the information, as shown by the interview performed in the "[Traqués](https://resources.telecomix.ceops.eu/press/videos/traques.avi)" ("Tracked", [English subtitles](https://resources.telecomix.ceops.eu/press/videos/Traques_EN_v1.2.srt)) documentary by Paul Moreira. The piece of information did indeed cross the Syrian borders in both directions and is now not a secret for anyone anymore. The US State Department even [probed](http://www.motherjones.com/mojo/2011/10/state-department-investigating-blue-coat-syria) the matter, and that whole shitstorm was [acknowledged](http://www.indexoncensorship.org/awards-2012-nominations/) by some NGOs as being something quite important in 2011 various fights against censorship.
+
+## Failures
+Really important points are here. There were failures in that release, or at least risks, which has been pointed out by several people.
+
+These logs basically contained Web URLs visited by thousands of people in Syria, associated to their personal IP addresses and exact time and date of each request. To put it simply: a huge lot of private data.
+
+I indeed considered this matter, and removed all IP addresses: they were all replaced by "0.0.0.0". But I left the URLs untouched, some of them containing logins, passwords and even phone numbers when people had entered them on some poorly designed websites. This was the major fail, about which I have a significant part of responsibility. There is nothing else to say than this was a wrong point in the release process.
+
+## Potential consequences
+This failure was quickly pointed out by several people who saw the release and they were indeed right.
+
+The bright side of the story is well-known, as I described above.
+
+I am however totally unable to assess the bad things that may have happened because of the personal data not being redacted from the logs. I tend to believe that from the perspective of the Syrian internauts, the worst people who could have such logfiles are the Syrian Mukhabarat (intelligence services), who were actually in possession of the logs before any of us. Unlike some people say, I do not think that I "[failed the Syrian people](https://twitter.com/faceyet/status/221300685671645184)" as a whole.
+
+Still, there was a fail and I am really (and ridiculously) sorry if this caused harm to anyone, as it may have been the case.
+
+Hope this writing may ring a little bell to people wishing to leak sensitive things in the future so that they double check before processing.
