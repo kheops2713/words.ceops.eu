@@ -23,7 +23,7 @@ Really important points are here. There were failures in that release, or at lea
 
 These logs basically contained Web URLs visited by thousands of people in Syria, associated to their personal IP addresses and exact time and date of each request. To put it simply: a huge lot of private data.
 
-I indeed considered this matter, and removed all IP addresses: they were all replaced by "0.0.0.0". But I left the URLs untouched, some of them containing logins, passwords and even phone numbers when people had entered them on some poorly designed websites. This was the major fail, about which I have a significant part of responsibility. There is nothing else to say than this was a wrong point in the release process.
+I indeed considered this matter, and removed all IP addresses: they were all replaced by "0.0.0.0". But I left the URLs untouched, some of them containing logins, passwords and even phone numbers when people had entered them on some poorly designed websites. This was the major fail, about which I have a significant part of responsibility. There is nothing else to say than this was a wrong point in the release process. Such personal data can indeed help in identifying people, stealing accounts on websites they visit, etc.
 
 ## Potential consequences
 This failure was quickly pointed out by several people who saw the release and they were indeed right.
