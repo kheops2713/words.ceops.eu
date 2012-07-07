@@ -1,3 +1,5 @@
+[[!tag syria telecomix bluecoat leak privacy]]
+
 Leaks, leaks and leaks again. WikiLeaks just released a [shitload of emails taken from Syrian servers](http://wikileaks.org/syria-files/), and shortly after, another burst of Syrian emails was [released on The Pirate Bay](https://thepiratebay.se/torrent/7416989). As every massive leak, they triggered a lot of various emotions and even some arguments on the [WNh IRC](https://chat.wnh.me).
 
 It gives me an occasion to clarify a few things about the leak of the BlueCoat logs that I triggered on [October, 4th, 2011](http://reflets.info/opsyria-syrian-censoship-log/), which also led to various reactions.
