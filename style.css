@@ -657,9 +657,9 @@ body {
 }
 
 .pageheader {
-	background-image: url('header_background.png');
+	background-image: url('shwa.png');
 	background-repeat: repeat-x;
-	height: 100px;
+	height: 105px;
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-bottom: 1em;
