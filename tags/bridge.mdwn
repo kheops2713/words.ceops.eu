@@ -1,0 +1,4 @@
+[[!meta title="pages tagged bridge"]]
+
+[[!inline pages="tagged(bridge)" actions="no" archive="yes"
+feedshow=10]]
