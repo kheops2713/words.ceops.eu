@@ -1,0 +1,4 @@
+[[!meta title="pages tagged iran"]]
+
+[[!inline pages="tagged(iran)" actions="no" archive="yes"
+feedshow=10]]
