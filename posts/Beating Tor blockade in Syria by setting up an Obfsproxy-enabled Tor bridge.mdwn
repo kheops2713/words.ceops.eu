@@ -49,15 +49,37 @@ This commands starts Obfsproxy and gives it the following instructions:
 In short, Obfsproxy will accept connections on IP 123.45.67.89, port 45678, and will expect a stream from the client that respects the _obfs2_ obfuscation protocol. If it is the case, it will trigger a connection on 123.45.67.89 port 1234, where the Tor bridge is listening.
 Traffic from the client will be de-obfuscated and forwarded to the Tor bridge. Symetrically, traffic from the Tor bridge will be obfuscated before being sent to the client.
 
-If you wish to open more than one port with Obfsproxy, you don't need to run it several times, just activate the _obfs2_ protocol as many times as needed, with one new port each time:
+To open more than one port with Obfsproxy, you don't need to run it several times, just activate _obfs2_ as many times as needed, with one new port each time:
 
     obfsproxy obfs2 --dest=123.45.67.89:1234 server 123.45.67.89:45678 \
      obfs2 --dest=123.45.67.89:1234 server 123.45.67.89:44000 \
      obfs2 --dest=123.45.67.89:1234 server 123.45.67.89:44001
 
-This last command additionally tells obfsproxy to accept connections on ports 44000 and 44001 and forward them to the Tor bridge.
+This command additionally tells obfsproxy to accept connections on ports 44000 and 44001 and forward them to the Tor bridge.
 
-Your bridge is now ready to be used through Obfsproxy.
+Here is a simple script if you want to open many ports and avoid typing the full command:
+
+    #!/bin/sh
+    
+    # Public IP address we listen on (both Tor and Obfsproxy)
+    host=123.45.67.89
+    
+    # Ports that Obfsproxy should open
+    ports="7007 10001 43657 54675 2378 9990 8881"
+    
+    # What port our Tor bridge listens on
+    tor_port=1234
+    
+    command="$(which obfsproxy) "
+    
+    for port in $ports; do
+        command="$command obfs2 --dest=$host:$tor_port server $host:$port"
+    done
+    
+    echo Running command: $command
+    $command
+
+Your bridge is ready to be used through Obfsproxy!
 
 ## Advertising your Bridge
 Tor bridges are by definition not made public by Tor, as opposed to relays. Hence, a Tor bridge has to be communicated by hand to people in order to be useful.
