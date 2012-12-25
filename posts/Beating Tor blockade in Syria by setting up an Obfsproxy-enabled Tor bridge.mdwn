@@ -1,0 +1,67 @@
+[[!tag tor obfsproxy bridge syria iran]]
+
+## Tor is now blocked in Syria
+Several reports showed that **Syria now blocks Tor**, including connections to non-public bridges.
+This means that the blockade is **most probably achieved using Deep Packet Inspection** ([DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection)) techniques, probably in the same way as Iran tries to block Tor.
+It has been reported to us that connection difficulties have increased since [the 2-days blackout](http://www.cert.at/services/blog/20121129184048-616.html) a couple of weeks ago. This leads me to think that the blackout was a deliberate maintenance operation designed to setup new monitoring and censorship equipment. This is an increase in the regime censorship, after [blocking the OpenVPN protocol](http://bluecabinet.info/wiki/Blue_cabinet/Fortinet/Syria) that is used among others by the well-known HotSpotShield provider as well as on some Telecomix/World Neighborhood servers (but don't worry, our cryptoporn tunnels beat that).
+
+Syrian insiders can however still **configure their Tor installation to connect to bridges equipped with Obfsproxy in order to keep Tor working**. They need to know a couple of such bridges and follow [these easy instructions](https://www.torproject.org/projects/obfsproxy.html.en).
+
+Server administrators may give a hand to the effort by setting up Obfsproxy-equipped bridges.
+This page is intended as a quick tutorial for administrators who want their bridge to be at the same time a classical one (connection without Obfsproxy) and an Obfsproxy-enabled one.
+The idea is to open new ports on which Obfsproxy will listen and forward connections to Tor, and to leave unchanged the ports already opened by the Tor bridge.
+
+The current Tor bridge configuration is left untouched, we will just run Obfsproxy to listen on new ports.
+
+## Installing Obfsproxy
+Install the required dependencies to build Obfsproxy, as listed on the [installation instructions](https://www.torproject.org/projects/obfsproxy-instructions.html.en).
+
+Get a copy of the Obfsproxy sourcecode:
+
+    git clone https://git.torproject.org/obfsproxy.git
+
+Go into the newly created _obfsproxy_ directory and compile Obfsproxy:
+
+    ./autogen.sh && ./configure && make
+
+If everything goes well, it will create a binary called _obfsproxy_ in the current directory: Obfsproxy is compiled and ready to use.
+You can optionally install the binary system-wide by issuing, as root:
+
+    make install
+
+## Running Obfsproxy
+As an example, let us assume that your Tor bridge is already listening on IP 123.45.67.89, port 1234.
+Indeed, replace those values by the IP and port of your own network interface on which your Tor bridge is already listening.
+
+We want Obfsproxy to listen on port 45678 and forward connections to our Tor bridge.
+Thanks to this, clients will be able to obfuscate their Tor traffic through the Obfsproxy client which connects to the Obfsproxy server you are going to setup.
+
+Simply run the following command to have obfsproxy listening on the right port and forwarding connections to your Tor bridge:
+
+    obfsproxy obfs2 --dest=123.45.67.89:1234 server 123.45.67.89:45678
+
+This commands starts Obfsproxy and gives it the following instructions:
+
+- the first parameter, _obfs2_, is the name of the obfuscation protocol that we want to use on the server and that the clients connecting to us must use as well - _obfs2_ is the only included with Obfsproxy at the moment, and running Obfsproxy without argument will give you a list of available protocols;
+- _--dest=123.45.67.89:1234_ is an option for the _obfs2_ protocol which specifies that each new connection (and subsequent communication) should be forwared to this IP and port once it has been de-obfuscated;
+- _server 123.45.67.89:45678_ tells Obfsproxy to listen for incoming connections on IP 123.45.67.89, port 45678.
+
+In short, Obfsproxy will accept connections on IP 123.45.67.89, port 45678, and will expect a stream from the client that respects the _obfs2_ obfuscation protocol. If it is the case, it will trigger a connection on 123.45.67.89 port 1234, where the Tor bridge is listening.
+Traffic from the client will be de-obfuscated and forwarded to the Tor bridge. Symetrically, traffic from the Tor bridge will be obfuscated before being sent to the client.
+
+If you wish to open more than one port with Obfsproxy, you don't need to run it several times, just activate the _obfs2_ protocol as many times as needed, with one new port each time:
+
+    obfsproxy obfs2 --dest=123.45.67.89:1234 server 123.45.67.89:45678 \
+     obfs2 --dest=123.45.67.89:1234 server 123.45.67.89:44000 \
+     obfs2 --dest=123.45.67.89:1234 server 123.45.67.89:44001
+
+This last command additionally tells obfsproxy to accept connections on ports 44000 and 44001 and forward them to the Tor bridge.
+
+Your bridge is now ready to be used through Obfsproxy.
+
+## Advertising your Bridge
+Tor bridges are by definition not made public by Tor, as opposed to relays. Hence, a Tor bridge has to be communicated by hand to people in order to be useful.
+
+You may give the IP and port of your bridge to trusted contacts of your own in order to help them. You may publish them anywhere, but if censors find out, they might block your bridge's IP.
+
+We are setting up a few bridges, that can be requested from our [IRC](https://chat.wnh.me), with a particular focus on Syrian insiders. You are welcome to tell us about yours so that we can add it to our list.
