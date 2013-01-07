@@ -1,7 +1,7 @@
 [[!tag tor obfsproxy bridge syria iran]]
 
 ## Tor is now blocked in Syria
-Several reports showed that **Syria now blocks Tor**, including connections to non-public bridges.
+Several [reports](https://twitter.com/dlshadothman/status/280415764664680448) showed that **Syria now blocks Tor, including connections to non-public bridges**.
 This means that the blockade is **most probably achieved using Deep Packet Inspection** ([DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection)) techniques, probably in the same way as Iran tries to block Tor.
 It has been reported to us that connection difficulties have increased since [the 2-days blackout](http://www.cert.at/services/blog/20121129184048-616.html) a couple of weeks ago. This leads me to think that the blackout was a deliberate maintenance operation designed to setup new monitoring and censorship equipment. This is an increase in the regime censorship, after [blocking the OpenVPN protocol](http://bluecabinet.info/wiki/Blue_cabinet/Fortinet/Syria) that is used among others by the well-known HotSpotShield provider as well as on some Telecomix/World Neighborhood servers (but don't worry, our cryptoporn tunnels beat that).
 
