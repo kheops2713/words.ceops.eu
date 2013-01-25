@@ -1,0 +1,4 @@
+[[!meta title="pages tagged islam"]]
+
+[[!inline pages="tagged(islam)" actions="no" archive="yes"
+feedshow=10]]
