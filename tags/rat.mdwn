@@ -1,0 +1,4 @@
+[[!meta title="pages tagged rat"]]
+
+[[!inline pages="tagged(rat)" actions="no" archive="yes"
+feedshow=10]]
