@@ -127,6 +127,9 @@ img {
 
 pre {
 	overflow: auto;
+	border-style: dotted;
+	border-width: 1px;
+	border-color: #ddd;
 }
 
 div.recentchanges {
@@ -408,7 +411,6 @@ div.toc {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #aab;
-	width: 100%
 }
 
 /* outlines */
