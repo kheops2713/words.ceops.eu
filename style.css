@@ -403,6 +403,13 @@ pre.hl { color:#000000; background-color:#ffffff; }
 	font-size: 150%;
 }
 
+/* toc plugin */
+div.toc {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #aab;
+}
+
 /* outlines */
 li.L1 { list-style: upper-roman; }
 li.L2 { list-style: decimal; }
