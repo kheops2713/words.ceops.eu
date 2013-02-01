@@ -130,7 +130,7 @@ pre {
 	border-style: dotted;
 	border-width: 1px;
 	border-color: #ccc;
-	margin: 20px 0px 20px 50px;
+	padding: 20px 0px 20px 50px;
 }
 
 div.recentchanges {
@@ -515,7 +515,8 @@ Code licensed under the BSD License:
 http://developer.yahoo.net/yui/license.txt
 version: 2.5.1
 */
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,legend,p,blockquote,th,td{margin:0;padding:0;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,code,form,legend,p,blockquote,th,td{margin:0;padding:0;}
+pre{margin:0;}
 table{border-collapse:collapse;border-spacing:0;}
 img{border:0;}
 address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
