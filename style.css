@@ -130,7 +130,7 @@ pre {
 	border-style: dotted;
 	border-width: 1px;
 	border-color: #ccc;
-	padding: 20px 0px 20px 50px;
+	margin: 20px 0px 20px 50px;
 }
 
 div.recentchanges {
