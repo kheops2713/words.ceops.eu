@@ -1,0 +1,44 @@
+[[!tag audacity sox linux sound interview]]
+
+You may want to do a good voice recording with several people, such as an interview. However, you are not a journalist and you do not have professional equipment or experience: a cheap laptop equipped with a cheap soundcard, as well as cheap microphone and earplugs. All of this should however be sufficient to produce a recording with an acceptable non-professional quality, which can possibly be post-processed to improve it afterwards.
+
+Unless you accumulate the following mistakes, which I happened to do recently. I thougth I should write them down, as it might prevent some people from doing the same.
+
+# Setting the microphone volume too high
+
+If you set the recording volume too high on your soundcard settings, you might end up with a very unpleasant noise parasite: not only the classical but in general not so annoying white noise, but also [a much louder buzzing](https://words.ceops.eu/noise.wav), which in some cases may cover the voices nearly totally if people do not talk loud enough or are too far from the mic.
+
+So, if you want to make sure that you will hear everyone, make sure they are close enough to the mic rather than amplifying too much. Before starting to record, you can make a simple check of what the sound looks like by using this command:
+
+    arecord -f cd | aplay
+
+This will simply playback to your sound output what comes from the microphone input. Note that if you have several audio input you may need to specifiy it to _arecord_ using the _-D_ option (same goes with _aplay_ if you have several outputs).
+
+In my case, this horrible buzzing actually came from my laptop's alimentation perturbating the signal, which leads us to the next point.
+
+# Connecting the laptop to the mains power supply
+
+Yes, the mains power supply provides alternative current which is not always of good quality, and the alimentation of the laptop produces additional parasite waves which can have huge repercussions onto the sound recording. The laptop's battery, however, produces direct current to the laptop, and thus does not create a polluting wave.
+
+If your battery has enough capacity to run the interview, it is probably a good idea to unplug the power supply for the recording. If this is not possible, you _might_ be able to remove the buzz in a postprocessing step, unless you make things more difficult by doing the following mistakes.
+
+# Recording in a lossy format
+
+If you record your interview directly in a lossy format, such as Ogg Vorbis or MP3, you will of course irremediably lose audio information. More particularly, apart from the loss on the actual sound that you record (voices), there will be data loss on the various parasite noise. This can make the postprocessing removal of parasite noise much less efficient, since noise reduction algorithms often rely on "learning" what the noise sound like by looking at parts of the audio sample that consist in noise only (typically, first seconds of the recording, when nobody has started talking yet).
+
+So, record in a lossless format such as [PCM](https://en.wikipedia.org/wiki/Pulse-code_modulation) or [FLAC](https://en.wikipedia.org/wiki/FLAC).
+
+# Recording in a noisy environment
+
+It is not always easy to find a really quiet place, but if the environment is too noisy (other voices, noise from the street), it can also make the noise reduction postprocessing even more difficult, as it will be impossible to have a full silence that can be used as a sample for noise reduction algorithms.
+
+If it is not possible to have a totally silent place, make at least sure that the surrounding, unwanted, noise levels are way below the level of the actually recorded sound. This will help for removing them partially in a postprocessing phase.
+
+# Some postprocessing tools
+
+There are two main tools that can be used to postprocess audio files:
+
+- [sox](http://linux.die.net/man/1/sox) is a well-known command-line tool that is able to perform a lot of effects, including noise reduction, frequency filtering, etc;
+- [audacity](http://audacity.sourceforge.net/) is a graphical tool for audio edition and supports also many effects, and has additional support for [customized effect or analysis plugins](http://wiki.audacityteam.org/wiki/Download_Nyquist_Plug-ins).
+
+Even though I made my recording in bad conditions, I was able to slightly improve the audio quality using Audacity's noise reduction effect.
