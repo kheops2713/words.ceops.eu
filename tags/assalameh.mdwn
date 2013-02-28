@@ -1,0 +1,4 @@
+[[!meta title="pages tagged assalameh"]]
+
+[[!inline pages="tagged(assalameh)" actions="no" archive="yes"
+feedshow=10]]
