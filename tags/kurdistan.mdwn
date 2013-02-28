@@ -1,0 +1,4 @@
+[[!meta title="pages tagged kurdistan"]]
+
+[[!inline pages="tagged(kurdistan)" actions="no" archive="yes"
+feedshow=10]]
