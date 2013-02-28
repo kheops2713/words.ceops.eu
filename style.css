@@ -620,6 +620,9 @@ th {
 	font-weight:bold;
 	text-align:center;
 }
+td.img {
+    text-align: center;
+}
 caption {
 	/*coordinated margin to match cell's padding*/
 	margin-bottom:.5em;
