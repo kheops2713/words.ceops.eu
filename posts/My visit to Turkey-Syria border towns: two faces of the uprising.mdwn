@@ -1,5 +1,7 @@
 [[!tag syria turkey qamishly nusaybin kilis assalameh azaz aleppo kurdistan]]
 
+[[!img defaults size=400x]]
+
 _Note: this is an alpha pre-release of this article, awaiting reviews, corrections and improvements (notably pictures and maps)._
 
 I wandered around the Turkey-Syria border during the first week of February, 2013. I went to the Kurdish border town of [Nusaybin](https://en.wikipedia.org/wiki/Nusaybin), facing very closely its Syrian counterpart, [Qamishly](https://en.wikipedia.org/wiki/Qamishli). I went shortly after to [Kilis](https://en.wikipedia.org/wiki/Kilis), a Turkish town near Syria's border crossing [Bab Assalameh](http://www.openstreetmap.org/?mlat=36.632911&mlon=37.0844364&zoom=15&layers=M) (also written Bab al-Salameh) in Aleppo's region, into which I briefly entered.
@@ -18,6 +20,8 @@ _This article comes from what I witnessed, from discussions with people I met an
 
 Kilis and Gaziantep have an obvious presence of Syrians displaced is because of the conflict. Some have settled months or weeks ago, others spend the day on the Turkish side before going back to Syria with food or goods. Hundreds of Syrian cars circulate on the main road between the border and Gaziantep. There is a very noticeable Syrian life in Kilis, which seemed to me seeminglessly integrated with the locals, most of them speaking Arabic in that area. The tendancy is clearly that Syrians in Kilis are opposed to the regime, some cafés displaying the flag of the revolution.
 
+[[!img images/P1130663_up.jpg alt="The Syrian car in which I was driven from Kilis from the border, full of unknown material" caption="The Syrian car in which I was driven from Kilis from the border, full of unknown material"]]
+
 Housing prices have reportedly increased significantly in Kilis, as Turkish landlords raise prices because incoming Syrians increase the demand.
 
 ## Open border crossing between Kilis and FSA-controlled Bab Assalameh
@@ -32,7 +36,7 @@ I've been told that international law forbids delivering goods to civilians for 
 
 I witnessed a transfer of an injured person at the border crossing: brougth by a Syrian van used as an ambulance, the person was transfered to a Turkish ambulance to be treated at the Kilis hospital. Turkish authorities allow wounded Syrians into Turkey depending on how seriously they are wounded. I heard that someone shot himself in the hand to be granted entry into Turkey for himself and his family. I also saw a Swedish (yes) ambulance vehicle operating on the Syrian side.
 
-[[!img images/P1130667.JPG alt="A Turkish ambulance going from Syria to Turkey with a wounded person" caption="A Turkish ambulance going from Syria to Turkey with a wounded person" size=400x]]
+[[!img images/P1130667.JPG alt="A Turkish ambulance going from Syria to Turkey with a wounded person" caption="A Turkish ambulance going from Syria to Turkey with a wounded person"]]
 
 ## Thousands of refugees living in poor conditions
 
