@@ -1,0 +1,4 @@
+[[!meta title="pages tagged qamishly"]]
+
+[[!inline pages="tagged(qamishly)" actions="no" archive="yes"
+feedshow=10]]
