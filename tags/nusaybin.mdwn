@@ -1,0 +1,4 @@
+[[!meta title="pages tagged nusaybin"]]
+
+[[!inline pages="tagged(nusaybin)" actions="no" archive="yes"
+feedshow=10]]
