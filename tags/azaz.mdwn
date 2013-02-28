@@ -1,0 +1,4 @@
+[[!meta title="pages tagged azaz"]]
+
+[[!inline pages="tagged(azaz)" actions="no" archive="yes"
+feedshow=10]]
