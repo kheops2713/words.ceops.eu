@@ -535,7 +535,6 @@ legend{color:#000;}
 body {font:13px/1.231 "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;*font-size:small;*font:x-small;}
 table {font-size:inherit;font:100%;}
 pre,code,kbd,samp,tt{font-family:monospace;}
-.img{border:0;}
 
 body{text-align:left;}
 .inlinefooter{clear:both;}
@@ -613,7 +612,7 @@ dl dd {
 }
 th,td {
 	/*borders and padding to make the table readable*/
-	border:1px solid #000;
+	border:0px solid #000;
 	padding:.5em;
 }
 th {
