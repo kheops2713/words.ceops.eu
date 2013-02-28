@@ -1,0 +1,4 @@
+[[!meta title="pages tagged turkey"]]
+
+[[!inline pages="tagged(turkey)" actions="no" archive="yes"
+feedshow=10]]
