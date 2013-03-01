@@ -80,7 +80,7 @@ Spots knowingly supportive to the FSA are usual targets for regime's warplanes a
 
 The situation of Aleppo city and its outskirts is difficult to catch with precision. While it seems globally steady, zones of control inside the city fluctuate from a day to another.
 
-The rough and incomplete map of the area displayed above shows regime's military presence in red, either due to permanent military bases or troops occupation. It is also available in [SVG format](https://words.ceops.eu/arabtrip/data/aleppo_region.svg) (4.2 MB) and [compressed SVG](https://words.ceops.eu/arabtrip/data/aleppo_region.svg.bz2) (492 KB).
+The rough and incomplete map of the area displayed above shows regime's military presence in red, either due to permanent military bases or troops occupation. It is also available in [SVG format](https://words.ceops.eu/arabtrip/data/aleppo_region.svg) (4.2 MB) and [compressed SVG](https://words.ceops.eu/arabtrip/data/aleppo_region.svg.bz2) (492 KB). The map data and military bases come from OpenStreetMap, the contour (elevation) lines from [SRTM](https://en.wikipedia.org/wiki/Shuttle_Radar_Topography_Mission) and the army-occupied zones from information I gathered personally.
 
 # Nusaybin-Qamishly: definitely not the same revolution
 
