@@ -6,7 +6,9 @@ _Note: this is an alpha pre-release of this article, awaiting reviews, correctio
 
 I wandered around the Turkey-Syria border during the first week of February, 2013. I went to the Kurdish border town of [Nusaybin](https://en.wikipedia.org/wiki/Nusaybin), facing very closely its Syrian counterpart, [Qamishly](https://en.wikipedia.org/wiki/Qamishli). I went shortly after to [Kilis](https://en.wikipedia.org/wiki/Kilis), a Turkish town near Syria's border crossing [Bab Assalameh](http://www.openstreetmap.org/?mlat=36.632911&mlon=37.0844364&zoom=15&layers=M) (also written Bab al-Salameh) in Aleppo's region, into which I briefly entered.
 
-Those two places are two worlds where the Syrian revolution has completely different faces. I am trying here to compare what I saw and heard in those places, as it might help a bit in understanding what is going on. All the photographs displayed in this post were taken by myself.
+Those two places are two worlds where the Syrian revolution has completely different faces. I am trying here to compare what I saw and heard in those places, as it might help a bit in understanding what is going on.
+
+All the photographs displayed in this article were taken by myself. The whole sets of pictures I uploaded are [here](https://words.ceops.eu/arabtrip/20130201-Nusaybin/) (Nusaybin) and [here](https://words.ceops.eu/arabtrip/20130207-BabAssalameh/) (Bab Assalameh).
 
 [[!osm map="test" zoom=12 lat=0 lon=0]]
 
@@ -155,4 +157,4 @@ Whereas in the Western part with an Arab majority, near Aleppo and Idlib, the di
 
 I would encourage people who have been following the conflict from far away to go there by themselves if they are itching to do so. There is not much danger to fear in the areas I was, and seeing the situation and talking to people helps a lot in understanding. The areas are very easy to reach accross Turkey.
 
-Further questions include mainly "_what can we do to help?_". This is a vast issue where answers range from giving money to training citizen journalists as well as giving clothes to civilians, tents, books for children, ... As there is hardly any doubt that foreign governments are truly willing to help anyone, action on a decentralized basis could help.
+Further questions include mainly "_what can we do to help?_". This is a vast issue where answers range from giving money to training citizen journalists as well as giving clothes to civilians, tents, books for children, ... As there is hardly any doubt that foreign governments are not willing to help much, action on a decentralized and individual basis could help.
