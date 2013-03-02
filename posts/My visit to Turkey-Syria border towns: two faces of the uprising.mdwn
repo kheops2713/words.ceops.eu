@@ -10,7 +10,7 @@ Those two places are two worlds where the Syrian revolution has completely diffe
 
 All the photographs displayed in this article were taken by myself. The whole sets of pictures I uploaded are [here](https://words.ceops.eu/arabtrip/20130201-Nusaybin/) (Nusaybin) and [here](https://words.ceops.eu/arabtrip/20130207-BabAssalameh/) (Bab Assalameh).
 
-[[!osm map="test" lat="37.08" lon="39.41" zoom=8 editable=1]]
+[[!osm map="test" lat="37.08" lon="39.41" zoom=8 editable=1 width=100%]]
 
 _This article comes from what I witnessed, from discussions with people I met and is sometimes completed with a few readings that I link to. I do not pretend to be objective or comprehensive, and the reader should find additional sources, both older and more recent to get an idea of the situations' evolution through time._
 
