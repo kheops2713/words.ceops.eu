@@ -1,4 +1,4 @@
 lat	lon	title	description	icon	iconSize	iconOffset
-36.718045	37.11688	Kilis	The town of Kilis, a few kilometers away from the Syrian border crossing, Bab Assalameh, in the Aleppo region.	../icons/tcx_eye.png
+36.718045	37.11688	Kilis	The town of Kilis, a few kilometers away from the Syrian border crossing, Bab Assalameh, in the Aleppo region.	../icons/tcx_eye.png	100,100
 36.632911	37.0844364	Bab Assalameh	Bab Assalameh border crossing between Turkey and Syria, a few kilometers north from Azaz and welcoming 10,000 refugees.	../icons/tcx_eye.png
 37.0657359	41.2109449	Nusaybin	Border area of Nusaybin, Turkish Kurdish town facing very closely its Syrian counterpart, Qamishly.	../icons/tcx_eye.png
