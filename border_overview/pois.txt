@@ -1,2 +1,2 @@
 lat	lon	title	description	icon	iconSize	iconOffset
-37.08	39.2	TEST	TEST	../icons/tcx_eye.png	48x20
+37.08	39.2	TEST	TEST	../icons/tcx_eye.png	48
