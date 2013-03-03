@@ -2,7 +2,9 @@
 
 [[!img defaults size=300x]]
 
-_Note: this is an alpha pre-release of this article, awaiting reviews, corrections and improvements (notably a map that I'm trying to get to working)._
+_Note: alpha pre-release of this article, awaiting reviews, corrections and improvements._
+
+_Javascript warning: this post uses Javascript to display OpenStreetMap maps. The rest is viewable without if you do not wish to enable it._
 
 I wandered around the Turkey-Syria border during the first week of February, 2013. I went to the Kurdish border town of [Nusaybin](https://en.wikipedia.org/wiki/Nusaybin), facing very closely its Syrian counterpart, [Qamishly](https://en.wikipedia.org/wiki/Qamishli). I went shortly after to [Kilis](https://en.wikipedia.org/wiki/Kilis), a Turkish town near Syria's border crossing [Bab Assalameh](http://www.openstreetmap.org/?mlat=36.632911&mlon=37.0844364&zoom=15&layers=M) (also written Bab al-Salameh) in Aleppo's region, into which I briefly entered.
 
@@ -28,19 +30,21 @@ Housing prices have reportedly increased significantly in Kilis, as Turkish land
 
 ## Open border crossing between Kilis and FSA-controlled Bab Assalameh
 
-Kilis-Bab Assalameh border crossing is busy all day long with non-stop flows of Syrian civilians going in and out, trucks delivering goods to Syria, wounded civilians or fighters transferred to Turkey, journalists, relief organization volunteers and so on. Normal rules seem to apply on Turkish side, implying that Syrians with a valid passport can come freely in an out of Turkey. Those who don't can try to sneak in but can be arrested and sent back by the Turkish army. Crossing with a car requires documents and/or payment of a tax to Turkish authorities, so many Syrians park on the Syrian side and cross by foot.
+Kilis-Bab Assalameh border crossing is busy all day long with non-stop flows of Syrian civilians going in and out, trucks delivering goods to Syria, wounded people transferred to Turkey, journalists, organization volunteers and so on. Normal rules seem to apply on Turkish side, implying that Syrians with a valid passport can come freely in an out of Turkey. Others can try to sneak in but can be arrested and sent back by the Turkish army. Crossing with a car requires documents and/or payment of a tax to Turkish authorities, so many Syrians park on the Syrian side and cross by foot.
 
-Bab Assalameh is run by the Free Syrian Army (FSA). A small number of gunmen try to keep it somewhat organized, mostly by overseeing the traffic and checking vehicles' content. There is a press office to which foreign journalists (professional or not) must make themselves known upon arrival.
+I met a Syrian guy from Aleppo crossing the border by foot, carrying very heavy bags full of clothes for his family and friends. His about-to-fall-into-pieces car was parked on the Syrian side. Dozens of civilians who cannot use a car to cross the border were doing the same, to ensure survival of the people inside.
+
+Bab Assalameh is run by the Free Syrian Army (FSA). A small number of gunmen try to keep it somewhat organized, mostly by overseeing traffic and checking vehicles' content. There is a press office to which foreign journalists (professional or not) must make themselves known upon arrival.
 
 [[!img images/P1130673.jpg alt="Welcome to Syria..." caption="Welcome to Syria..."]] [[!img images/P1130685_up.jpg alt="Trying to make it look organized" caption="Trying to make it look organized"]]
 
-I saw dozens, if not hundreds, of trucks going to Syria. I was told that tons of food and goods are delivered by Turkish authorities to northern Syria, but I do not know exactly how they are dispatched. I saw a truck full of flour sent by the Turks, and a truck full of new mattresses. A truck carrying drinking water tanks for the refugees was parked in the camp.
+I saw dozens, if not hundreds, of trucks going to Syria. I was told that tons of food and goods are delivered by Turkish authorities to northern Syria, but I do not know exactly how they are dispatched. I saw for example trucks full of flour and new mattresses. A truck carrying drinking water tanks for the refugees was parked in the camp. Some trucks were covered and I could not see their content.
 
-I've been told that international law forbids delivering goods to civilians for foreign countries, excepted for neighbor countries. Consequently, the help that officially reaches northern Syria exclusively relies on Turkish government via their relief orgnanization [IHH](http://www.ihh.org.tr/) and on importations made by Syrians themselves.
+I've been told that international law forbids delivering goods to civilians from foreign countries, excepted from neighbor countries. Consequently, the help that officially reaches northern Syria exclusively relies on Turkish government via their relief orgnanization [IHH](http://www.ihh.org.tr/) and on importations made by Syrians themselves.
 
 [[!img images/P1130690.JPG alt="Loaded trucks queueing to enter Syria" caption="Loaded trucks queueing to enter Syria"]]
 
-I witnessed a transfer of an injured person at the border crossing: brougth by a Syrian van used as an ambulance, the person was transfered to a Turkish ambulance to be treated at the Kilis hospital. Turkish authorities allow wounded Syrians into Turkey depending on how seriously they are wounded. I heard that someone shot himself in the hand to be granted entry into Turkey for himself and his family. I also saw a Swedish (yes) ambulance vehicle operating on the Syrian side.
+I witnessed a transfer of an injured person at the border crossing: brougth by a Syrian van used as an ambulance, the person was transferred to a Turkish ambulance to be treated in Kilis. Wounded Syrians are allowed into Turkey depending on how seriously they are wounded. I heard that someone shot himself in the hand to be granted entry into Turkey for himself and his family. I also saw a Swedish (yes) ambulance vehicle operating on the Syrian side.
 
 [[!img images/P1130667.JPG alt="A Turkish ambulance going from Syria to Turkey with a wounded person" caption="A Turkish ambulance going from Syria to Turkey with a wounded person"]]
 
@@ -48,21 +52,21 @@ I witnessed a transfer of an injured person at the border crossing: brougth by a
 
 Even though the Syrian conflict is obvious from the Turkish side, entering Syria slapped my face: just after the 100 meters of the in-between road, you enter in a world of mess, mud, broken infrastructure and poor living conditions.
 
-There are refugee camps on both sides of the border. While the Turkish camp seems to be made of solid houses, the Syrian one is only made of tents. It is located alongside the road, right after the custom offices. It welcomes, according to what I have been told, about 10,000 refugees. They mostly come from the neighboring region of Aleppo. The reason for their displacement is the constant risk of being bombarded by warplanes or SCUDs. SCUDs seem to be [fired from Damascus bases](http://syria-videos.ceops.eu/damascus/yabroud/2013-02-22-Probably%20a%20SCUD%20missile,%20apparently%20fired%20from%20Qalamoun%20and%20going%20towards%20the%20North%20of%20Syria,%20where%20several%20SCUDs%20already%20fell..webm).
-
-There are people who lost their home and all its content in the bombardments, meaning they have basically nothing left. The site is muddy and some children do not have proper shoes. Cold nights are probably hard in the tents, which were apparently brougth in by a private Syrian initiative (no international help). Food and water do not seem to be an issue. In short, conditions are just sufficient to physically survive.
-
-[[!img images/P1130677.JPG alt="The camp: tents and mud" caption="The camp: tents and mud"]] [[!img images/P1130680_up.JPG alt="Children fetching drinking water from a tank" caption="Children fetching drinking water from a tank"]]
+There are refugee camps on both sides of the border. While the Turkish camp seems to be made of solid houses (I did not enter there), the Syrian one is only made of tents. It is located alongside the road, where all trucks pass by all day long. It apparently welcomes about 10,000 refugees who come mostly from the neighboring region of Aleppo. The reason for their displacement is the constant risk of being bombarded by warplanes or SCUDs. SCUDs seem to be [fired from Damascus bases](http://syria-videos.ceops.eu/damascus/yabroud/2013-02-22-Probably%20a%20SCUD%20missile,%20apparently%20fired%20from%20Qalamoun%20and%20going%20towards%20the%20North%20of%20Syria,%20where%20several%20SCUDs%20already%20fell..webm).
 
 There is no real international help reaching the Syrian camp, due to international laws. This also explains why camps inside Turkey are much better, as Turkey probably benefits from international help to build and maintain them. The Turkish-owned IHH organization is present in the Syrian camp.
 
-Refugees either wait for a place in the Turkish camp or go back and forth to their hometown inside Syria. The bombardments push them to seek refuge in the camp, but its poor living conditions push them back to their hometown. Those seeking refuge in Turkey most probably do not have a valid passport or enough money to get a house, making them stuck until Turkey lets a batch of refugees in. Turkish camps are said to be full, and refugees can get in whenever there is some more room.
+The site is muddy and some children do not have proper shoes. Cold nights are probably hard in the tents, which were apparently brougth in by a private Syrian initiative (no international help). Food and water do not seem to be an issue. In short, conditions are just sufficient to physically survive.
 
-People's lifes in the camp are to a nearly complete halt. No work indeed, poor communication with outside, no infrastructure, i.e. not much that can fill their souls with hope. The world they have access to consists of a muddy camp with an unpassable border on one side and bombs falling on the other side. A good point however, some bigger tents are used as classrooms for children, to try to keep them mentally awake. I don't think there is enough "classrooms" for all children, though.
+[[!img images/P1130677.JPG alt="The camp: tents and mud" caption="The camp: tents and mud"]] [[!img images/P1130680_up.JPG alt="Children fetching drinking water from a tank" caption="Children fetching drinking water from a tank"]]
+
+Refugees either wait for a place in the Turkish camp or go back and forth to their hometown inside Syria. The bombardments push them to seek refuge in the camp, but its poor living conditions push them back to their home if they still have one. Those seeking refuge in Turkey most probably do not have a valid passport or enough money to get a house, making them stuck until Turkey lets a batch of refugees in. Turkish camps are said to be full, and refugees can get in when Turkey decides so.
+
+Some people had their home and all its content blasted by bombardments, and have nearly nothing left in their life. People's lifes in the camp are to a nearly complete halt. No work indeed, poor communication with outside, no infrastructure, i.e. not much that can fill their souls with hope. The world they have access to consists of a muddy camp with an unpassable border on one side and bombs falling on the other side. A good point however, some bigger tents are used as classrooms for children, but I don't think there is enough "classrooms" for all of them.
 
 [[!img images/P1130686_up.JPG alt="A girls classroom during a lesson" caption="A girls classroom during a lesson" size=x300]]
 
-In overall, witnessing this was depressing and reminded me that while foreign people focus on so-called FSA victories, the real issue here where they could help is the suffering of these civilians.
+Witnessing this was depressing and reminded me that while foreign people watch dramatic videos on Al Arabiya, there are civilians who need help to somehow get something to live for.
 
 ## Chaotic FSA control from the border down to Aleppo
 
@@ -76,11 +80,11 @@ The area from Bab Assalameh down to Aleppo's outskirts is nearly completely out 
 
 [[!img images/aleppo_region.png size=200x alt="Rough map of the area from Kilis down to Aleppo" caption="Rough map of the area from Kilis down to Aleppo"]]
 
-In short, one can circulate quite safely in the area but the situation may vary a lot within a range of a couple of kilometers. Some neighboring towns even show opposed support and one can hear stories of kidnappings, massacres and reprisals in such areas. People with their cars are used to reach Aleppo from the Bab Assalameh border crossing. This also includes foreign journalists, who sometimes go on "organized tours" on the frontline with the press office.
+In short, one can circulate quite safely in the area but the situation may vary a lot within a range of a couple of kilometers. Some neighboring towns show opposed support and one can hear stories of kidnappings, massacres and reprisals in such areas. Lots of cars reach Aleppo from Bab Assalameh daily. This also includes foreign journalists, who sometimes go on "organized tours" on the frontline with the FSA's press office.
 
-Spots supporting FSA are usual targets for regime's warplanes and SCUDs (see for examples [video of destructions](http://syria-videos.ceops.eu/aleppo/tel-rifaat/) of [Tall Rifat](http://www.openstreetmap.org/?mlat=36.470267&mlon=37.0954454&layers=M) which was apparently targeted by SCUDs in the night of 18-19th February). Planes (old MiGs) seem to attack during daytime only and mostly by clear whether (possibly due to visibility issues), whereas SCUD attacks can happen anytime. The regime hasn't, until now, sent warplanes over the refugee camp.
+Towns supportive to the FSA are usual targets for warplanes and SCUDs (see for examples [video of destructions](http://syria-videos.ceops.eu/aleppo/tel-rifaat/) of [Tall Rifat](http://www.openstreetmap.org/?mlat=36.470267&mlon=37.0954454&layers=M) which was apparently targeted by SCUDs in the night of 18-19th February). Planes (old MiGs) seem to attack during daytime and clear whether only (possibly due to visibility issues), whereas SCUDs can fall anytime. The regime hasn't, until now, sent warplanes over the refugee camp.
 
-The situation of Aleppo city and its outskirts is difficult to catch with precision. While it seems globally steady, zones of control inside the city fluctuate from a day to another.
+The situation of Aleppo city and its outskirts is difficult to catch with precision. Zones of control inside the city fluctuate from a day to another, but the situation seems globally steady.
 
 The rough and incomplete map of the area displayed above shows regime's military presence in red, either due to permanent military bases or troops occupation. It is also available in [SVG format](https://words.ceops.eu/arabtrip/data/aleppo_region.svg) (4.2 MB) and [compressed SVG](https://words.ceops.eu/arabtrip/data/aleppo_region.svg.bz2) (492 KB). The map data and military bases come from OpenStreetMap, the contour (elevation) lines from [SRTM](https://en.wikipedia.org/wiki/Shuttle_Radar_Topography_Mission) and the army-occupied zones from information I gathered personally.
 
@@ -90,29 +94,29 @@ The rough and incomplete map of the area displayed above shows regime's military
 
 Nusaybin and Qamishly are in [Kurdistan](https://en.wikipedia.org/wiki/Kurdistan), and this is a key point to understand their [situation regarding the Syrian revolution](https://en.wikipedia.org/wiki/2012_Syrian_Kurdistan_rebellion).
 
-Kurds have a history of being subject to various forms of oppression from the countries' governments over which Kurdistan extends: Turkey, Syria and Iraq. This has probably increased solidarity between Kurds over the borders. They also have strong common cultural references, such as the Kurdish language. More generally, those national borders are quite a non-sense in regard to the Kurdish people and their history on this land.
+Kurds have a history of being subject to various forms of oppression from the countries' governments over which Kurdistan extends: Turkey, Syria and Iraq. This has probably increased solidarity between Kurds over the borders. They also have strong common cultural references, such as the Kurdish language. More generally, the national borders in that are a non-sense in regard to the Kurdish people and their history on this land.
 
 Nusaybin and Qamishly are so close one to the other that they are virtually the same city split in two. To some extent, this reminded me of stories and scenes of the [Berlin wall](https://en.wikipedia.org/wiki/Berlin_wall).
 
 [[!img images/P1130627.JPG alt="Taken from a street in Nusaybin town center: this farming field behind the fence is in Qamishly" caption="Taken from a street in Nusaybin town center: this farming field behind the fence is in Qamishly"]]
 
-From a Kurdish perspective, there are mixed necessities to resist at the same time from the oppression from Turkish and Syrian governments and from the threat that the FSA and other groups may represent. Hence, Kurdish groups seem generally not strictly aligned with one or the other side in the uprising, even though some groups can be considered as mostly allied with the regime (such as the PKK) and others mostly allied with the FSA (such as the Free Kurdish Army). The Kurdish position in the conflict is a third set of non-aligned movements with its peculiar considerations.
+From a Kurdish perspective, there are mixed necessities to resist at the same time from the oppression from Turkish and Syrian governments and from the threat that the FSA and other groups may represent. Hence, Kurdish groups seem generally not strictly aligned with one or the other side in the uprising, even though some groups can be considered as mostly allied with the regime (such as the PKK) and others mostly allied with the FSA (such as the Free Kurdish Army). The Kurdish position in the conflict must be seen as a third set of non-aligned movements with its peculiar considerations.
 
-While I did not witness troubles (just a couple of happy rifle shootings for a wedding), the security policy of the Turkish authorities is a bit shocking. In Nusaybin, I did not see a single _standard_ police car: every single patroling car was an armored vehicle with mounted rifle gun, sometimes accompanied by an anti-riot water cannon equipped truck. Indeed, this participates in reminding people that there is some tension between Turks and Kurds.
+While I did not witness troubles (just a couple of happy rifle shootings for a wedding), the Turkish security policy is a bit shocking. In Nusaybin, I did not see a single _standard_ police car: every single patroling car was an armored vehicle with mounted rifle gun, sometimes accompanied by an anti-riot water cannon equipped truck. Indeed, this increases tension and fear.
 
-[[!img images/P1130652.JPG alt="A classical police patrol car in Nusaybin" caption="A classical police patrol car in Nusaybin"]]
+[[!img images/P1130652.JPG alt="A classical police patrol car in Nusaybin: armored and rifle-equipped" caption="A classical police patrol car in Nusaybin: armored and rifle-equipped"]]
 
 ## A peaceful situation at first glance
 
-Nusaybin has a peaceful and normal daily life, as shops and cafés are open, streets are crowded, public transports work normally, etc.
+Nusaybin has a peaceful and normal daily life: shops and cafés are open, streets are crowded, public transports work normally, etc.
 
 The border crossing has been closed due to the conflict at least [since August 2012](https://westernkurdistan.wordpress.com/2013/02/16/the-kurdish-situation-in-syria-and-kurdistan/), other sources mentioning [early 2012](http://www.time.com/time/world/article/0,8599,2110961,00.html) and even [late 2011](http://www.yalibnan.com/2011/10/09/syria-closes-a-border-crossing-with-turkey/). Possibly, there were moments when it was re-open, but it has probably been closed most of the time.
 
 [[!img images/P1130645.JPG alt="Alongside the border: quietness" caption="Alongside the border: quietness"]]
 
-The ground has a very flat topology and, unlike Kilis which is a couple of kilometers away from the border, both Nusaybin's and Qamishly's urban areas extend up to as close as possible to the border fence. Hence, in Nusaybin town center people can walk along the fence and have an open view on Qamishly, only a couple of hundreds meters away.
+The ground has a flat topology and, unlike Kilis which is a couple of kilometers away from the border, both Nusaybin's and Qamishly's urban areas extend up to as close as possible to the border fence. Hence, in Nusaybin town center people can walk along the fence and have an open view on Qamishly, only a couple of hundreds meters away.
 
-The border zone, though featuring a military base and dozens of watch towers, is not very strictly guarded. It is usual to see shepherds leading their cattle in the quiet no man's land and children or young people playing football just behind the first fence, parts of it being broken. A military truck with a few of soldiers would intervene if some people have a behavior they don't like, and children would run off and come back five minutes later.
+The border zone, though featuring a military base and dozens of watch towers, is not very strictly guarded. It is usual to see shepherds leading their cattle in the quiet no man's land and young people playing football just behind the first fence, parts of it being broken. A military truck with a few of soldiers would intervene if some people have a behavior they don't like, and playing children would run off and come back five minutes later.
 
 [[!img images/P1130649.JPG alt="Children playing in the first meters of the no man's land, Qamishly is in the background" caption="Children playing in the first meters of the no man's land, Qamishly is in the background"]]
 
