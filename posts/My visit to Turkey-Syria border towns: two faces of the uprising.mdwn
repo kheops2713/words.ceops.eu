@@ -2,7 +2,7 @@
 
 [[!img defaults size=300x]]
 
-_Note: alpha pre-release of this article, awaiting reviews, corrections and improvements._
+_Note: some modifications and improvements are probably yet to come to this post._
 
 _Javascript notice: this post uses Javascript to display OpenStreetMap maps. The rest (text and photos) is viewable without if you do not wish to enable it._
 
