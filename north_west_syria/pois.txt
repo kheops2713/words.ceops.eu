@@ -1,7 +1,8 @@
 lat	lon	title	description	icon	iconSize	iconOffset
 36.632911	37.0844364	Bab Assalameh	Bab Assalameh border crossing.	../icons/sy_fsa.png	48,24	-24,-12
 36.5131279	36.8652075	Afrin	Afrin and nearby villages, under Kurdish control.	../icons/kurd.png	48,32	-24,-16
-36.5224048	37.0394238	Meng Airport	Airport of Meng (Minakh), still occupied by regime forces but surrounded for months by FSA.	../icons/sy_combined.png	48,24	-24,-12
+36.5224048	37.0394238	Meng Airport	Airport of Meng (Minakh), still occupied by regime forces but surrounded for months by FSA.	../icons/sy_combined.png	48,32	-24,-16
 36.5864613	37.0464305	Azaz	Town of Azaz, controlled by FSA and subject to bombardments and SCUDs.	../icons/sy_fsa.png	48,24	-24,-12
 36.4823751	37.1975682	Marea	Town of Marea, a main FSA military stronghold, subject to bombardments and SCUDs.	../icons/sy_fsa.png	48,24	-24,-12
 36.376783	36.9927752	Nubl	Town of Nubl, where civilians seem in majority supportive to the regime, and probably hosting military as well.	../icons/sy_regime.png	48,32	-24,-16
+36.197971	37.1656697	Aleppo	City of Aleppo, undergoing massive destructions and non-stop fights, notably around strategic spots like regime army bases.	../icons/sy_combined.png	48,32	-24,-16
