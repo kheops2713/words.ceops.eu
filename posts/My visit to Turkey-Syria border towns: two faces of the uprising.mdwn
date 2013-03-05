@@ -90,6 +90,8 @@ The situation of Aleppo city and its outskirts is difficult to catch with precis
 
 The incomplete map of the area displayed above shows regime's military presence in red, either due to permanent military bases or troops occupation. It is also available in [SVG format](https://words.ceops.eu/arabtrip/data/aleppo_region.svg) (4.2 MB) and [compressed SVG](https://words.ceops.eu/arabtrip/data/aleppo_region.svg.bz2) (492 KB). The map data and military bases come from OpenStreetMap, the contour (elevation) lines from [SRTM](https://en.wikipedia.org/wiki/Shuttle_Radar_Topography_Mission) and the army-occupied zones from information I gathered personally.
 
+[[!osm map="north_west_syria" lat="36.51" lon="36.8677778" width=100% editable=1 height=500px]]
+
 # Nusaybin-Qamishly: definitely not the same revolution
 
 ## Kurdistan's particular background
