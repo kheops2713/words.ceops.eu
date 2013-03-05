@@ -1,3 +1,4 @@
 lat	lon	title	description	icon	iconSize	iconOffset
 36.632911	37.0844364	Bab Assalameh	Bab Assalameh border crossing.	../icons/sy_fsa.png	48,24	-24,-12
 36.5131279	36.8652075	Afrin	Afrin and nearby villages, under Kurdish control.	../icons/kurd.png	48,32	-24,-16
+36.5224048	37.0394238	Meng Airport	Airport of Meng (Minakh), still occupied by regime forces but surrounded for months by FSA.	../icons/sy_combined.png	48,24	-24,-12
