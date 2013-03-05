@@ -1,0 +1,2 @@
+lat	lon	title	description	icon	iconSize	iconOffset
+36.632911	37.0844364	Bab Assalameh	Bab Assalameh border crossing.	../icons/sy_fsa.png	48,24	-24,-12
