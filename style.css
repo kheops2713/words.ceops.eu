@@ -713,7 +713,7 @@ body {
 	text-decoration: none;
 }
 
-.pageheader a:hover {
+.pageheader .header .parentlinks a:hover {
 	text-decoration: underline;
 }
 
