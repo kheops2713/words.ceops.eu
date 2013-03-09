@@ -700,7 +700,7 @@ body {
 	margin-top: 0em;
 	font-size: 50%;
 	background-color: #000;
-	width: auto;
+	width: 100px;
 }
 
 .pageheader .header .title, .pageheader .header .parentlinks, .pageheader .actions ul li, .pageheader .header span {
