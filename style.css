@@ -540,7 +540,7 @@ body{text-align:left;}
 .inlinefooter{clear:both;}
 
 /* #doc,#doc2,#doc3,#doc4,.yui-t1,.yui-t2,.yui-t3,.yui-t4,.yui-t5,.yui-t6,.yui-t7{margin:auto;text-align:left;width:57.69em;*width:56.25em;min-width:750px;} */
-.page {margin:auto;text-align:left;width:57.69em;*width:56.25em;min-width:750px;}
+.page {margin:auto;text-align:left;width:50em;*width:50em;min-width:650px;}
 
 /* #doc3{margin:auto 10px;width:auto;} */
 .page {margin:auto 10px;width:auto;}
