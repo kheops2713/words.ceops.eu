@@ -703,7 +703,6 @@ body {
 
 .pageheader .header .title, .pageheader .header .parentlinks, .pageheader .actions ul li, .pageheader .header span {
 	padding: 0.25em 0.25em 0.25em 0.25em;
-	background-image: url('background_darkness.png');
 	background-repeat: repeat;
 	color: white;
 	display: block;
