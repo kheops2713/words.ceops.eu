@@ -6,7 +6,7 @@ _Javascript notice: this post uses Javascript to display OpenStreetMap maps. The
 
 I wandered around the Turkey-Syria border during the first week of February, 2013. I went to the Kurdish border town of [Nusaybin](https://en.wikipedia.org/wiki/Nusaybin), facing very closely its Syrian counterpart, [Qamishly](https://en.wikipedia.org/wiki/Qamishli). I went shortly after to [Kilis](https://en.wikipedia.org/wiki/Kilis), a Turkish town near Syria's border crossing [Bab Assalameh](http://www.openstreetmap.org/?mlat=36.632911&mlon=37.0844364&zoom=15&layers=M) (also written Bab al-Salameh) in [Aleppo region](https://en.wikipedia.org/wiki/Aleppo_Governorate). I briefly crossed the border in Bab Assalameh and spent a few hours on the Syrian side.
 
-[[!more linktext="Read full article..." text=""]]
+[[!more linktext="Read full article..." text="""
 
 Those places are two worlds where the Syrian revolution has completely different faces. I am trying here to compare what I saw and heard in those places, as it might help a bit in understanding what is going on.
 
@@ -170,3 +170,5 @@ Whereas in the Western part with an Arab majority, near Aleppo and Idlib, the di
 I would encourage people who have been following the conflict from far away to go there by themselves if they are itching to do so. There is not much danger to fear in the areas I was, and seeing the situation and talking to people helps a lot in understanding. The areas are very easy to reach accross Turkey. You can [contact me](https://id.ceops.eu/kheops/) in case you need more information, I can try to help.
 
 Now, what can we do to help? This is a vast issue where answers range from giving money to training citizen journalists as well as giving clothes to civilians, tents, books for children, ... As there is hardly any doubt that foreign governments are not really helpful, action on a decentralized and individual basis may be relevant.
+
+"""]]
