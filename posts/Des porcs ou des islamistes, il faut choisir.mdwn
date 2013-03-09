@@ -2,6 +2,8 @@
 
 Je tombe à l'instant sur [cette interview](http://religion.blog.lemonde.fr/2013/01/24/74-des-francais-jugent-lislam-intolerant-les-musulmans-doivent-entendre-cet-avertissement/) qui nous apprend que « 74% des Français jugent l'islam intolérant », suivant un sondage récent. Un lien plus loin, on apprend qu'une majorité de gens pensent que l'islam tel qu'il est pratiqué en France [n'est pas compatible avec la société française](http://www.lemonde.fr/societe/article/2013/01/24/la-religion-musulmane-fait-l-objet-d-un-profond-rejet-de-la-part-des-francais_1821698_3224.html).
 
+[[!more linktext="Lire l'article complet..." text="""
+
 Ce n'est qu'un sondage, il n'est pas facile de savoir comment les questions ont été posées, ni comment a été choisi l'échantillon de personnes. Puis le titre est volontairement accrocheur. M'enfin, il y a l'air d'y avoir un _gros_ problème avec l'islam.
 
 Ces deux derniers mois, j'ai voyagé en Tunisie, en Égypte et en Turquie. J'ai croisé quelques musulmans sur mon chemin. Des musulmans des villes, des musulmans de la banlieue, des musulmans du désert, des hommes, des femmes, des jeunes, des vieux, ... Des musulmans qui se battent politiquement pour que la Charia _ne figure pas_ dans la Constitution tunisienne. Si, si. J'ai même croisé des Salafistes, et je vous jure qu'aucun ne s'est fait exploser devant moi en criant « Allah akbar ». J'ai même bu de l'alcool et fumé de la drogue dans ces trois pays !
@@ -19,3 +21,5 @@ Pas besoin d'islam. La peur et la méfiance se nourissent assez d'ignorance et d
 [Ceux qui prétendent défendre les valeurs de la France](https://www.youtube.com/watch?v=0oHO8zAo-wU) face à (ce qu'ils perçoivent de) l'islam sont aussi mal renseignés que ceux qui font la « guerre sainte » au nom de l'islam. Aussi mal renseignés ou aussi manipulateurs, selon les cas.
 
 Quant à tous ceux qu'on appelle « modérés » et qui semblent se laisser porter confortablement par cette peur rampante, il faudrait peut-être se réveiller et aller boire le thé de l'autre côté de la Méditerranée, parce que cette persévérance dans l'ignorance, la peur et la facilité d'accuser les autres pour nos problèmes deviennent dangereusement ridicules.
+
+"""]]
