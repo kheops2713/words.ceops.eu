@@ -13,6 +13,8 @@ The idea is to open new ports on which Obfsproxy will listen and forward connect
 
 The current Tor bridge configuration is left untouched, we will just run Obfsproxy to listen on new ports.
 
+[[!more linktext="Read full article..." text="""
+
 ## Installing Obfsproxy
 Install the required dependencies to build Obfsproxy, as listed on the [installation instructions](https://www.torproject.org/projects/obfsproxy-instructions.html.en).
 
@@ -87,3 +89,5 @@ Tor bridges are by definition not made public by Tor, as opposed to relays. Henc
 You may give the IP and port of your bridge to trusted contacts of your own in order to help them. You may publish them anywhere, but if censors find out, they might block your bridge's IP.
 
 We are setting up a few bridges, that can be requested from our [IRC](https://chat.wnh.me), with a particular focus on Syrian insiders. You are welcome to tell us about yours so that we can add it to our list.
+
+"""]]
