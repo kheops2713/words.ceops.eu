@@ -6,7 +6,7 @@ _Javascript notice: this post uses Javascript to display OpenStreetMap maps. The
 
 I wandered around the Turkey-Syria border during the first week of February, 2013. I went to the Kurdish border town of [Nusaybin](https://en.wikipedia.org/wiki/Nusaybin), facing very closely its Syrian counterpart, [Qamishly](https://en.wikipedia.org/wiki/Qamishli). I went shortly after to [Kilis](https://en.wikipedia.org/wiki/Kilis), a Turkish town near Syria's border crossing [Bab Assalameh](http://www.openstreetmap.org/?mlat=36.632911&mlon=37.0844364&zoom=15&layers=M) (also written Bab al-Salameh) in [Aleppo region](https://en.wikipedia.org/wiki/Aleppo_Governorate). I briefly crossed the border in Bab Assalameh and spent a few hours on the Syrian side.
 
-[[!more linktext="Read full article..."]]
+[[!more linktext="Read full article..." text=""]]
 
 Those places are two worlds where the Syrian revolution has completely different faces. I am trying here to compare what I saw and heard in those places, as it might help a bit in understanding what is going on.
 
