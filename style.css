@@ -699,7 +699,6 @@ body {
 .pageheader .header .parentlinks {
 	margin-top: 0em;
 	font-size: 50%;
-	display: block;
 }
 
 .pageheader .header .title, .pageheader .header .parentlinks, .pageheader .actions ul li, .pageheader .header span {
@@ -707,6 +706,7 @@ body {
 	background-image: url('background_darkness.png');
 	background-repeat: repeat;
 	color: white;
+	display: block;
 }
 
 .pageheader .header span a, .pageheader .actions ul li a, .pageheader .header .parentlinks a {
