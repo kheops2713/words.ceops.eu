@@ -4,6 +4,8 @@ Leaks, leaks and leaks again. WikiLeaks just released a [shitload of emails take
 
 It gives me an occasion to clarify a few things about the leak of the BlueCoat logs that I triggered on [October, 4th, 2011](http://reflets.info/opsyria-syrian-censoship-log/), which also led to various reactions.
 
+[[!more linktext="Read full article..." text="""
+
 ## Why leaking?
 The idea was pretty simple: my idea (shared with a few people) of Telecomix is that it encourages the free flow of data over the Internet. By releasing such a big quantity of log files, several of us had the goal that it would first make a lot of noise in the Western various newspapers/intertubes and that the news would hopefully also make some noise back to people living in Syria.
 
@@ -37,3 +39,5 @@ I am however totally unable to assess the bad things that may have happened beca
 Still, there was a fail and I am really (and ridiculously) sorry if this caused harm to anyone, as it may have been the case.
 
 Hope this writing may ring a little bell to people wishing to leak sensitive things in the future so that they double check before processing. I have been repeating a lot of times that care has to be taken with security and privacy when lifes are at stake, and from this perspective I lacked some care when I did that. And even if no one got harmed because of the release, it still raises a lot of issues about Syrian people's privacy, about which Telecomix in general rather tries to give good advices. A few people underwent some criticism they did not deserve because of that release, and I am sorry for that, too.
+
+"""]]
