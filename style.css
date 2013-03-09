@@ -689,11 +689,16 @@ body {
 	margin-top: 0.5em;
 }
 
-.pageheader .header .title, .pageheader .header .parentlinks,
+.pageheader .header .title,
  .inlinepage .inlineheader,
  h1, h2, h3, h4, h5, h6 {
 	margin-top: 1em;
 	font-weight: bold;
+}
+
+.pageheader .header .parentlinks {
+	margin-top: 1em;
+	font-size: 50%;
 }
 
 .pageheader .header .title, .pageheader .header .parentlinks, .pageheader .actions ul li, .pageheader .header span {
