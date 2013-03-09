@@ -713,6 +713,10 @@ body {
 	text-decoration: none;
 }
 
+.pageheader a:hover {
+	text-decoration: underline;
+}
+
 .pageheader .actions {
 	text-align: right;
 	vertical-align: bottom;
