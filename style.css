@@ -699,6 +699,7 @@ body {
 .pageheader .header .parentlinks {
 	margin-top: 1em;
 	font-size: 50%;
+	display: block;
 }
 
 .pageheader .header .title, .pageheader .header .parentlinks, .pageheader .actions ul li, .pageheader .header span {
