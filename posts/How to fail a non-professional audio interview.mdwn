@@ -4,6 +4,8 @@ You may want to do a good voice recording with several people, such as an interv
 
 Unless you accumulate the following mistakes, which I happened to do recently. I thougth I should write them down, as it might prevent some people from doing the same.
 
+[[!more linktext="Read full article..." text="""
+
 # Setting the microphone volume too high
 
 If you set the recording volume too high on your soundcard settings, you might end up with a very unpleasant noise parasite: not only the classical but in general not so annoying white noise, but also [a much louder buzzing](https://words.ceops.eu/noise.wav), which in some cases may cover the voices nearly totally if people do not talk loud enough or are too far from the mic.
@@ -42,3 +44,5 @@ There are two main tools that can be used to postprocess audio files:
 - [audacity](http://audacity.sourceforge.net/) is a graphical tool for audio edition and supports also many effects, and has additional support for [customized effect or analysis plugins](http://wiki.audacityteam.org/wiki/Download_Nyquist_Plug-ins).
 
 Even though I made my recording in bad conditions, I was able to slightly improve the audio quality using Audacity's noise reduction effect.
+
+"""]]
