@@ -700,6 +700,7 @@ body {
 .pageheader .header .parentlinks {
 	margin-top: 0em;
 	font-size: 50%;
+	text-align: right;
 	width: auto;
 }
 
