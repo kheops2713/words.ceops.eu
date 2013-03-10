@@ -669,7 +669,8 @@ body {
 }
 
 .pageheader {
-	background-image: url('shwa.png');
+	background-image: url('back_ccc.png');
+	background-position: left top;
 	background-repeat: repeat-x;
 	height: 105px;
 	padding-left: 1em;
@@ -699,7 +700,6 @@ body {
 .pageheader .header .parentlinks {
 	margin-top: 0em;
 	font-size: 50%;
-	background-color: #000;
 	width: auto;
 }
 
