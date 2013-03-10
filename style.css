@@ -711,6 +711,10 @@ body {
 	display: block;
 }
 
+.pageheader .header .title {
+	color: black;
+}
+
 .pageheader .header span a, .pageheader .actions ul li a, .pageheader .header .parentlinks a {
 	color: white;
 	text-decoration: none;
