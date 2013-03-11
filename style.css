@@ -698,6 +698,7 @@ body {
 }
 
 .pageheader .header .parentlinks {
+	min-height: 1.5em;
 	margin-top: 0em;
 	font-size: 50%;
 	text-align: right;
