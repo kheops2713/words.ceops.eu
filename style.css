@@ -706,7 +706,6 @@ body {
 }
 
 .pageheader .header .title, .pageheader .header .parentlinks, .pageheader .actions ul li, .pageheader .header span {
-	padding: 0.25em 0.25em 0.25em 0.25em;
 	background-repeat: repeat;
 	color: white;
 	display: block;
