@@ -20,7 +20,7 @@
 }
 
 
-/* span10 is the class of main column in fluid layout */
+/* span10 is the class of main column for us */
 .span10 h1 {
 	font-size: 170%;
 }
@@ -38,3 +38,11 @@ img.olTileImage {
 	max-width: none;
 }
 
+/* TOC (see toc plugin) */
+.toc ol .L1 {
+	list-style-type: upper-roman;
+}
+
+.toc ol .L1 ol .L2 {
+	list-style-type: decimal;
+}
