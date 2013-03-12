@@ -21,15 +21,15 @@
 
 
 /* span10 is the class of main column for us */
-.span10 h1 {
+#pagecontent .row .span10 h1 {
 	font-size: 170%;
 }
 
-.span10 h2 {
+#pagecontent .row .span10 h2 {
 	font-size: 150%;
 }
 
-.span10 h3 {
+#pagecontent .row .span10 h3 {
 	font-size: 130%;
 }
 
