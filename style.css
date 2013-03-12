@@ -2,6 +2,10 @@ body {
 	background-color: #ddd;
 }
 
+article.page, div.page {
+	background-color: rgba (238,238,238,0.85);
+}
+
 /* span10 is the class of main column for us, and #pagecontent the id containing page content :) */
 #pagecontent .row .span10 h1 {
 	font-size: 170%;
