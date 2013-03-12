@@ -35,6 +35,12 @@
 
 <TMPL_IF HTML5><section id="pageheader" class="container"><TMPL_ELSE><div id="pageheader" class="container"></TMPL_IF>
 <div class="row">
+
+<TMPL_IF SIDEBAR>
+<TMPL_IF HTML5><aside class="span2"><TMPL_ELSE><div class="span2"></TMPL_IF>
+<TMPL_IF HTML5></aside><TMPL_ELSE></div></TMPL_IF>
+</TMPL_IF>
+
 <TMPL_IF HTML5><section class="span10"><TMPL_ELSE><div class="span10"></TMPL_IF>
 
 <span class="lead">
