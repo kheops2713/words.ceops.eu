@@ -8,6 +8,6 @@
 	padding: 5px;
 }
 
-.inlinepage > h2 {
-	font-size: 150%;
+.inlineheader {
+	font-size: 120%;
 }
