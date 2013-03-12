@@ -9,9 +9,10 @@
 }
 
 .inlineheader {
-	font-size: 120%;
+	font-size: 130%;
+	font-weight: bold;
 }
 
 .inlinecontent h2 {
-	font-size: 110%;
+	font-size: 120%;
 }
