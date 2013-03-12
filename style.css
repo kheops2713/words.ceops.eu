@@ -2,20 +2,6 @@ body {
 	background-color: #ddd;
 }
 
-.page {
-	background-color: #eee;
-	/*
-	width: 50%;
-	min-width: auto;
-	max-width: 100%;
-	*/
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	box-shadow: 0px 0px 8px 0px #000;
-}
-
 /* span10 is the class of main column for us, and #pagecontent the id containing page content :) */
 #pagecontent .row .span10 h1 {
 	font-size: 170%;
