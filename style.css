@@ -5,6 +5,7 @@ body {
 .page {
 	background-color: #eee;
 	width: 50%;
+	min-width: auto;
 	max-width: 100%;
 	margin-left: 10%;
 	margin-top: 1em;
