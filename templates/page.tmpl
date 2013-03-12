@@ -33,10 +33,9 @@
 
 <TMPL_IF HTML5><article class="page"><TMPL_ELSE><div class="page"></TMPL_IF>
 
-<TMPL_IF HTML5><section class="pageheader"><TMPL_ELSE><div class="pageheader"></TMPL_IF>
+<TMPL_IF HTML5><section id="pageheader" class="container"><TMPL_ELSE><div id="pageheader" class="container"></TMPL_IF>
+<div class="row">
 <TMPL_IF HTML5><header class="subhead" id="overview"><TMPL_ELSE><div class="subhead" id="overview"></TMPL_IF>
-<div class="container">
-<span>
 <span class="lead">
 <TMPL_LOOP PARENTLINKS>
 <a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>/ 
@@ -48,11 +47,9 @@
 &nbsp;(<TMPL_VAR PERCENTTRANSLATED>%)
 </TMPL_IF>
 </span>
-</span>
 <TMPL_IF SEARCHFORM>
 <TMPL_VAR SEARCHFORM>
 </TMPL_IF>
-</div>
 <TMPL_IF HTML5></header><TMPL_ELSE></div></TMPL_IF>
 
 <TMPL_IF HAVE_ACTIONS>
@@ -106,6 +103,7 @@
 <TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
 </TMPL_IF>
 
+</div>
 <TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
 
 <div class="container">
