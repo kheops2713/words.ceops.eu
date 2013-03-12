@@ -2,7 +2,7 @@ body {
 	background-color: #ddd;
 }
 
-article.page, div.page {
+.page {
 	background-color: rgba (238,238,238,0.85);
 }
 
