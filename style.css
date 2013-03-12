@@ -5,8 +5,7 @@ body {
 .page {
 	background-color: #000;
 	width: 80%;
-	margin-left: 20%;
-	max-width: 100%;
+	margin-left: 10%;
 }
 
 /* span10 is the class of main column for us, and #pagecontent the id containing page content :) */
