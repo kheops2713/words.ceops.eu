@@ -1,3 +1,16 @@
+/* span10 is the class of main column for us, and #pagecontent the id containing page content :) */
+#pagecontent .row .span10 h1 {
+	font-size: 170%;
+}
+
+#pagecontent .row .span10 h2 {
+	font-size: 150%;
+}
+
+#pagecontent .row .span10 h3 {
+	font-size: 130%;
+}
+
 /* inline stuff are pages inserted in pages with [[!inline]] */
 
 .inlinepage {
@@ -19,19 +32,6 @@
 	font-size: 120%;
 }
 
-
-/* span10 is the class of main column for us */
-#pagecontent .row .span10 h1 {
-	font-size: 170%;
-}
-
-#pagecontent .row .span10 h2 {
-	font-size: 150%;
-}
-
-#pagecontent .row .span10 h3 {
-	font-size: 130%;
-}
 
 /* OpenLayers workaround with Bootstrap */
 img.olTileImage {
