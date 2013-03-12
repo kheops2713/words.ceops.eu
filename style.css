@@ -13,7 +13,7 @@
 
 /* inline stuff are pages inserted in pages with [[!inline]] */
 
-.inlinepage {
+#pagecontent .row .span10 .inlinepage {
 	margin-top: 2em;
 	margin-bottom: 2em;
 	border-style: solid;
@@ -23,12 +23,12 @@
 	padding: 5px;
 }
 
-.inlineheader {
+#pagecontent .row .span10 .inlinepage .inlineheader {
 	font-size: 130%;
 	font-weight: bold;
 }
 
-.inlinecontent h2 {
+#pagecontent .row .span10 .inlinepage .inlinecontent h2 {
 	font-size: 120%;
 }
 
