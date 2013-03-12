@@ -1,3 +1,7 @@
+body {
+	background-color: #ddd;
+}
+
 /* span10 is the class of main column for us, and #pagecontent the id containing page content :) */
 #pagecontent .row .span10 h1 {
 	font-size: 170%;
@@ -31,7 +35,6 @@
 #pagecontent .row .span10 .inlinepage .inlinecontent h2 {
 	font-size: 120%;
 }
-
 
 /* OpenLayers workaround with Bootstrap */
 img.olTileImage {
