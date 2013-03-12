@@ -34,9 +34,13 @@
 <TMPL_IF HTML5><article class="page"><TMPL_ELSE><div class="page"></TMPL_IF>
 
 <TMPL_IF HTML5><section id="pageheader" class="container"><TMPL_ELSE><div id="pageheader" class="container"></TMPL_IF>
-
 <TMPL_IF HTML5><header class="subhead" id="overview"><TMPL_ELSE><div class="subhead" id="overview"></TMPL_IF>
 <div class="row">
+<TMPL_IF HTML5><aside class="span2"><TMPL_ELSE><div class="span2"></TMPL_IF>
+<TMPL_IF HTML5></aside><TMPL_ELSE></div></TMPL_IF>
+
+<TMPL_IF HTML5><section class="span10"><TMPL_ELSE><div class="span10"></TMPL_IF>
+
 <span class="lead">
 <TMPL_LOOP PARENTLINKS>
 <a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>/ 
@@ -51,6 +55,7 @@
 <TMPL_IF SEARCHFORM>
 <TMPL_VAR SEARCHFORM>
 </TMPL_IF>
+<TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
 </div>
 <TMPL_IF HTML5></header><TMPL_ELSE></div></TMPL_IF>
 
