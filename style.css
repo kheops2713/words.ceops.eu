@@ -39,6 +39,14 @@ img.olTileImage {
 }
 
 /* TOC (see toc plugin) */
+div.toc {
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.15);
+	border-width: 1px;
+	border-radius: 4px;
+	padding: 5px;	
+}
+
 .toc ol .L1 {
 	list-style-type: upper-roman;
 }
