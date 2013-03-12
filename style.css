@@ -28,8 +28,3 @@
 .span10 h3 {
 	font-size: 130%;
 }
-
-/* the class used by OSM plugin for OpenLayers maps */
-.olMap {
-	display: inline;
-}
