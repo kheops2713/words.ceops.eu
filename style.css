@@ -1,3 +1,5 @@
+/* inline stuff are pages inserted in pages with [[!inline]] */
+
 .inlinepage {
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -17,6 +19,8 @@
 	font-size: 120%;
 }
 
+
+/* span10 is the class of main column in fluid layout */
 .span10 h1 {
 	font-size: 170%;
 }
@@ -29,6 +33,7 @@
 	font-size: 130%;
 }
 
+/* OpenLayers workaround with Bootstrap */
 img.olTileImage {
 	max-width: none;
 }
