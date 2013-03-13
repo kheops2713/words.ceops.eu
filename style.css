@@ -8,6 +8,10 @@ a {
 
 /* [[!img ]] directive puts image in a table with class img */
 
+table.img {
+	caption-side: bottom;
+}
+
 img.img {
 	padding-bottom: 1.5em;
 }
