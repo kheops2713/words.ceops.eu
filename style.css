@@ -31,6 +31,10 @@ table.img {
 	clear: both;
 }
 
+#pagecontent .row .span10 p {
+	clear: both;
+}
+
 /* inline stuff are pages inserted in pages with [[!inline]] */
 #pagecontent .row .span10 .inlinepage {
 	margin-top: 2em;
