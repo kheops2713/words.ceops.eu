@@ -71,6 +71,10 @@ div.toc {
 	padding: 5px;	
 }
 
+div.toc a {
+	color: #707070;
+}
+
 .toc ol .L1 {
 	list-style-type: upper-roman;
 }
