@@ -18,16 +18,22 @@ table.img {
 #pagecontent .row .span10 h1 {
 	font-size: 170%;
 	clear: both;
+	text-align: justify;
+	text-justify: newspaper;
 }
 
 #pagecontent .row .span10 h2 {
 	font-size: 150%;
 	clear: both;
+	text-align: justify;
+	text-justify: newspaper;
 }
 
 #pagecontent .row .span10 h3 {
 	font-size: 130%;
 	clear: both;
+	text-align: justify;
+	text-justify: newspaper;
 }
 
 #pagecontent .row .span10 p {
