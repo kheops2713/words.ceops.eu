@@ -51,6 +51,9 @@ table.img {
 #pagecontent .row .span10 .inlinepage .inlineheader {
 	font-size: 130%;
 	font-weight: bold;
+}
+
+#pagecontent .row .span10 .inlinepage .inlineheader a {
 	color: #606060;
 }
 
