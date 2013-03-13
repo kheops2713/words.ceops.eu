@@ -6,7 +6,13 @@ a {
 	color: #940000;
 }
 
-/* span10 is the class of main column for us, and #pagecontent the id containing page content :) */
+/* [[!img ]] directive puts image in a table with class img */
+
+table.img {
+	padding-bottom: 1.5em;
+}
+
+/* span10 is the class of main column for us (from Bootstrap), and #pagecontent the id containing page content :) */
 #pagecontent .row .span10 h1 {
 	font-size: 170%;
 }
@@ -20,7 +26,6 @@ a {
 }
 
 /* inline stuff are pages inserted in pages with [[!inline]] */
-
 #pagecontent .row .span10 .inlinepage {
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -40,7 +45,7 @@ a {
 	font-size: 120%;
 }
 
-/* OpenLayers workaround with Bootstrap */
+/* OpenLayers workaround with Bootstrap (otherwise [[!osm]] is broken */
 img.olTileImage {
 	max-width: none;
 }
