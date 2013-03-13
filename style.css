@@ -12,7 +12,6 @@ table.img {
 	caption-side: bottom;
 	display: inline;
 	float: right;
-	clear: both;
 }
 
 /* span10 is the class of main column for us (from Bootstrap), and #pagecontent the id containing page content :) */
