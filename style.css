@@ -10,7 +10,10 @@ a {
 
 table.img {
 	caption-side: bottom;
-	padding-bottom: 10px;
+}
+
+table.img tbody tr {
+	padding-bottom: 10px;	
 }
 
 /* span10 is the class of main column for us (from Bootstrap), and #pagecontent the id containing page content :) */
