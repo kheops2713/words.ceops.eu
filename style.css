@@ -12,10 +12,6 @@ table.img {
 	caption-side: bottom;
 }
 
-img.img {
-	padding-bottom: 1.5em;
-}
-
 /* span10 is the class of main column for us (from Bootstrap), and #pagecontent the id containing page content :) */
 #pagecontent .row .span10 h1 {
 	font-size: 170%;
