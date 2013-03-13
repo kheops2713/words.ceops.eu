@@ -77,8 +77,10 @@ div.toc a {
 
 .toc ol .L1 {
 	list-style-type: upper-roman;
+	color: #606060;
 }
 
 .toc ol .L1 ol .L2 {
 	list-style-type: decimal;
+	color: #606060;
 }
