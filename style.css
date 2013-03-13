@@ -32,6 +32,7 @@ table.img {
 
 #pagecontent .row .span10 p {
 	clear: both;
+	text-align: justify;
 	text-justify: newspaper;
 }
 
