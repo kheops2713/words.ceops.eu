@@ -73,6 +73,7 @@ div.toc {
 
 div.toc a {
 	color: #606060;
+	font-weight: bold;
 }
 
 .toc ol .L1 {
