@@ -32,6 +32,7 @@ table.img {
 
 #pagecontent .row .span10 p {
 	clear: both;
+	text-justify: newspaper;
 }
 
 /* inline stuff are pages inserted in pages with [[!inline]] */
