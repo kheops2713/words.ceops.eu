@@ -13,6 +13,10 @@ a {
 	
 }
 
+.lead {
+	line-height: 46px;
+}
+
 /* [[!img ]] directive puts image in a table with class img */
 
 table.img {
