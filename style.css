@@ -18,7 +18,6 @@ a {
 }
 
 /* [[!img ]] directive puts image in a table with class img */
-
 table.img {
 	caption-side: bottom;
 	display: inline;
@@ -99,3 +98,24 @@ div.toc a {
 	list-style-type: decimal;
 	color: #606060;
 }
+
+/* RSS and Atom buttons */
+.feedbutton {
+	background: #ff6600;
+	color: white !important;
+	border-left: 1px solid #cc9966;
+	border-top: 1px solid #ccaa99;
+	border-right: 1px solid #993300;
+	border-bottom: 1px solid #331100;
+	padding: 0px 0.5em 0px 0.5em;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: small;
+	text-decoration: none;
+	margin-top: 1em;
+}
+.feedbutton:hover {
+	color: white !important;
+	background: #ff9900;
+}
+
