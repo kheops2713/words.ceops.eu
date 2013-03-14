@@ -6,11 +6,11 @@ a {
 	color: #940000;
 }
 
-#pageheader.container {
-	/*
+#pageheader.container .row .span10 {
+	
 	background-image: url(back_ccc.png);
 	background-repeat: repeat-x;
-	*/
+	
 }
 
 /* [[!img ]] directive puts image in a table with class img */
