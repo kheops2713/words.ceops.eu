@@ -6,6 +6,10 @@ a {
 	color: #940000;
 }
 
+.lead {
+	background-image: url(back_ccc.png);
+}
+
 /* [[!img ]] directive puts image in a table with class img */
 
 table.img {
