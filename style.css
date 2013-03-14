@@ -12,6 +12,10 @@ a {
 	background-repeat: repeat-x;
 }
 
+#pageheader h1 {
+	clear: both;
+}
+
 .lead {
 	line-height: 46px;
 	float: right;
