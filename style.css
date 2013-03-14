@@ -6,10 +6,8 @@ a {
 	color: #940000;
 }
 
-.lead {
+#pageheader.container {
 	background-image: url(back_ccc.png);
-	width: 100%;
-	height: 46px;
 }
 
 /* [[!img ]] directive puts image in a table with class img */
