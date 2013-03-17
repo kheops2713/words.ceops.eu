@@ -30,20 +30,17 @@
 <TMPL_IF RELVCS><TMPL_VAR RELVCS></TMPL_IF>
 <TMPL_IF META><TMPL_VAR META></TMPL_IF>
 </head>
+
 <body>
-
 <TMPL_IF HTML5><article class="page"><TMPL_ELSE><div class="page"></TMPL_IF>
-
 <TMPL_IF HTML5><section id="pageheader" class="container"><TMPL_ELSE><div id="pageheader" class="container"></TMPL_IF>
 <div class="row">
-
 <TMPL_IF SIDEBAR>
 <TMPL_IF HTML5><aside class="span2 hidden-phone"><TMPL_ELSE><div class="span2 hidden-phone"></TMPL_IF>
 <TMPL_IF HTML5></aside><TMPL_ELSE></div></TMPL_IF>
 </TMPL_IF>
 
 <TMPL_IF HTML5><section class="span9"><TMPL_ELSE><div class="span9"></TMPL_IF>
-
 <span class="lead">
 <TMPL_LOOP PARENTLINKS>
 <a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>/ 
@@ -60,7 +57,7 @@
 <TMPL_VAR SEARCHFORM>
 </TMPL_IF>
 <TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
-</div>
+</div> <!-- class=row -->
 
 <TMPL_IF HAVE_ACTIONS>
 <TMPL_IF HTML5><nav class="actions"><TMPL_ELSE><div class="actions"></TMPL_IF>
