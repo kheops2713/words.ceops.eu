@@ -33,7 +33,8 @@
 
 <body>
 <TMPL_IF HTML5><article class="page"><TMPL_ELSE><div class="page"></TMPL_IF>
-<TMPL_IF HTML5><section id="pageheader" class="container"><TMPL_ELSE><div id="pageheader" class="container"></TMPL_IF>
+
+<TMPL_IF HTML5><header id="pageheader" class="container"><TMPL_ELSE><div id="pageheader" class="container"></TMPL_IF>
 <div class="row">
 <TMPL_IF SIDEBAR>
 <TMPL_IF HTML5><aside class="span2 hidden-phone"><TMPL_ELSE><div class="span2 hidden-phone"></TMPL_IF>
@@ -44,21 +45,14 @@
 <span class="lead">
 <TMPL_LOOP PARENTLINKS>
 <a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>/ 
-</TMPL_LOOP>
-&nbsp;
+</TMPL_LOOP>&nbsp;
 </span>
 <span class="title">
 <h1><TMPL_VAR TITLE></h1>
-<TMPL_IF ISTRANSLATION>
-&nbsp;(<TMPL_VAR PERCENTTRANSLATED>%)
-</TMPL_IF>
 </span>
-<TMPL_IF SEARCHFORM>
-<TMPL_VAR SEARCHFORM>
-</TMPL_IF>
 <TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
 </div> <!-- class=row -->
-<TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
+<TMPL_IF HTML5></header><TMPL_ELSE></div></TMPL_IF>
 
 <TMPL_IF HTML5><section id="pagecontent" class="container"><TMPL_ELSE><div id="pagecontent" class="container"></TMPL_IF>
 <div class="row">
@@ -71,24 +65,8 @@
 <TMPL_IF HTML5><section class="span9"><TMPL_ELSE><div class="span9"></TMPL_IF>
 <TMPL_VAR CONTENT>
 <TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
-
-<TMPL_UNLESS DYNAMIC>
-<TMPL_IF COMMENTS>
-<TMPL_IF HTML5><section id="comments"><TMPL_ELSE><div id="comments"></TMPL_IF>
-<TMPL_VAR COMMENTS>
-<TMPL_IF ADDCOMMENTURL>
-<div class="addcomment">
-<a href="<TMPL_VAR ADDCOMMENTURL>">Add a comment</a>
 </div>
-<TMPL_ELSE>
-<div class="addcomment">Comments on this page are closed.</div>
-</TMPL_IF>
 <TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
-</TMPL_UNLESS>
-
-</div>
-</div>
 
 <TMPL_IF HTML5><footer id="footer" class="container"><TMPL_ELSE><div id="footer" class="container"></TMPL_IF>
 <div class="row">
@@ -98,10 +76,8 @@
 </TMPL_IF>
 
 <TMPL_IF HTML5><section class="span9"><TMPL_ELSE><div class="span9"></TMPL_IF>
-
 <TMPL_UNLESS DYNAMIC>
 <TMPL_IF HTML5><nav id="pageinfo"><TMPL_ELSE><div id="pageinfo"></TMPL_IF>
-
 <TMPL_IF TAGS>
 <TMPL_IF HTML5><nav class="tags"><TMPL_ELSE><div class="tags"></TMPL_IF>
 Tags:
