@@ -119,3 +119,9 @@ div.toc a {
 	background: #ff9900;
 }
 
+/* tag sizes */
+.smallestPC { font-size: 70%; }
+.smallPC { font-size: 85%; }
+.normalPC { font-size: 100%; }
+.bigPC { font-size: 115%; }
+.biggestPC { font-size: 130%; }
