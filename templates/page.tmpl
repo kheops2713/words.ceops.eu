@@ -40,12 +40,9 @@
 <TMPL_IF HTML5><aside class="span2 hidden-phone"><TMPL_ELSE><div class="span2 hidden-phone"></TMPL_IF>
 <TMPL_IF HTML5></aside><TMPL_ELSE></div></TMPL_IF>
 
-
 <TMPL_IF HTML5><section class="span8"><TMPL_ELSE><div class="span8"></TMPL_IF>
 <span class="lead">
-<TMPL_LOOP PARENTLINKS>
-<a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>/ 
-</TMPL_LOOP>&nbsp;
+<TMPL_LOOP PARENTLINKS><a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>/ </TMPL_LOOP>&nbsp;
 </span>
 <span class="title">
 <h1><TMPL_VAR TITLE></h1>
