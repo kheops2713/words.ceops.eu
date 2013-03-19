@@ -129,7 +129,7 @@ Background color and default link color are the only generic changes I made:
 
 ## Specific customizations
 
-I firstly want a background image for the top part of the header, under the page path. [The image](/back_ccc.png) is 46 pixels high and I wanted to make sure the main page title would not overlap it, so I used the _lead_ style for the page path and imposed it a 46 pixels line height. Also notice that I used the _#pageheader_ ID used in the template to identify the _span8_ element belonging to the header part:
+I firstly want a background image for the top part of the header, under the page path. [The image](/back_ccc.png) is 46 pixels high and I wanted to make sure the main page title would not overlap it, so I used the _lead_ class for the page path and imposed it a 46 pixels line height. Also notice that I used the _#pageheader_ ID used in the template to identify the _span8_ element belonging to the header part:
 
     #pageheader.container .row .span8 {	
     	background-image: url(back_ccc.png);
