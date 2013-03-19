@@ -140,7 +140,7 @@ I firstly want a background image for the top part of the header, under the page
     	line-height: 46px;
     }
 
-I want the headings inside article bodies to be not as big as the heading from the page title, and the text body to be justified. I also do not want any floating element to be allowed along either headings or text body (_clear_ instruction). Here again I used the full path, using this time the _#pagecontent_ ID as specified in the template:
+I want the headings inside article bodies to be not as big as the heading from the page title, and the text body to be justified. I also do not want any floating element to be allowed along either headings or text body (_clear_ instruction). Here again I used the full CSS path, using this time the _#pagecontent_ ID as specified in the template:
 
     #pagecontent .row .span8 h1 {
     	font-size: 170%;
