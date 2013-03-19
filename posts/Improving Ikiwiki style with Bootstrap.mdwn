@@ -1,0 +1,262 @@
+[[!tag bootstrap ikiwiki css]]
+
+Ikiwiki (the software used to run this blog) generates structured HTML pages thanks to its templates files, allowing the use of CSS to customize their style. Ikiwiki website has [contributed CSS themes](http://ikiwiki.info/css_market/).
+
+At the same time, the pre-cooked CSS library [Bootstrap](http://twitter.github.com/bootstrap/) provides nice styles applicable to various elements: default font and line height for text body, heading styles, different column widths for main and sidebars, etc. It also includes "responsive" classes to make a website pleasantly readable on usual computers as well as on tablets and smartphones by adapting widths to avoid horizontal scrolling. Using Bootstrap, you can have a decent style without writing a single line of CSS yourself. However, you need to adapt your HTML code in order to use Bootstrap classes.
+
+This article explains how I applied Bootstrap to Ikiwiki to get a decent and responsive style for this blog. Only a hundred lines of additional CSS were then needed to obtain something more customized than Bootstrap's default Twitter-like colors.
+
+[[!more linktext="Read full article..." text="""
+
+The main point is to understand Bootstrap's classes and then adapt Ikiwiki's _page.tmpl_ to activate Bootstrap and use its classes instead of the ones used by Ikiwiki's default templates.
+
+This website uses a small number of Ikiwiki plugins and CSS classes, but I believe this can be a useful basis for more complex designs involving more Ikiwiki plugins.
+
+[[!toc levels=2]]
+
+# Bootstrap classes and styles
+
+The [Bootstrap package](http://twitter.github.com/bootstrap/assets/bootstrap.zip) includes CSS files as well as Javascript files. We are interested here only in CSS files. The main file is _bootstrap.css_ and the responsive part (for adaptation to smartphones and tablets) is in _bootstrap-responsive.css_.
+
+Bootstrap defines [styles](http://twitter.github.com/bootstrap/base-css.html) for text fonts, headings and emphasized text: we do not care about them (for now), as using Bootstrap CSS will automatically change their style in an acceptable way.
+
+The important point is how elements containing the content (header, page body, sidebar, ...) are organized, i.e. their position one relatively to the other and their size. Those containers are marked by _div_ HTML tags (HTML5 also uses more specific _article_, _section_, _aside_ and several other containers that indicate the nature of the content).
+
+## Two-column layout, page header and footer
+
+We are interested in:
+
+* the ability to have two columns (see [main page](/)): a small one (the sidebar) and a big one for the main content;
+* a header part for the title, page path and banner;
+* a footer part with the page tags and the "last edited" date.
+
+Bootstrap uses a [division of the page width in 12 columns](http://twitter.github.com/bootstrap/scaffolding.html#gridSystem) that can be filled using classes from _span1_ to _span12_: _span1_ fills one twelth of the total width, _span2_ fills one sixth, etc. They are stacked from left to right and should be placed inside a _row_ class container.
+
+I chose to have a _span2_ for the sidebar (which is at the moment empty on all pages excepted the [main page](/)), and a _span8_ for the main content, which makes it centered as it also leaves 2 empty Bootstrap columns on the right. Both the header and footer parts must be aligned with the main content, so we just need to put them in separate rows but with the same column configuration.
+
+## Responsive design for smartphones and tablets
+
+The ["responsive" part of Bootstrap](http://twitter.github.com/bootstrap/scaffolding.html#responsive) is by default located in a separate CSS file that must be loaded after the main Bootstrap CSS. It changes the classes in order to have them adapted to the device's screen and avoid horizontal scrolling.
+
+On small-width devices (typically smartphones), columns are stacked vertically. We do not want the main page's sidebar to appear on top, so we can just hide it by using the Bootstrap's class _hidden-phone_. Hence, all our _span2_ containers will also use the _hidden-phone_ class: on smartphone-width screens, they will not be displayed.
+
+# Modifying Ikiwiki template to use Bootstrap
+
+Changes were made only in the _page.tmpl_ template file.
+
+## Loading Bootstrap CSS files
+
+You should first copy Bootstrap's CSS files into your working directory tree, for instance at the root of the tree. The main file is _bootstrap.css_ and the responsive part is _bootstrap-responsive.css_. Smaller in size but equivalent versions are respectively named _bootstrap.min.css_ and _bootstrap-responsive.min.css_: using them should slightly reduce the page loading time.
+
+_page.tmpl_ already includes a part for loading files named _style.css_ and _local.css_. We will load Bootstrap's files prior to those, so that we can then override Bootstrap's defaults easily:
+
+    <link rel="stylesheet" href="<TMPL_VAR BASEURL>bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="<TMPL_VAR BASEURL>bootstrap-responsive.min.css" type="text/css" />
+    <link rel="stylesheet" href="<TMPL_VAR BASEURL>style.css" type="text/css" />
+    <TMPL_IF LOCAL_CSS>
+    <link rel="stylesheet" href="<TMPL_VAR BASEURL><TMPL_VAR LOCAL_CSS>" type="text/css" />
+    <TMPL_ELSE>
+    <link rel="stylesheet" href="<TMPL_VAR BASEURL>local.css" type="text/css" />
+    </TMPL_IF>
+
+As specified in Bootstrap documentation, an additional HTML _meta_ tag (_viewport_) is needed for the responsive part, and we put it just below the already existing charset tag:
+
+    <TMPL_IF HTML5><meta charset="utf-8" /><TMPL_ELSE><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></TMPL_IF>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+## Using Bootstrap classes
+
+As explained in the previous section, we will use three containers: one for the header, one for the main part and one for the footer. Each will include a _span2_ and a _span8_ container, themselves included inside a _row_ and a _container_ containers (following examples from Bootstrap documentation).
+
+Here is what the header part looks like, including the page title and its path in the website (named _parent links_ by Ikiwiki):
+
+    <TMPL_IF HTML5><header id="pageheader" class="container"><TMPL_ELSE><div id="pageheader" class="container"></TMPL_IF>
+    <div class="row">
+
+    <TMPL_IF HTML5><aside class="span2 hidden-phone"><TMPL_ELSE><div class="span2 hidden-phone"></TMPL_IF>
+    <TMPL_IF HTML5></aside><TMPL_ELSE></div></TMPL_IF>
+
+    <TMPL_IF HTML5><section class="span8"><TMPL_ELSE><div class="span8"></TMPL_IF>
+    <span class="lead">
+    <TMPL_LOOP PARENTLINKS><a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>/ </TMPL_LOOP>&nbsp;
+    </span>
+    <span class="title">
+    <h1><TMPL_VAR TITLE></h1>
+    </span>
+    <TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
+    </div> <!-- class=row -->
+    <TMPL_IF HTML5></header><TMPL_ELSE></div></TMPL_IF>
+
+Following the same idea but with different content, the main part of the page is as follows:
+
+    <TMPL_IF HTML5><section id="pagecontent" class="container"><TMPL_ELSE><div id="pagecontent" class="container"></TMPL_IF>
+    <div class="row">
+
+    <TMPL_IF HTML5><aside class="span2 hidden-phone"><TMPL_ELSE><div class="span2 hidden-phone"></TMPL_IF>
+    <TMPL_IF SIDEBAR>
+    <TMPL_VAR SIDEBAR>
+    </TMPL_IF>
+    <TMPL_IF HTML5></aside><TMPL_ELSE></div></TMPL_IF>
+
+    <TMPL_IF HTML5><section class="span8"><TMPL_ELSE><div class="span8"></TMPL_IF>
+    <TMPL_VAR CONTENT>
+    <TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
+    </div>
+    <TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
+
+The footer part follows the same idea as well so I will not copy it here. See below to download the full source of my _page.tmpl_ at the time of writing this article.
+
+## Full template file
+
+Here is the full template file for [download](/files/page.tmpl.bz2).
+
+# CSS customization and workarounds
+
+The final and easiest part is to customize fonts, colors, image positioning, etc. to differentiate ourselves from the Twitter-like default color code of Bootstrap.
+
+I did this in _style.css_, its content overriding Bootstrap's settings as it is loaded after.
+
+## Generic customization
+
+Background color and default link color are the only generic changes I made:
+
+    body {
+    	background-color: #dadada;
+    }
+    a {
+    	color: #940000;
+    }
+
+## Specific customizations
+
+I firstly want a background image for the top part of the header, under the page path. [The image](/back_ccc.png) is 46 pixels high and I wanted to make sure the main page title would not overlap it, so I used the _lead_ style for the page path and imposed it a 46 pixels line height. Also notice that I used the _#pageheader_ ID used in the template to identify the _span8_ element belonging to the header part:
+
+    #pageheader.container .row .span8 {	
+    	background-image: url(back_ccc.png);
+    	background-repeat: repeat-x;
+    	text-align: right;
+    }
+    .lead {
+    	line-height: 46px;
+    }
+
+I want the headings inside article bodies to be not as big as the heading from the page title, and the text body to be justified. I also do not want any floating element to be allowed along either headings or text body (_clear_ instruction). Here again I used the full path, using this time the _#pagecontent_ ID as specified in the template:
+
+    #pagecontent .row .span8 h1 {
+    	font-size: 170%;
+    	clear: both;
+    }
+    #pagecontent .row .span8 h2 {
+    	font-size: 150%;
+    	clear: both;
+    }
+    #pagecontent .row .span8 h3 {
+    	font-size: 130%;
+    	clear: both;
+    }
+    #pagecontent .row .span8 p {
+    	clear: both;
+    	text-align: justify;
+    	text-justify: newspaper;
+    }
+
+Then, I want images inserted with the [_img_ directive](http://ikiwiki.info/ikiwiki/directive/img/) to be aligned on the right with their caption located below. The _img_ plugin inserts images into a _table_ HTML element with class _img_, hence leading to the following specification:
+
+    table.img {
+    	caption-side: bottom;
+    	display: inline;
+    	float: right;
+    }
+
+I was also unhappy with how inlined pages were styled, using the [_inline_ directive](http://ikiwiki.info/ikiwiki/directive/inline/). This directive is at the moment only used in the main page to inserts parts of every article of this blog. The directive puts its content inside an _inlinepage_ class container:
+
+    #pagecontent .row .span8 .inlinepage {
+    	margin-top: 2em;
+    	margin-bottom: 2em;
+    	border-style: solid;
+    	border-color: rgba(0, 0, 0, 0.15);
+    	border-width: 1px;
+    	border-radius: 4px;
+    	padding: 5px;
+    	background-color: #ebebeb;
+    }
+    #pagecontent .row .span8 .inlinepage .inlineheader {
+    	font-size: 130%;
+    	font-weight: bold;
+    }
+    #pagecontent .row .span8 .inlinepage .inlineheader a {
+    	color: #333333;
+    }
+    #pagecontent .row .span8 .inlinepage .inlinecontent h2 {
+    	font-size: 120%;
+    }
+
+Some articles include a table of content (TOC) which can be also styled separately. It is produced by the [_toc_ directive](http://ikiwiki.info/ikiwiki/directive/toc/) and uses its own container of class _toc_. I wanted to change the list numbering, font color, background color and border:
+
+    div.toc {
+    	border-style: solid;
+    	border-color: rgba(0, 0, 0, 0.15);
+    	border-width: 1px;
+    	border-radius: 4px;
+    	padding: 5px;	
+    }
+    div.toc a {
+    	color: #606060;
+    }
+    .toc ol .L1 {
+    	list-style-type: upper-roman;
+    	color: #606060;
+    }
+    .toc ol .L1 ol .L2 {
+    	list-style-type: decimal;
+    	color: #606060;
+    }
+
+The Atom and RSS links on the main pages need to look like buttons, and this can be achieved by pure CSS:
+
+    .feedbutton {
+    	background: #ff6600;
+    	color: white !important;
+    	border-left: 1px solid #cc9966;
+    	border-top: 1px solid #ccaa99;
+    	border-right: 1px solid #993300;
+    	border-bottom: 1px solid #331100;
+    	padding: 0px 0.5em 0px 0.5em;
+    	font-family: sans-serif;
+    	font-weight: bold;
+    	font-size: small;
+    	text-decoration: none;
+    	margin-top: 1em;
+    }
+    .feedbutton:hover {
+    	color: white !important;
+    	background: #ff9900;
+    }
+
+Finally, we customize the font sizes of the sidebar's tag cloud on the main page to reflect how many times tags are used over the blog:
+
+    .smallestPC { font-size: 70%; }
+    .smallPC { font-size: 85%; }
+    .normalPC { font-size: 100%; }
+    .bigPC { font-size: 115%; }
+    .biggestPC { font-size: 130%; }
+
+That's all!
+
+## Bug in OpenLayers map display
+
+There is a known incompatibility between Bootstrap and the inclusion of OpenStreetMap maps using OpenLayers: Bootstrap's default breaks their display. Ikiwiki's _osm_ [plugin](http://ikiwiki.info/plugins/osm/) and [directive](http://ikiwiki.info/ikiwiki/directive/osm/) display OpenStreetMap maps using the OpenLayers API, and I happen to use it in [one article](../My visit to Turkey-Syria border towns: two faces of the uprising/) at the moment.
+
+There is however a simple workaround that can be inserted to override Bootstrap's behavior in the case of OpenLayers maps:
+
+    img.olTileImage {
+    	max-width: none;
+    }
+
+# Going further / other examples
+
+This blog is only a simple example that uses a very limited number of plugins and Ikiwiki possibilites. For instance, I do not have any navigation bar.
+
+This [other website](http://jak-linux.org/) combines Ikiwiki and Bootstrap in a quite different way. The author made available the [git repository](http://anonscm.debian.org/gitweb/?p=users/jak/website.git;a=summary) of the website's source code (I plan to do the same).
+
+"""]]
