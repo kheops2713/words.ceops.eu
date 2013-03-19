@@ -36,10 +36,10 @@
 
 <TMPL_IF HTML5><header id="pageheader" class="container"><TMPL_ELSE><div id="pageheader" class="container"></TMPL_IF>
 <div class="row">
-<TMPL_IF SIDEBAR>
+
 <TMPL_IF HTML5><aside class="span2 hidden-phone"><TMPL_ELSE><div class="span2 hidden-phone"></TMPL_IF>
 <TMPL_IF HTML5></aside><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
+
 
 <TMPL_IF HTML5><section class="span9"><TMPL_ELSE><div class="span9"></TMPL_IF>
 <span class="lead">
@@ -56,11 +56,13 @@
 
 <TMPL_IF HTML5><section id="pagecontent" class="container"><TMPL_ELSE><div id="pagecontent" class="container"></TMPL_IF>
 <div class="row">
-<TMPL_IF SIDEBAR>
+
 <TMPL_IF HTML5><aside class="span2 hidden-phone"><TMPL_ELSE><div class="span2 hidden-phone"></TMPL_IF>
+<TMPL_IF SIDEBAR>
 <TMPL_VAR SIDEBAR>
-<TMPL_IF HTML5></aside><TMPL_ELSE></div></TMPL_IF>
 </TMPL_IF>
+<TMPL_IF HTML5></aside><TMPL_ELSE></div></TMPL_IF>
+
 
 <TMPL_IF HTML5><section class="span9"><TMPL_ELSE><div class="span9"></TMPL_IF>
 <TMPL_VAR CONTENT>
@@ -70,10 +72,10 @@
 
 <TMPL_IF HTML5><footer id="footer" class="container"><TMPL_ELSE><div id="footer" class="container"></TMPL_IF>
 <div class="row">
-<TMPL_IF SIDEBAR>
+
 <TMPL_IF HTML5><aside class="span2 hidden-phone"><TMPL_ELSE><div class="span2 hidden-phone"></TMPL_IF>
 <TMPL_IF HTML5></aside><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
+
 
 <TMPL_IF HTML5><section class="span9"><TMPL_ELSE><div class="span9"></TMPL_IF>
 <TMPL_UNLESS DYNAMIC>
