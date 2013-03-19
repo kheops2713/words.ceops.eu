@@ -6,7 +6,7 @@ a {
 	color: #940000;
 }
 
-#pageheader.container .row .span9 {
+#pageheader.container .row .span8 {
 	
 	background-image: url(back_ccc.png);
 	background-repeat: repeat-x;
@@ -24,30 +24,30 @@ table.img {
 	float: right;
 }
 
-/* span9 is the class of main column for us (from Bootstrap), and #pagecontent the id containing page content :) */
-#pagecontent .row .span9 h1 {
+/* span8 is the class of main column for us (from Bootstrap), and #pagecontent the id containing page content :) */
+#pagecontent .row .span8 h1 {
 	font-size: 170%;
 	clear: both;
 }
 
-#pagecontent .row .span9 h2 {
+#pagecontent .row .span8 h2 {
 	font-size: 150%;
 	clear: both;
 }
 
-#pagecontent .row .span9 h3 {
+#pagecontent .row .span8 h3 {
 	font-size: 130%;
 	clear: both;
 }
 
-#pagecontent .row .span9 p {
+#pagecontent .row .span8 p {
 	clear: both;
 	text-align: justify;
 	text-justify: newspaper;
 }
 
 /* inline stuff are pages inserted in pages with [[!inline]] */
-#pagecontent .row .span9 .inlinepage {
+#pagecontent .row .span8 .inlinepage {
 	margin-top: 2em;
 	margin-bottom: 2em;
 	border-style: solid;
@@ -58,16 +58,16 @@ table.img {
 	background-color: #ebebeb;
 }
 
-#pagecontent .row .span9 .inlinepage .inlineheader {
+#pagecontent .row .span8 .inlinepage .inlineheader {
 	font-size: 130%;
 	font-weight: bold;
 }
 
-#pagecontent .row .span9 .inlinepage .inlineheader a {
+#pagecontent .row .span8 .inlinepage .inlineheader a {
 	color: #333333;
 }
 
-#pagecontent .row .span9 .inlinepage .inlinecontent h2 {
+#pagecontent .row .span8 .inlinepage .inlinecontent h2 {
 	font-size: 120%;
 }
 
