@@ -245,7 +245,7 @@ That's all!
 
 ## Bug in OpenLayers map display
 
-There is a known incompatibility between Bootstrap and the inclusion of OpenStreetMap maps using OpenLayers: Bootstrap's default breaks their display. Ikiwiki's _osm_ [plugin](http://ikiwiki.info/plugins/osm/) and [directive](http://ikiwiki.info/ikiwiki/directive/osm/) display OpenStreetMap maps using the OpenLayers API, and I happen to use it in [one article](../My visit to Turkey-Syria border towns: two faces of the uprising/) at the moment.
+There is a known incompatibility between Bootstrap and the inclusion of OpenStreetMap maps using OpenLayers: Bootstrap's default breaks their display. Ikiwiki's _osm_ [plugin](http://ikiwiki.info/plugins/osm/) and [directive](http://ikiwiki.info/ikiwiki/directive/osm/) display OpenStreetMap maps using the OpenLayers API, and I happen to use it in [one article](../My%20visit%20to%20Turkey-Syria%20border%20towns:%20two%20faces%20of%20the%20uprising/) at the moment.
 
 There is however a simple workaround that can be inserted to override Bootstrap's behavior in the case of OpenLayers maps:
 
