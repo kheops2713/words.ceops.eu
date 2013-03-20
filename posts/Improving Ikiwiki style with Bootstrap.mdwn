@@ -114,7 +114,7 @@ Here is the full template file for [download](/files/page.tmpl.bz2).
 
 The final and easiest part is to customize fonts, colors, image positioning, etc. to differentiate ourselves from the Twitter-like default color code of Bootstrap.
 
-I did this in _style.css_, its content overriding Bootstrap's settings as it is loaded after.
+I did this in _style.css_, its content overriding Bootstrap's settings as it is loaded after. My full CSS file is [here](/style.css).
 
 ## Generic customization
 
