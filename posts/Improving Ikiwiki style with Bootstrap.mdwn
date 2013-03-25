@@ -257,6 +257,6 @@ There is however a simple workaround that can be inserted to override Bootstrap'
 
 This blog is only a simple example that uses a very limited number of plugins and Ikiwiki possibilites. For instance, I do not have any navigation bar.
 
-This [other website](http://jak-linux.org/) combines Ikiwiki and Bootstrap in a quite different way. The author made available the [git repository](http://anonscm.debian.org/gitweb/?p=users/jak/website.git;a=summary) of the website's source code (I plan to do the same).
+This [other website](http://jak-linux.org/) combines Ikiwiki and Bootstrap in a quite different way. The author made available the [git repository](http://anonscm.debian.org/gitweb/?p=users/jak/website.git;a=summary) of the website's source code. Mine is now also [available from GitHub](https://github.com/kheops2713/words.ceops.eu).
 
 """]]

@@ -10,7 +10,7 @@ This website is only accessible through HTTP**S**, the 'S' standing for [SSL](ht
 
     EC:FB:BA:99:03:63:3B:77:3B:38:03:4C:B8:A8:36:38:FC:20:08:BF
 
+Running [ikiwiki](http://ikiwiki.info). Maintained using git, the whole source tree is [publicly available on GitHub](https://github.com/kheops2713/words.ceops.eu).
+
 [[!inline pages="page(./posts/*) and !*/Discussion" show="10"
 actions=yes rootpage="posts"]]
-
-Running [ikiwiki](http://ikiwiki.info).
