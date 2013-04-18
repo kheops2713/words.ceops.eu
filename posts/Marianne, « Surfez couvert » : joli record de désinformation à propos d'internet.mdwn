@@ -52,7 +52,7 @@ En appelant « flicage » quelque chose qui n'a rien à voir, l'auteur se trompe
 
 De ce fait, les autorités américaines peuvent exercer des pressions sur ces fournisseurs de services pour obtenir des informations sur quiconque y est inscrit, informations qui cette fois ne sont pas censées être accessibles publiquement. Exemples : les adresses IP depuis lesquelles vous vous connectez ainsi que vos conversations « privées » avec d'autres personnes. Toutes ces données sont centralisées sur leurs serveurs, il est aisé pour eux de les récupérer.
 
-Le réel problème est donc là : qu'on soit en France, en Tunisie ou en Chine, si on utilise Facebook on se soumet à l'espionnage (entre autres) du FBI sur des données que nous souhaitons privées. Pas la peine, donc, d'en faire des caisses pour des données que nous publions délibérément lorsque celles qui sont censées être privées sont de toute façon compromises.
+Le réel problème est donc là : qu'on soit en France, en Tunisie ou en Chine, si on utilise Facebook on se soumet à l'espionnage (entre autres) du FBI sur des données que nous souhaitons privées. Pas la peine d'en faire des caisses pour des données délibérément publiques lorsque celles qui sont censées être privées sont compromises.
 
 Les fournisseurs de services sont plus ou moins coopératifs avec les autorités : [Google](https://www.google.com/transparencyreport/?hl=fr) et [Twitter](http://www.journaldunet.com/ebusiness/le-net/twitter-transparency-report-2012-0113.shtml) ont un minimum de transparence puisqu'ils publient dans la mesure du possible les demandes qui leur sont adressées par les autorités. À ma connaissance, Facebook se fout de la protection de nos données privées comme du premier slip de Mark Zuckerberg.
 
