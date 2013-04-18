@@ -20,7 +20,7 @@ Corrections à la pelleteuse pour amoncellement d'erreurs.
 
 [[!toc levels=2]]
 
-# Un mauvais mélange de mésaventures de natures différentes
+# Un mélange brouillé de problèmes bien différents
 Sont pour commencer mentionnées deux pratiques simples qui peuvent être le fait de n'importe qui : le [hameçonnage](https://fr.wikipedia.org/wiki/Hame%C3%A7onnage) et les [ransomwares](https://fr.wikipedia.org/wiki/Ransomware). Les deux visent à exploiter l'ignorance de l'utilisateur pour l'inciter à donner de l'argent. Alors que l'auteur utilise bien « hameçonnage » pour titrer le passage sur cette pratique, l'analogie avec le « racket » pour titrer la partie ransomware est un non-sens. Le racket, c'est menacer physiquement une personne pour lui soutirer de l'argent. Ici, la personne ne risque **rien** si elle ne paie pas, elle doit juste se débrouiller pour nettoyer sa machine. Pas de racket, juste de la fourberie et l'exploitation de l'ignorance et/ou de la distraction de l'utilisateur.
 
 Mélangés dans cette « cyberinsécurité » bien que n'ayant **rien** à voir avec les cas précédents, l'auteur parle de « traçage », de « harcèlement » et de « flicage » dans trois exemples qui pointent en fait tous le même problème : celui des données personnelles que nous laissons derrière nous et le fait qu'elles peuvent être exploitées à des fins commerciales (publicités personnalisées, adaptation des prix). La pub, c'est certes désagrable, mais euh... Cyberinsécurité ? Vous avez déjà été attaqué par un panneau publicitaire, vous ?
