@@ -39,7 +39,7 @@ L'auteur affirme également que l'adresse IP permet de connaître le système d'
 
 L'auteur ne devrait pas décorréler l'adresse IP des autres données que nous laissons derrière nous : c'est leur ensemble qui fournit les moyens de nous identifier. Ce que l'auteur appelle « harcèlement » est simplement la réception de _spam_ suite au fait d'avoir indiqué notre adresse de courier électronique sur un site, qui la stocke et la donne (ou vend) éventuellement à d'autres entités. Ce processus n'a a priori **rien** à voir avec les _cookies_, contrairement à ce que dit l'auteur, bien que ces derniers soient effectivement utilisés un peu partout pour suivre notre navigation. Mais si on ne donne nulle part notre adresse e-mail, tous les cookies du monde ne nous feront pas recevoir de spam.
 
-Certains spammeurs essaient de deviner des adresses couramment utilisées pour envoyer des couriers indésirables, mais c'est un autre problème.
+Certains spammeurs essaient de deviner des adresses couramment utilisées et y envoient des couriers indésirables au hasard, mais c'est un autre problème.
 
 En supplément des cookies, l'auteur nous apprend que nous subissons d'autres « traceurs invisibles »... Là je suis mystifié, nous sommes dans un pur film de science-fiction, au secours.
 
