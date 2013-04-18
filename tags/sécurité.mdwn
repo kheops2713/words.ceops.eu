@@ -1,0 +1,4 @@
+[[!meta title="pages tagged sécurité"]]
+
+[[!inline pages="tagged(sécurité)" actions="no" archive="yes"
+feedshow=10]]
