@@ -1,0 +1,4 @@
+[[!meta title="pages tagged vie privée"]]
+
+[[!inline pages="tagged(vie_privée)" actions="no" archive="yes"
+feedshow=10]]
