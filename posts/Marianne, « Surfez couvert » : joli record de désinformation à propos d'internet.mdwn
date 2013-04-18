@@ -73,7 +73,7 @@ Je me demande par exemple pourquoi l'auteur indique comment activer la navigatio
 
 L'auteur explique que pour éviter le hameçonnage, il faut s'assurer que la connexion est « sécurisée » en vérifiant que _https_ apparaît dans l'URL. Il oublie qu'on peut être connecté de façon sécurisée... À un site malveillant.
 
-Évidemment, aucun mot sur [Tor](https://torproject.org), [http://www.cypherpunks.ca/otr/](OTR) ou d'autres outils réellement pertinents.
+Évidemment, aucun mot sur [Tor](https://torproject.org), [OTR](http://www.cypherpunks.ca/otr/) ou d'autres outils réellement pertinents.
 
 # Colmater le vide avec de la rhétorique
 Cerise sur le gâteau, on n'arrive même pas à compter dans cet article les analogies guerrières insensées qui maculent le texte : _cyber-Pearl Harbor_, _pirate_, _cyberinsécurité_, _cyberguerre froide déclarée_ ... Jamais vu ça, incroyable. Je ne suis pas contre le storytelling, mais ici c'est tellement exagéré que ça en devient de la désinformation. L'information, déjà très superficielle, est polluée par un nuage de rhétorique absconse.
