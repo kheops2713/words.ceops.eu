@@ -2,6 +2,8 @@
 
 _This is a guest article written by a French citizen living in London. It is a reply to UK's Secretary of State for Work and Pension [Iain Duncan-Smith](https://en.wikipedia.org/wiki/Ian_duncan-smith) who claimed he could live for £53 per week._
 
+[[!more linktext="Read letter..." text="""
+
 Suddenly I find myself wrong-footed. Years ago I left France where I used to live and work, feeling increasingly an outcast or an outsider as I would resort to rude words such as "flexible" and "mobile" and could hardly grasp how a guy who'd lost his job near his home in [Sologne](https://en.wikipedia.org/wiki/Sologne) could turn down an offer in [Amboise](http://www.openstreetmap.org/?mlat=47.407&mlon=0.996&zoom=9&layers=M). Having inherited a dual culture from French and English parents, I do believe in the ethics that work should pay and value the notion of resilience by which many British people abide.
 
 Since you can do it, living on 53 pounds a week, I've taken up the challenge this week:
@@ -15,3 +17,5 @@ Since you can do it, living on 53 pounds a week, I've taken up the challenge thi
 Such a declaration made in France would have caused angry, if not violent, reactions among the public and press, with or without the current backdrop of the hidden bank account scandal. Like Lady Bracknell, I tend to disapprove of displays of "contempt for the ordinary decencies of family life that remind one of the worst excesses of the French Revolution"; however, isn't this statement too reductive, displaying how disconnected you might be from harsh reality here in the UK, and also too despising when numerous people go on working far beyond retirement age in other countries and sometimes bravely juggle two jobs to survive?
 
 This is the country that produced the Beveridge report and the daring creation of the NHS, the land I've chosen to settle down, where we say "thank you driver" when getting off the bus, where you feel a sense of community and solidarity. It's precious.
+
+"""]]
