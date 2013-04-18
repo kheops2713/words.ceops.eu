@@ -1,0 +1,4 @@
+[[!meta title="pages tagged marianne"]]
+
+[[!inline pages="tagged(marianne)" actions="no" archive="yes"
+feedshow=10]]
