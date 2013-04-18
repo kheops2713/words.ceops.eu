@@ -58,7 +58,9 @@ Les fournisseurs de services sont plus ou moins coopératifs avec les autorités
 
 Le problème est exactement le même pour n'importe quel autre service centralisé dont nous nous servons pour avoir de soi-disant communications « privées ».
 
-**À retenir** : les conversations privées sur Facebook ne sont pas privées, les « DM » sur Twitter ne sont pas privés, les emails et discussion chez Gmail ne sont pas privés, les discussions sur Skype ne sont pas privées. L'auteur est complètement passé à côté du réel problème qu'est l'utilisation massive de services ultra-centralisés et le pouvoir d'espionnage que cela confère à certains.
+**À retenir** : les conversations privées sur Facebook ne sont pas privées, les « DM » sur Twitter ne sont pas privés, les emails et discussion chez Gmail ne sont pas privés, les discussions sur Skype ne sont pas privées.
+
+L'auteur est complètement passé à côté du réel problème qu'est l'**utilisation massive de services ultra-centralisés** et le pouvoir d'espionnage que cela confère à certains.
 
 Un outil indispensable pour la confidentialité sur internet, c'est la [cryptographie](https://cryptoparty.org) et, surtout, les logiciels libres qui en font bon usage pour nous offrir un peu de confidentialité. Ceci, l'auteur ne le sait peut-être pas ?
 
