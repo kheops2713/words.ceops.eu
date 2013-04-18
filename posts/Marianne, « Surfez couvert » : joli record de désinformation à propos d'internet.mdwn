@@ -69,7 +69,7 @@ Pour le cas de la fille qui utilise le compte PayPal de sa mère pour payer, on 
 # Des solutions incomplètes
 Évidemment, comme les problèmes sont mal analysés, les solutions sont incomplètes voire franchement superficielles.
 
-Je me demande par exemple pourquoi l'auteur indique comment activer la navigation privée pour Chrome et Internet Explorer et non pour Firefox, alors que ce dernier est plus utilisé qu'Internet Explorer et a apporté cette option en premier.
+Je me demande par exemple pourquoi l'auteur indique comment activer la navigation privée pour Chrome et Internet Explorer et non pour Firefox, alors que ce dernier [concerne 20% d'utilisateurs](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers) et a apporté cette option en premier.
 
 L'auteur explique que pour éviter le hameçonnage, il faut s'assurer que la connexion est « sécurisée » en vérifiant que _https_ apparaît dans l'URL. Il oublie qu'on peut être connecté de façon sécurisée... À un site malveillant.
 
