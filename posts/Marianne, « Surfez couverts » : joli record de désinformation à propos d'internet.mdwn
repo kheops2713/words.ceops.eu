@@ -47,14 +47,14 @@ Quant au « flicage »... Ça n'a en fait **rien** à voir avec du flicage (comm
 
 Je fais l'impasse sur le sixième cas, le « vol de mot de passe » d'une maman par sa fille qui achète pour 400€ grâce au compte PayPal maternel. Un mot, quand même : qu'est-ce que ce truc fout dans cette grande partouze de la « cyberinsécurité » ? À son tour, il n'a **rien** en commun avec les deux familles précédentes que nous avons vues. Quand la fille chipait 100 Francs dans le portefeuille de maman, c'était de la cyberguerre ? Haha, si ça c'est pas surfer sur l'ignorance populaire pour diffuser du cyberfantasme...
 
-Certains encarts sont aussi tristement risibles. On apprend que certaines célèbrités ont vu leur adresse, téléphone et numéro de carte bancaires publiés sur le net par des « pirates informatiques ». Il faudra que je me souvienne, la prochaine fois que je fais une recherche dans les Pages blanches, que je deviens un pirate. L'auteur n'a peut-être pas pensé qu'il suffit d'être le voisin de Tiger Woods pour savoir où il habite ? Bonjour la « cyberattaque »...
+Certains encarts sont aussi tristement risibles. On apprend que certaines célèbrités ont vu leur adresse, téléphone et numéro de carte bancaire publiés sur le net par des « pirates informatiques ». Il faudra que je me souvienne, la prochaine fois que je fais une recherche dans les Pages blanches, que je deviens un pirate. L'auteur n'a peut-être pas pensé qu'il suffit d'être le voisin de Tiger Woods pour savoir où il habite ? Bonjour la « cyberattaque »...
 
 # Des vrais dangers occultés
 En appelant « flicage » quelque chose qui n'a rien à voir, l'auteur se trompe non seulement de terme mais il occulte en plus le **réel flicage** (celui avec des vrais flics) lié à l'utilisation de Facebook et d'autres services connus (Twitter, Gmail). Ceux-ci sont domiciliés aux États-Unis et sont à ce titre soumis aux lois fédérales et locales en vigueur.
 
 De ce fait, les autorités américaines peuvent exercer des pressions sur ces fournisseurs de services pour obtenir des informations sur quiconque y est inscrit, informations qui cette fois ne sont pas censées être accessibles publiquement. Exemples : les adresses IP depuis lesquelles vous vous connectez ainsi que vos conversations « privées » avec d'autres personnes. Toutes ces données sont centralisées sur leurs serveurs, il est aisé pour eux de les récupérer.
 
-Le réel problème est donc là : qu'on soit en France, en Tunisie ou en Chine, si on utilise Facebook on se soumet à l'espionnage (entre autres) du FBI sur des données que nous souhaitons privées. Pas la peine d'en faire des caisses pour des données délibérément publiques lorsque celles qui sont censées être privées sont compromises.
+Le réel problème est donc là : qu'on soit en France, en Tunisie ou en Chine, si on utilise Facebook on se soumet à l'espionnage (entre autres) du FBI sur des données que nous souhaitons privées. Alors pas la peine d'en faire des caisses pour des données délibérément publiques lorsque celles qui sont censées être privées sont compromises.
 
 Les fournisseurs de services sont plus ou moins coopératifs avec les autorités : [Google](https://www.google.com/transparencyreport/?hl=fr) et [Twitter](http://www.journaldunet.com/ebusiness/le-net/twitter-transparency-report-2012-0113.shtml) ont un minimum de transparence puisqu'ils publient dans la mesure du possible les demandes qui leur sont adressées par les autorités. À ma connaissance, Facebook se fout de la protection de nos données privées comme du premier slip de Mark Zuckerberg.
 
@@ -63,8 +63,6 @@ Le problème est exactement le même pour n'importe quel autre service centralis
 **À retenir** : les conversations privées sur Facebook ne sont pas privées, les « DM » sur Twitter ne sont pas privés, les emails et discussion chez Gmail ne sont pas privés, les discussions sur Skype ne sont pas privées.
 
 L'auteur est complètement passé à côté du réel problème qu'est l'**utilisation massive de services ultra-centralisés** et le pouvoir d'espionnage que cela confère à certains.
-
-Un outil indispensable pour la confidentialité sur internet, c'est la [cryptographie](https://cryptoparty.org) et, surtout, les logiciels libres qui en font bon usage pour nous offrir un peu de confidentialité. Ceci, l'auteur ne le sait peut-être pas ?
 
 Pour le cas de la fille qui utilise le compte PayPal de sa mère pour payer, on peut plutôt se poser la question de savoir s'il est à la base vraiment intelligent d'autoriser quelqu'un à stocker notre numéro de carte bancaire, sa date et son numéro de sécurité.
 
@@ -75,12 +73,12 @@ Je me demande par exemple pourquoi l'auteur indique comment activer la navigatio
 
 L'auteur explique que pour éviter le hameçonnage, il faut s'assurer que la connexion est « sécurisée » en vérifiant que _https_ apparaît dans l'URL. Il oublie qu'on peut être connecté de façon sécurisée... À un site malveillant.
 
-Évidemment, aucun mot sur [Tor](https://torproject.org), [OTR](http://www.cypherpunks.ca/otr/) ou d'autres outils réellement pertinents.
+Un outil indispensable pour la confidentialité sur internet, c'est la [cryptographie](https://cryptoparty.org) et, surtout, les logiciels libres qui en font bon usage pour nous offrir un peu de confidentialité. Ceci, l'auteur ne le sait peut-être pas ? En tous cas, aucun mot sur [Tor](https://torproject.org), [OTR](http://www.cypherpunks.ca/otr/) ou d'autres outils réellement pertinents.
 
 # Le vide colmaté avec du storytelling
 Cerise sur le gâteau, on n'arrive même pas à compter dans cet article les analogies guerrières insensées qui maculent le texte : _cyber-Pearl Harbor_, _pirate_, _cyberinsécurité_, _cyberguerre froide déclarée_ ... Jamais vu ça, incroyable. Je ne suis pas contre le storytelling, mais ici c'est tellement exagéré que ça en devient de la désinformation. L'information, déjà très superficielle, est polluée par un nuage de rhétorique absconse.
 
-Sachez que si **aucun de ces mots n'a de sens**, ils véhiculent l'image irrationnelle de quelque chose de flou dont il faudrait avoir **peur**. Il est important de ne pas se laisser faire et de tout replacer de façon précise et démystifier, comme j'ai tenté de le faire ici. Internet est un vecteur de choses humaines qui **existent déjà et ne méritent pas de vocabulaire nouveau**, surtout s'il est de l'ordre du fantastique.
+Sachez que si **aucun de ces mots n'a de sens**, ils véhiculent l'image irrationnelle de quelque chose de flou dont il faudrait avoir **peur**. Il est important de ne pas se laisser faire, de tout replacer de façon précise et de démystifier, comme j'ai tenté de le faire ici. Internet est un vecteur de choses humaines qui **existent déjà et ne méritent pas de vocabulaire nouveau**, surtout s'il est de l'ordre du fantastique.
 
 L'auteur mélange allègrement dans ce même nuage des choses relevant de pratiques commerciales, de fourberies malveillantes et enfin de l'ordre de l'espionnage militaire (voir l'encart sur la « cyberguerre froide »).
 
