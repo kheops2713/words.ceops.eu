@@ -25,7 +25,9 @@ Sont pour commencer mentionnées deux pratiques simples qui peuvent être le fai
 
 Une première analogie qui fait peur gratuitement et pour rien, donc.
 
-Mélangés dans cette « cyberinsécurité » bien que n'ayant **rien** à voir avec les cas précédents, l'auteur parle de « traçage », de « harcèlement » et de « flicage » dans trois exemples qui pointent en fait tous le même problème : celui des données personnelles que nous laissons derrière nous et le fait qu'elles peuvent être exploitées à des fins commerciales (publicités personnalisées, adaptation des prix). La pub, c'est certes désagrable, mais euh... Cyberinsécurité ? Vous avez déjà été attaqué par un panneau publicitaire, vous ?
+Mélangés dans cette « cyberinsécurité » bien que n'ayant **rien** à voir avec les cas précédents, l'auteur parle de « traçage », de « harcèlement » et de « flicage » dans trois exemples qui pointent en fait tous le même problème : celui des données personnelles que nous laissons derrière nous et le fait qu'elles peuvent être exploitées à des fins commerciales (publicités personnalisées, adaptation des prix).
+
+La pub, c'est certes désagrable, mais euh... Cyberinsécurité ? Vous avez déjà été attaqué par un panneau publicitaire, vous ?
 
 Si l'exemple concernant le traçage basé sur l'[adresse IP](https://fr.wikipedia.org/wiki/Adresse_IP) est décrit correctement, je lis avec effroi deux pages plus loin (en encart) que l'adresse IP est notre « carte d'identité numérique »... Quoi ? C'est tellement faux que je trouve criminel d'affirmer ça avec cet aplomb ! Pauvres cyberlecteurs, oubliez vite, très vite, cela !
 
