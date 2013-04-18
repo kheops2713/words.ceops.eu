@@ -6,7 +6,7 @@ Six mésaventures sont présentées ainsi que les « solutions » associées.
 
 Problème, ces mésaventures sont toutes mises sur ce même plan de « cyberinsécurité » bien qu'étant de natures très différentes. Leurs analyses sont parsemées d'approximations et d'erreurs qui semblent montrer une compréhension très superficielle de l'auteur [Amaury Mestre de Laroque](http://www.marianne.net/e-made-in-france/Amaury-Mestre-De-Laroque_a1.html) à ce sujet. Les solutions proposées sont en conséquence superficielles et incomplètes.
 
-Conséquence : de l'embrouille pour le lecteur, amplifiée par la rhétorique irrationnelle de la cyberguerre à laquelle l'auteur semble adhérer sans chercher à comprendre de quoi il en retourne techniquement, nourrissant d'autant plus les fantasmes et l'incompréhension.
+Conséquence : de l'embrouille pour le lecteur, amplifiée par la rhétorique fantasmatique de la cyberguerre dont l'auteur use et abuse pour le bien du storytelling, nourrissant d'autant plus l'incompréhension.
 
 [[!img images/mariane1.jpg alt="Surfez couverts, page 1" caption="Surfez couverts, page 1" size=200x]]
 
