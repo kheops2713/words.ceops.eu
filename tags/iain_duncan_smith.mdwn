@@ -1,0 +1,4 @@
+[[!meta title="pages tagged iain duncan smith"]]
+
+[[!inline pages="tagged(iain_duncan_smith)" actions="no" archive="yes"
+feedshow=10]]
