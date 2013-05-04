@@ -1,0 +1,4 @@
+[[!meta title="pages tagged indochine"]]
+
+[[!inline pages="tagged(indochine)" actions="no" archive="yes"
+feedshow=10]]
