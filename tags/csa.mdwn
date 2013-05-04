@@ -1,0 +1,4 @@
+[[!meta title="pages tagged csa"]]
+
+[[!inline pages="tagged(csa)" actions="no" archive="yes"
+feedshow=10]]
