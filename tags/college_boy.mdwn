@@ -1,0 +1,4 @@
+[[!meta title="pages tagged college boy"]]
+
+[[!inline pages="tagged(college_boy)" actions="no" archive="yes"
+feedshow=10]]
