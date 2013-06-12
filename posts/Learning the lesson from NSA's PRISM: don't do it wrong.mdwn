@@ -1,0 +1,75 @@
+[[!tag prism nsa internet surveillance]]
+
+The NSA whistleblower [Edward Snowden](http://www.guardian.co.uk/world/2013/jun/09/nsa-whistleblower-edward-snowden-why) leaked a set of documents to The Guardian and the Washington Post, making a worldwide scandal by giving formal evidence of the massive surveillance performed by the NSA on citizens all around the world through the PRISM program. Among the released information, we find:
+
+- a [set of slides](http://www.washingtonpost.com/wp-srv/special/politics/prism-collection-documents/) showing that NSA's mass surveillance method consists in directly collecting data from the main US-based online service providers (Google, Microsoft, Yahoo, Apple, ...);
+- [explanations and screenshots](http://www.guardian.co.uk/world/interactive/2013/jun/08/nsa-boundless-informant-data-mining-slides) of NSA's software _Boundless Informant_ allowing agents to visualize per-country statistics on data collected by PRISM.
+
+Some reactions I saw seem to me lacking sense of reality both in the interpretation of these revelations and in how to turn away from the massive surveillance system. Here is why.
+
+[[!more linktext="Read full article..." text="""
+
+# Why be surprised?
+The first thing that surprises me is... the fact that so many people are surprised. To me, these leaks reveal something many people were at least highly suspiscious about. The progressive activation of massive surveillance since 9/11 is nothing like a secret: who, at least in the US, is not aware about the [Patriot Act](https://en.wikipedia.org/wiki/Patriot_act)?
+
+Additionally, it is not like no concrete elements had been given beforehand to perceive this: [NSA's super-spying center](http://www.democracynow.org/2012/3/21/exposed_inside_the_nsas_largest_and) (2012), [Microsoft's Skype wiretapping](http://blog.tmcnet.com/blog/tom-keating/microsoft-patents-voip-and-skype-wiretapping.asp) (2011), [handling to the CIA of non-public and non-US Street View images by Google](http://www.edri.org/edri-gram/number7.16/street-view-france-switzerland) (2009), [AT&T collaboration with NSA for warrantless massive phone wiretapping](https://en.wikipedia.org/wiki/Hepting_v._AT%26T) (2006), [NSA's Stellar Wind](https://www.commondreams.org/headlines05/1216-01.htm) (2005) and [many others](https://projects.propublica.org/graphics/surveillance-timeline).
+
+If you are genuinely surprised now in 2013, you may consider diversifying your news feeds. Anyway, better late than never and finally the news made it to you, making this scandal a very good thing. For those who were half-conscious of it but sort of thinking it was too big to be real, your lazyness just became harder to justify by illusions.
+
+If you think it is not a problem because you have "nothing to hide", I suggest reading [this](https://www.schneier.com/essay-114.html) and [this](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565) and remembering that you have very little power on deciding what is considered "right", "[wrong](http://kottke.org/13/06/you-commit-three-felonies-a-day)" or a "threat to national security".
+
+If you think these revelations show something new and isolated but against which you would like some protection, please read this article further on as it tries to push appropriate thinking and reactions for people who lack some background.
+
+# This is not about the US (or: connect the dots)
+International connections to PRISM are progressively showing up: UK's William Hague had to explain himself about the [monitoring of UK citizens](http://www.independent.co.uk/news/uk/politics/prism-scandal-agency-to-reveal-us-links-shortly-after-claims-that-thousands-of-britons-may-have-been-spied-on-by-gchq-8650001.html) and [Belgium's State Security benefitted](http://www.lecho.be/actualite/economie_politique_belgique/La_Belgique_a_profite_des_donnees_de_Prism.9357817-3154.art) from PRISM data. Processes are obscure and little to no concern was given to laws supposed to protect citizens. Worse, if you are a non-US citizen, no US law protects you anyway from spying by the US administration (replace "US" by anything else, it works the same).
+
+As you see, PRISM is not just about the US. While gouvernmental resources and invasiveness of eavesdropping vary from a country to another, it is absurd to think that being on one or the other side of a national border changes anything: internet is borderless and so is massive spying. We also know that other "democratic" country administrations increasingly turn towards this kind of practice:
+
+- goverments have been legalizing massive eavesdropping, such as [British government and its "snooper's charter"](http://www.guardian.co.uk/world/2012/dec/11/snooper-bill-clegg-may) (not minding the ongoing PRISM scandal), French intelligence being granted [higher eavesdropping powers](https://fr.wikipedia.org/wiki/Loi_du_14_mars_2011_d%27orientation_et_de_programmation_pour_la_performance_de_la_s%C3%A9curit%C3%A9_int%C3%A9rieure), Swedish intelligence being allowed to [monitor all internet traffic](https://en.wikipedia.org/wiki/FRA_law) crossing the country's borders;
+- companies, sometimes with the help of their country's administration, develop and sell technological equipments specifically designed for massive and invasive data collection, such as the French Amesys' [Eagle countrywise interception system sold to Gaddhafi's Libya](http://online.wsj.com/article/SB10001424053111904199404576538721260166388.html) with the help of French Military Intelligence, the British Gamma International's [FinFisher spyware for computer and smartphones that spread all over the world](https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/), the Italian Area SpA's attempt at providing [countrywise interception equipment to Assad's Syria](http://www.bloomberg.com/news/2011-11-03/syria-crackdown-gets-italy-firm-s-aid-with-u-s-europe-spy-gear.html), the German Nokia-Siemens/Trovicor [providing equipment to Bahrain and Iran](http://surveillance.rsf.org/en/trovicor/);
+- abusive uses of eavesdropping exist, for example in France ([snooping on journalists](http://www.bbc.co.uk/news/world-europe-14763892) investigating the Bettencourt case) and Germany ([police using FinFisher spyware](https://netzpolitik.org/2013/secret-government-document-reveals-german-federal-police-plans-to-use-gamma-finfisher-spyware/)).
+
+In short, the technology exists, is efficient no matter the borders and is actively used by all intelligence services. These services collaborate and do not feel like the law is really binding. Hence, being [in a country or in another](http://www.guardian.co.uk/commentisfree/2013/jun/11/nsa-surveillance-us-behaving-like-china) does not change anything, and thinking the opposite is illusional.
+
+Considering that [private data has a great commercial value](http://www.edri.org/prism) making companies [eager to collect as much as possible of it](http://lobbyplag.eu/docs), it follows that moving from an online commercial service knowingly wiretapped to another online commercial service hopefully not wiretapped is just as irrelevant as changing countries.
+
+To avoid this kind of illusion-rooted mistakes, let us move onto the last part for appropriate thinking elements on how to address the issue.
+
+# Do not repeat the same mistakes
+[The DailyDot has a wrong approach](http://www.dailydot.com/lifestyle/internet-without-prism-companies-guide/) by advising us to repeat the exact mistakes that allow the NSA to spy so easily. For instance: replacing Gmail by Hushmail. We've just learnt the NSA has silently bugged the commercial US-based Gmail service for years and DailyDot is advising their readers to use another commercial US-based service. Great, so NSA just needs to (if not done already) bug the other one and wait. Same goes for any other commercial email provider, no matter the country: just change the name of the intelligence agency. Most of the DailyDot's advices are incredibly naive and consequently misleading.
+
+The author probably did not see the essential problem here: massive centralization. [Hundreds of millions](http://www.theverge.com/2012/6/28/3123643/gmail-425-million-total-users) of people putting clear private data in boxes, all these boxes having the same unique master key possessed by a single entity. Is it really a surprise that a secret service wants a copy of this key? Hahahaha umad?!
+
+If you want to learn from this, keep the following consideration at the root of your thinking: the more [decentralization](https://en.wikipedia.org/wiki/Internet), the better, i.e. the bigger the effort for spies to massively eavesdrop.
+
+Total decentralization would consist in each person hosting their own servers at home to keep data under control. It also entails avoiding barely trustable software: Apple and Microsoft systems (iOS, Mac OS, Windows), Google's Chrome, Microsoft's Skype, etc. More precisely, keeping control of data passes by using [free and open-source software](https://en.wikipedia.org/wiki/Free_and_open-source_software) (FLOSS): GNU/Linux, [Firefox](https://www.mozilla.org/en-US/), etc.
+
+As of now, most people lack the knowledge for this, and out-of-the-box self-hosting secure FLOSS solutions barely exist (there is a [work in progress](https://www.freedomboxfoundation.org/)). Bad news: total decentralization is not within our reach in the short term.
+
+Then there is cryptography: mathematics allowing to [encrypt](https://en.wikipedia.org/wiki/Encryption) a communication with a person or machine and [authenticate](https://en.wikipedia.org/wiki/Authentication) that person/machine. Good news: many FLOSS tools made to chat, surf the web, send emails, etc. also implement good cryptographic algorithms! Even in a catastrophically centralized environment, it is still absolutely possible to protect your [emails](http://www.enigmail.net/home/index.php) and [instant chats](https://en.wikipedia.org/wiki/Off-the-Record_Messaging) contents from, say, Google.
+
+More decentralization than no decentralization is totally possible, thanks to:
+
+- open standards which define, for example, how email software should talk to each other;
+- FLOSS servers that implement the standard;
+- FLOSS clients that also implement the standard and as such are able to talk to any server that also implements it.
+
+You may not be able to run your own email or instant messaging server software but you may know a trusted entity (friend, organization) who (knows someone who) runs his own server and can create an account for you: a server you can trust and which does not do business by collecting your data. On your side, you need some appropriate software that additionally does crypto, and there we go!
+
+A quick example:
+
+- an open standard for instant messaging is [XMPP](https://en.wikipedia.org/wiki/XMPP) (formerly called Jabber);
+- existing XMPP servers I trust are _jabber.ccc.de_ and _xmpp.telecomix.org_ (it is also possible to [run one yourself](http://xmpp.org/xmpp-software/servers/));
+- easy-to-use FLOSS clients allow you to connect to any XMPP server: [Pidgin](http://pidgin.im) (with the [OTR plugin](http://www.cypherpunks.ca/otr/) for encryption) for Windows and GNU/Linux, Adium for Mac OS, [Jitsi](https://jitsi.org/) for these three platforms, [Gibberbot](https://guardianproject.info/apps/gibber/) for Android, etc.
+
+See? No need of a US-based Gmail, Facebook or a Russia-based ICQ. Go further with other usages, by consulting [this](https://leap.se/en/2012/security-bingo) or [this](http://prism-break.org/) lists of relevant software.
+
+This article does deliberately not cover in detail software solutions and technical considerations, nor issues related to the need of anonymity and to the importance of meta-data. It shows that decent privacy improvements can be made with little effort and that it can make a substantial change if massively applied. You can move on with this good [pedagogical introduction](https://www.propublica.org/article/worried-about-the-mass-surveillance-how-to-practice-safer-communication) from Quinn Norton.
+
+So, remember: **decentralization** and **cryptography** through appropriate tools and behavior.
+
+Do not expect laws to efficiently protect your privacy, as secret services will increasingly have means to silently and massively circumvent law obligations.
+
+If governments wanted to promote privacy (and, through this, free speech and democracy), they would setup teaching of these key concepts to children at school and would promote FLOSS and internet decentralization. For now, they are mostly going [the opposite way](https://www.april.org/en/nato-forcing-microsoft-and-nsa-backdoors-french-ministry-defense) - corruption talks.
+
+"""]]
