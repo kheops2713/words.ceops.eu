@@ -1,0 +1,4 @@
+[[!meta title="pages tagged prism"]]
+
+[[!inline pages="tagged(prism)" actions="no" archive="yes"
+feedshow=10]]
