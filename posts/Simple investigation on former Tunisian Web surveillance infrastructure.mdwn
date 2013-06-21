@@ -66,7 +66,7 @@ The difference is obvious: in the first case our packet needs 19 hops and more t
 
 Let us look at the first traceroute result. Packets destinated to port 22 are not redirected to the Web proxy and take their normal path to the destination. We can notice a big time gap between hops 3 and 4 that we can interpret by the Mediterranean Sea being crossed by our packet.
 
-Now the second traceroute. Here, _tcptraceroute_ thinks the packet reaches its destination only after the second hop: on the path to the destination, the packet is diverted by the router and the connection is opened by the interception device way before it reaches the actual destination. _tcptraceroute_ however does not know that it is not talking to the actual destination and thinks it reached it after only two hops. The much smaller round-trip time (5 milliseconds instead of 45) indicates that the interception machine is much closer to the sender than the destination device is.
+Now the second traceroute. Here, _tcptraceroute_ thinks the packet reaches its destination only after the second hop: on the path to the destination, the packet is diverted by the router and the connection is opened by the interception device way before it reaches the actual destination. _tcptraceroute_ however does not know that it is not talking to the actual destination and thinks it reached it after only two hops. The much smaller round-trip time (5 milliseconds instead of 45) indicates that the interception machine is on our side of the Mediterranean Sea rather than in France.
 
 In short, having two different outputs emphasizes the [traffic discrimination](https://en.wikipedia.org/wiki/Net_neutrality) performed on the network depending on the destination port.
 
