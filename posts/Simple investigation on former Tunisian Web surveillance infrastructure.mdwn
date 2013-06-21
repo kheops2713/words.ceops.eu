@@ -95,4 +95,6 @@ As you see, not much is needed to become a dangerous censor and snooper.
 
 Knowing that the ATI's NetCache appliances are old equipment, we can easily imagine that much more efficient and stealth [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) devices may be installed by now in Tunisia. The [worrying words of the Tunisian Minister of Justice](https://twitter.com/Dymaxion/status/347028123461767168) during the closing session of the Freedom (sic) Online Conference suggested that monitoring and censorship capabilities are still running. I hope to post a short article in a near future on this important topic.
 
+I warmly thank all those who helped, ran and participated to the workshop at ATI.
+
 """]]
