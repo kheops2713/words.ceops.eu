@@ -27,7 +27,7 @@ The challenge is rather to ensure enough throughput for a whole country. Some co
 Transparent Web proxies for cleartext traffic is only a subset of the internet monitoring performed under Ben Ali, which additionally included the much more perverse [man-in-the-middle attack on SSL connections with the help of Microsoft](https://en.wikipedia.org/wiki/Microsoft_Tunisia_Scandal#Citizen_Surveillance_and_Hacking).
 
 # Network interference detection from inside
-The idea is to detect the abovementioned setup when you are subject to it, like Tunisians under Ben Ali. While hard to see with only a browser, it perturbates the network traffic quite heavily and [its detection is quite easy and documented](https://en.wikipedia.org/wiki/Proxy_server#Detection), so I will simply give details on one method we experimentated at workshop.
+The idea is to detect the abovementioned setup when you are subject to it, like Tunisians under Ben Ali. While hard to see with only a browser, it perturbates the network traffic quite heavily and [its detection is quite easy and documented](https://en.wikipedia.org/wiki/Proxy_server#Detection), so I will simply give details on one method we experimentated during the workshop.
 
 Using the [tcptraceroute](http://linux.die.net/man/1/tcptraceroute) tool to observe the path taken by TCP packets from the inside to an outside host, the interference appears quickly. This command is simply a traceroute which TCP packets. It is useful in our case because the interference is happening on a couple of TCP ports (80 and 8080).
 
