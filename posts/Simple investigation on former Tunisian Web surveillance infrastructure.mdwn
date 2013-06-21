@@ -9,7 +9,7 @@ We studied former regime's transparent Web proxies: they intercept HTTP traffic,
 [[!more linktext="Read full article..." text="""
 
 # Interception setup
-It is a classical HTTP interception setup: all traffic coming from inside Tunisia with a destination TCP port of 80 or 8080 wass diverted to a monitoring/filtering proxy by a router.
+It is a classical HTTP interception setup: all traffic coming from inside Tunisia with a destination TCP port of 80 or 8080 was diverted to a monitoring/filtering proxy by a router.
 
     inside Tunisia ---> router: TCP 80 or 8080? --[no]--> outside internet
                                         |                       ^
