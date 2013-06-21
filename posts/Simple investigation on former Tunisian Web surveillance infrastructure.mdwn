@@ -29,7 +29,7 @@ Transparent Web proxies for cleartext traffic is only a subset of the internet m
 # Network interference detection from inside
 The idea is to detect the abovementioned setup when you are subject to it, like Tunisians under Ben Ali. While hard to see with only a browser, it perturbates the network traffic quite heavily and [its detection is quite easy and documented](https://en.wikipedia.org/wiki/Proxy_server#Detection), so I will simply give details on one method we experimentated during the workshop.
 
-Using the [tcptraceroute](http://linux.die.net/man/1/tcptraceroute) tool to observe the path taken by TCP packets from the inside to an outside host, the interference appears quickly. This command is simply a traceroute which TCP packets. It is useful in our case because the interference is happening on a couple of TCP ports (80 and 8080).
+Using the [tcptraceroute](http://linux.die.net/man/1/tcptraceroute) tool to observe the path taken by TCP packets from the inside to an outside host, the interference appears quickly. This command is simply a traceroute which uses TCP packets. It is useful in our case because the interference is happening on a couple of TCP ports (80 and 8080).
 
 A first run tracing the path on port 22 from the inside to the French IP 88.191.132.173 (this blog) gives the following output:
 
