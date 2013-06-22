@@ -64,7 +64,7 @@ And a second run, this time with port 8080:
 
 The difference is obvious: in the first case our packet needs 19 hops and more than 45 milliseconds to reach its destination whereas in the second case only 2 hops and not more than 5 milliseconds.
 
-Let us look at the first traceroute result. Packets destinated to port 22 are not redirected to the Web proxy and take their normal path to the destination. We can notice a big time gap between hops 3 and 4 that we can interpret by the Mediterranean Sea being crossed by our packet.
+Let us look at the first traceroute result. Packets destinated to port 22 are not redirected to the Web proxy and take their normal path to the destination. We can notice a big time gap between hops 3 and 4 that we can interpret as the Mediterranean Sea being crossed by our packet.
 
 Now the second traceroute. Here, _tcptraceroute_ thinks the packet reaches its destination only after the second hop: on the way to the destination, the packet is diverted by the router and the connection is opened by the interception device way before it reaches the actual destination. _tcptraceroute_ however does not know that it is not talking to the actual destination and thinks it reached it after only two hops. The much smaller round-trip time (5 milliseconds instead of 45) indicates that the interception machine is on our side of the Mediterranean Sea rather than in France.
 
