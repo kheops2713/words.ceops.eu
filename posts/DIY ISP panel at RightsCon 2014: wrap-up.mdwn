@@ -1,3 +1,5 @@
+[[!tag rightscon diyisp.org]]
+
 I organized the panel "DIY ISPs: rebuild the internet" at [RightsCon 2014](https://rightscon.org), together with Alfredo Lopez from [May First](https://mayfirst.org), Derek Slater from [Google](https://google.com), Mallory Knodel from the [Association for Progressive Communications](http://www.apc.org) and Micha Benoliel from [Open Garden](http://opengarden.com).
 
 Internet Service Provider (ISP) is here understood as an organization or company that brings an internet connection to users.
@@ -5,6 +7,8 @@ Internet Service Provider (ISP) is here understood as an organization or company
 I used the occasion to put forward the [DIY ISP](http://diyisp.org) initiative that aims at building a worldwide gathering of ISPs committed to defend network neutrality and decentralization of the Internet.
 
 This post provides a wrap-up of the panel without pretending to be complete nor objective, as what is mentioned here is what I remember best and seems to me important to be written for a potential re-use.
+
+[[!more linktext="Read full article..." text="""
 
 # Human rights issues in the current situation of internet access
 
@@ -70,3 +74,4 @@ By showing that they are part of a worldwide movement sharing identical goals an
 
 It is interesting to notice that the panel entirely focused on non-technical issues, showing that political and organizational issues are in many cases more problematic than purely technical issues.
 
+"""]]
