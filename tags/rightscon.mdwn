@@ -1,0 +1,4 @@
+[[!meta title="pages tagged rightscon"]]
+
+[[!inline pages="tagged(rightscon)" actions="no" archive="yes"
+feedshow=10]]
