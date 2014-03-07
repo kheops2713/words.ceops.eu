@@ -1,0 +1,72 @@
+I organized the panel "DIY ISPs: rebuild the internet" at [RightsCon 2014](https://rightscon.org), together with Alfredo Lopez from [May First](https://mayfirst.org), Derek Slater from [Google](https://google.com), Mallory Knodel from the [Association for Progressive Communications](http://www.apc.org) and Micha Benoliel from [Open Garden](http://opengarden.com).
+
+Internet Service Provider (ISP) is here understood as an organization or company that brings an internet connection to users.
+
+I used the occasion to put forward the [DIY ISP](http://diyisp.org) initiative that aims at building a worldwide gathering of ISPs committed to defend network neutrality and decentralization of the Internet.
+
+This post provides a wrap-up of the panel without pretending to be complete nor objective, as what is mentioned here is what I remember best and seems to me important to be written for a potential re-use.
+
+# Human rights issues in the current situation of internet access
+
+We first acknowledged that the current situation of internet access worldwide is unsatisfactory and brings important concerns from the perspective of rights to privacy, freedom of speech and access to information.
+
+## Identification of some key causes
+
+Network neutrality is disrespected in many jurisdictions for reasons that mix artificial segmentation of the market by ISPs who favor, throttle or block certain types of traffic and politically motivated access restrictions imposed by states. The first symptom tends to hit European and North American countries (the USA and France were mentioned) whereas the second is more present in countries with authoritarian regimes (Egypt was mentioned).
+
+Secondly, many areas do not benefit from any kind of decent speed connection because ISPs are not willing to invest into infrastructure. This situation mostly impacts rural areas in countries of all continents. In addition, internet access is in some countries unaffordable for large numbers of people (the USA were pointed out for their particularly high rates of broadband connections).
+
+Issues also include the lack of trust people have towards their ISP because of the recent evidence of mass surveillance, the lack of transparency some ISPs have towards their users regarding how they manage their network and the impossibility for users to have an impact on network management policy decisions. The small number of ISPs on most national markets additionally implies a very limited choice for users. 
+
+## General leads for addressing the issues
+
+In order for the general situation to improve, leads include the possiblity for more ISPs to come into the game as well as an intervention by public and/or (inter)national authorities to guarantee neutral and performant internet access for everyone.
+
+Following the DIY ISP initiative idea, we first discussed the goals and values that such ISPs should share to address the abovementioned issues. We then exchanged experiences about both barriers and opportunities encountered when trying to grow community-run ISPs in various places.
+
+# Goals and values we should share
+
+Three main goals were identified:
+
+- promote and defend network neutrality, decentralization and control over personal data;
+- help democratizing the access to the internet;
+- build networks in which users can have reasonable trust.
+
+To pursue these objectives, more precise guidelines that new initiatives should follow seemed consensual:
+
+- run networks that respect network neutrality;
+- provide each user with static and publicly routable IPv4 and IPv6 addresses in order to promote self-hosting;
+- include users in decisions regarding traffic management and be transparent about how the network is run;
+- be affordable to as many people as possible;
+- provide decent connection speed in order to make the internet access and the will of decentralization really relevant.
+
+The question of responsibility towards "abusive" content was also mentioned, making the point that potential decisions to perform explicit censorship on a community-run network could be decided locally by the community. This also induces that ISPs may be responsible towards content hosted outside their network, which contradicts the fact that the choice should be up to each end user. Sane decision-making processes may however enable the respect of each end user's choice, but modalities of decision-making processes were not discussed.
+
+# Barriers and opportunitites
+
+Barriers preventing the development of alternative ISPs are mostly due to the difficulty to overcome in-place major ISPs' monopolies and restrictive regulations preventing or hampering the setup of independant infrastructures.
+
+In the USA, although many rural zones are without any decent connection, the few major ISPs actively lobby to prevent local initiatives from succeeding. Lobby activities include pushing federal laws to hamper local initiatives and putting presure onto local politicians to convince them not to let such initiatives grow. Logically, it is also extremely difficult for local community networks to find an upstream link, since most optic fiber cables seem to be owned by ISPs that are, for most of them, trying to hamper these initiatives.
+
+The situation in France shows similar caracteristics, even though the behavior of the few major ISPs does not look as agressive as it is in the USA. The current deployment plans of optic fiber throughout French regions was presented: in every region, local authorities who decide to deploy fiber optics in a new area choose the company that will take care of the deployment and what commitments that company should respect. The company, acting as a delegate for public utility, should allow any local operator to use the network at a given rate per subscriber line. However, in many regions, public authorities allowed the insertion of a clause to require that ISPs should rent at least a bulk of several thousands subscriber lines. The only effect of such clauses is to effectively exclude local community-run initiatives from the optic fiber network.
+
+The example of Egypt was given, where legislative restrictions seem to simply prohibit the use of cryptography and, more importantly in our case, the deployment of community-run wireless networks. Similar restrictions are common in many countries, including for instance Tunisia.
+
+Stories of good experiences were also told. In a city of New Zealand, people were able to setup a local network by hooking cables onto public transport infrastructure simply after having an agreement with the mayor to let them do so. Similarly, some small villages in France have successfully been provided with high-speed connections thanks to wireless links, after the mayor understood that it would cost nothing to the village as what was needed was simply to grant access to a few rooftops.
+
+In some countries of Latin America and Africa, governments were approached to improve the management of the radio spectrum to set better conditions for the development of community networks using such technologies. These countries have the particularity that only little infrastructure is present and that governments are open to advices made by non-profit organizations on how to better manage the spectrum.
+
+In the USA, the [Lifeline program](http://www.fcc.gov/lifeline) was given as an example of successful government involvment in bringing communication means to a large number of people including those with low income.
+
+# Conclusive remarks
+
+The set of principles and goals that have been agreed upon in the panel represent a fairly consensual set. They could be adopted by local and community-run networks in the world in particular for the DIY ISP initiative, if that is not already the case.
+
+Barriers encountered show a recurring pattern of unsatisfactory regulations/political decisions due to presure by major ISPs or because of authoritarian laws. On the other hand, success stories also show that collaboration with local public authorities may prove fruitful. Such projects always have to include discussions with multiple parties that can be public, semi-public or private. The [_Gigabit Communities_](http://www.ctcnet.us/gigabit/) initiative for instance produced a [document](http://www.ctcnet.us/wp-content/uploads/2014/01/GigabitCommunities.pdf) exploring how to bring different parties together to increase the optic fiber network coverage in the USA.
+
+By sharing both positive and negative stories between communities and collecting and comparing data about local legislative and economic situations, it could help local initiatives find inspiration and benefit from each other's experience when trying to overcome barriers.
+
+By showing that they are part of a worldwide movement sharing identical goals and values, local initiatives may gain in strength when talking to public authorities or private organizations.
+
+It is interesting to notice that the panel entirely focused on non-technical issues, showing that political and organizational issues are in many cases more problematic than purely technical issues.
+
