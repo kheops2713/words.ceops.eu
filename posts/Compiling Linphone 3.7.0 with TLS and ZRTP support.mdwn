@@ -46,7 +46,7 @@ Luckily enough, PolarSSL is in AUR. We can overcome the two issues mentioned jus
 
 ## Preparation
 
-I suggest to first remove the `linphone` and `belle-sip` packages that may be installed on your system. We will compile our own. Debianand Ubuntu users should maybe remove also the `libzrtpcpp2` package because they will also compile a more recent version.
+I suggest to first remove the `linphone` and `belle-sip` packages that may be installed on your system. We will compile our own. Debian and Ubuntu users should maybe remove also the `libzrtpcpp2` package because they will also compile a more recent version.
 
 Usual development tools are required: make sure that you have `git`, `gcc`, `autoconf`, `automake`, `libtool`, `intltool`, `make` and `pkg-config`. Debian/Ubuntu users will probably also need `cmake` to compile `libzrtpcpp`.
 
