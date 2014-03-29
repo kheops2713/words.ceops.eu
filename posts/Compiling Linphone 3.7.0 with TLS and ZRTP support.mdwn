@@ -132,7 +132,7 @@ Now get an account on [Ostel.co](https://ostel.co) and throw away that Skype spy
 
 # Acknowledgements
 
-Many thanks to the Linphone/Belle-sip developers the Linphone development [mailing list](https://lists.nongnu.org/mailman/listinfo/linphone-developers) for giving me precise and quick answers!
+Many thanks to the Linphone/Belle-sip developers on the Linphone development [mailing list](https://lists.nongnu.org/mailman/listinfo/linphone-developers) for giving me precise and quick answers!
 
 """]]
 
