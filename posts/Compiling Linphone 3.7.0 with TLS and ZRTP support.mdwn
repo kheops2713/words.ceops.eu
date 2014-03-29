@@ -1,8 +1,8 @@
 [[!tag linphone voip skype zrtp sip archlinux]]
 
-[Linphone](http://www.linphone.org) is a free and open source [SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol) client that supports [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) and [ZRTP](https://en.wikipedia.org/wiki/ZRTP) encryption if properly compiled. In other words, it can provide the privacy that Skype does not when used with proper online SIP services such as [Ostel.co](https://ostel.co). It is also much lighter on the CPU than [Jitsi](https://jitsi.org), another SIP client that supports TLS and ZRTP.
+[Linphone](http://www.linphone.org) is a free and open source [SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol) client that supports [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) and [ZRTP](https://en.wikipedia.org/wiki/ZRTP) encryption in its last version if properly compiled. In other words, it can provide the privacy that Skype does not when used with proper online SIP services such as [Ostel.co](https://ostel.co). It is also much lighter on the CPU than [Jitsi](https://jitsi.org), another SIP client that supports TLS and ZRTP.
 
-Unfortunately, several Linux distributions integrate either an outdated version of Linphone or an up-to-date version but without the encryption features: Ubuntu has an old version without ZRTP and TLS support and ArchLinux has the latest but compiled without TLS support.
+Unfortunately, several Linux distributions integrate either an outdated version of Linphone or an up-to-date version but without the encryption features: Ubuntu has an [old](http://packages.ubuntu.com/search?keywords=linphone&searchon=names&suite=saucy&section=all) version without ZRTP and TLS support and ArchLinux has the [latest](https://www.archlinux.org/packages/community/x86_64/linphone/) but compiled without TLS support.
 
 This post aims at helping people who want to build the 3.7.0 version of Linphone with TLS and ZRTP support. It is based on the build I did on ArchLinux but also gives hints for Debian and Ubuntu systems. It should be adaptable fairly easily to other distributions.
  
