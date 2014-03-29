@@ -4,7 +4,7 @@
 [[!inline pages=sidebar raw=yes]]
 """]]
 
-Random things I write in random languages. Tech and non-tech, descriptive and subjective. [Here](/posts/) is the list of all posts.
+Random things I write in random languages. Tech and non-tech, descriptive and subjective. [Here](/words/posts/) is the list of all posts.
 
 This website is only accessible through HTTP**S**, the 'S' standing for [SSL](https://en.wikipedia.org/wiki/Secure_Socket_Layer). The SHA1 fingerprint of this website's certificate is, **since June, 28th 2013**:
 
