@@ -1,0 +1,138 @@
+[[!tag linphone voip skype zrtp sip archlinux]]
+
+[Linphone](http://www.linphone.org) is a free and open source [SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol) client that supports [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) and [ZRTP](https://en.wikipedia.org/wiki/ZRTP) encryption if properly compiled. In other words, it can provide the privacy that Skype does not when used with proper online SIP services such as [Ostel.co](https://ostel.co). It is also much lighter on the CPU than [Jitsi](https://jitsi.org), another SIP client that supports TLS and ZRTP.
+
+Unfortunately, several Linux distributions integrate either an outdated version of Linphone or an up-to-date version but without the encryption features: Ubuntu has an old version without ZRTP and TLS support and ArchLinux has the latest but compiled without TLS support.
+
+This post aims at helping people who want to build the 3.7.0 version of Linphone with TLS and ZRTP support. It is based on the build I did on ArchLinux but also gives hints for Debian and Ubuntu systems. It should be adaptable fairly easily to other distributions.
+ 
+Correct knowledge of the command line and of your distribution's package manager is needed.
+
+[[!more linktext="Read full article..." text="""
+
+# Disclaimer regarding security
+
+I personally chose to use Linphone rather than Jitsi to make encrypted calls. However, I have not reviewed the implementation of Linphone or of any of its dependencies and cannot tell whether it is more, less or similarly secure compared to Jitsi. I do not have reasons to trust one more than the other but I find Linphone's usability better.
+
+# Explanations on Linphone's specific dependencies
+
+## Libraries
+
+Linphone requires the _belle-sip_ library in version 1.3.0 or higher. This library provides all SIP functionalities.
+
+Belle-sip does not provide encryption but relies on [PolarSSL](https://polarssl.org/) for TLS. Up to version 3.6.1, TLS support was provided directly to Linphone by OpenSSL, but since version 3.7.0 Linphone relies on PolarSSL through belle-sip. ZRTP is provided to Linphone by linking it to `libzrtpcpp` version 4.0.0 or higher.
+
+Additionally, belle-sip requires the [ANTLR](http://www.antlr.org) library. This library has two components, a C library (header files and shared object) and a Java archive. The C library is required at both build and runtime and the Java archive only at build time. ANTLR version _must_ be 3.4 or 3.2. Building belle-sip will fail with any other version, including more recent ones.
+
+In short, compiling the latest Linphone with encryption support requires:
+
+1. PolarSSL (1.2.0 or higher - not totally sure about this)
+2. ANTLR (both C library and Java archive, version 3.4 or 3.2)
+3. belle-sip (1.3.0 or higher)
+4. libzrtpcpp (4.0.0 or higher)
+5. Linphone
+
+## Why TLS support was lost on ArchLinux and is a bit tricky to have back
+
+TLS support was lost with the update of Linphone from 3.6.1 to 3.7.0. This is because, unlike OpenSSL, PolarSSL is not part of the official ArchLinux packages. While Linphone and belle-sip are in the _community_ ArchLinux repository, it is not possible to make belle-sip depend on a package that does not exist. Thus, the version of belle-sip in the ArchLinux _community_ repository is compiled without TLS support and compilation by hand is required.
+
+Compilation steps are however a little bit tricky at the moment, for two reasons. First, only the C runtime of ANTLR is present in a repository (package `libantlr3c` in _community_ repository). The Java archive, necessary to build belle-sip, is in the unofficial [AUR](https://aur.archlinux.org) repository... But in version 3.5, which is too recent: fetching the right version by hand is needed.
+
+Second, the `configure` script in Linphone tree fails to detect libzrtpcpp because it looks for a slightly different name, `libzrtpcppcore`. My guess is that the same library has been given different names depending on the distribution.
+
+Luckily enough, PolarSSL is in AUR.
+
+# Let's build it!
+
+## Preparation
+
+I suggest to first remove the `linphone` and `belle-sip` packages that may be installed on your system. We will compile our own. Debianand Ubuntu users should maybe remove also the `libzrtpcpp2` package because they will also compile a more recent version.
+
+Usual development tools are required: make sure that you have `git`, `gcc`, `autoconf`, `automake`, `libtool`, `intltool`, `make` and `pkg-config`. Debian/Ubuntu users will probably also need `cmake` to compile `libzrtpcpp`.
+
+A Java runtime environement (JRE) will be required: the package `jre7-openjdk-headless` should be enough. Debian/Ubuntu users may not need to take care of this now.
+
+ALSA, GTK and probably other development libraries need to be installed to compile Linphone.
+
+In the commands given below, one starting with a `$` denotes a command that can be executed by normal user and one starting with `#` must be executed as super-user.
+
+## Building Belle-sip
+
+First install the `polarssl` library and C headers. It cannot be installed through _pacman_ but it exists as an AUR package. If you use `yaourt`, it is straightforward:
+
+    $ yaourt -S polarssl
+
+If you don't use `yaourt` you can use [any method](https://wiki.archlinux.org/index.php/Arch_User_Repository) to build it from its [PKGBUILD](https://aur.archlinux.org/packages/polarssl/) file.
+
+On Debian and Ubuntu-based distributions, the packages are called `libpolarssl-dev` and `libpolarssl0`. Hopefully they are recent enough.
+
+Now we need `antlr3`. As of now, the version of the C runtime in the ArchLinux _community_ repository is 3.4, which is good for us to compile belle-sip. Install it with:
+
+    # pacman -S libantlr3c
+
+Now we need ANTLR's Java executable archive (`jar` format) in the 3.4 version. The version in AUR is 3.5 so we need to get it another way. Theoretically we can compile the archive from source, but pre-compiled archives are available, making our life easier. Use [this link](https://github.com/antlr/website-antlr3/tree/gh-pages/download) to go to the relevant GitHub repository tree, fetch `antlr-3.4-complete.jar` and save it to the directory `/usr/local/share/java` (you may need to create the directory).
+
+Belle-sip's `configure` script looks for a file specifically named `antlr.jar` or `antlr3.jar`, so we need to create a symbolic link with one of these names:
+
+    # cd /usr/local/share/java
+    # ln -s antlr-3.4-complete.jar antlr3.jar
+
+It looks more simple on Debian and Ubuntu: packages `antlr3` and `libantlr3c-dev` are in version 3.2, which should be OK to build and run belle-sip. Java will be installed as a dependancy and there is no need to create a symbolic link.
+
+Now we should be ready to build belle-sip. The following set of commands should do the trick:
+
+    $ git clone git://git.linphone.org/belle-sip
+    $ cd belle-sip
+    $ git checkout tags/1.3.0
+    $ ./autogen.sh 
+    $ ./configure --enable-tls
+    $ make
+    # make install
+
+The `git checkout` command selects the source tree corresponding exactly to the 1.3.0 release. If all went well, belle-sip is now installed and the following command:
+
+    $ ls /usr/local/lib/libbellesip*
+
+should output something like that:
+
+    /usr/local/lib/libbellesip.a
+    /usr/local/lib/libbellesip.la
+    /usr/local/lib/libbellesip.so
+    /usr/local/lib/libbellesip.so.0
+    /usr/local/lib/libbellesip.so.0.0.0
+
+## Building Linphone
+
+We first need `libzrtpcpp`. It is in ArchLinux's _community_ repository in version 4.2.0, so it can simply be installed with:
+
+    # pacman -S libzrtpcpp
+
+Debian and Ubuntu provide the 2.0.0 version of this library: too old for us, so it will have to be compiled from source that can be found in [this](https://github.com/wernerd/ZRTPCPP) git repository. Compilation instructions are provided in the [README](https://github.com/wernerd/ZRTPCPP/blob/master/README.md) file.
+
+Now we can build Linphone. We need to set a few environment variables when calling the `configure` script in order to:
+
+- tell it to look for belle-sip's `pkg-config` file in `/usr/local/lib/pkgconfig`;
+- workaround the fact that it looks for `libzrtpcppcore` while our library is called `libzrtpcpp`.
+
+This gives:
+
+    $ wget http://download-mirror.savannah.gnu.org/releases/linphone/3.7.x/sources/linphone-3.7.0.tar.gz
+    $ tar xvjf linphone-3.7.0.tar.gz
+    $ cd linphone-3.7.0
+    $ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
+    $ export LIBZRTPCPP_LIBS="$(pkg-config --libs libzrtpcpp) "
+    $ export LIBZRTPCPP_CFLAGS="$(pkg-config --cflags libzrtpcpp) "
+    $ ./configure --enable-ipv6 --enable-alsa --enable-zrtp
+    $ make
+    # make install
+
+And if all went well, Linphone is now installed in `/usr/local/bin` in version 3.7.0, with ZRTP and TLS support! 
+
+Now get an account on [Ostel.co](https://ostel.co) and throw away that Skype spyware.
+
+# Acknowledgements
+
+Many thanks to the Linphone/Belle-sip developers the Linphone development [mailing list](https://lists.nongnu.org/mailman/listinfo/linphone-developers) for giving me precise and quick answers!
+
+"""]]
+
