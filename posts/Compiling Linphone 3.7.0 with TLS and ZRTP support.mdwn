@@ -70,7 +70,7 @@ Now we need `antlr3`. As of now, the version of the C runtime in the ArchLinux _
 
     # pacman -S libantlr3c
 
-Now we need ANTLR's Java executable archive (`jar` format) in the 3.4 version. The version in AUR is 3.5 so we need to get it another way. Theoretically we can compile the archive from source, but pre-compiled archives are available, making our life easier. Use [this link](https://github.com/antlr/website-antlr3/tree/gh-pages/download) to go to the relevant GitHub repository tree, fetch `antlr-3.4-complete.jar` and save it to the directory `/usr/local/share/java` (you may need to create the directory).
+Now we need ANTLR's Java executable archive (`jar` format) in the 3.4 version. The version in AUR is 3.5 so we need to get the 3.4 another way. Theoretically we can compile the archive from source, but pre-compiled archives are available, making our life easier. Use [this link](https://github.com/antlr/website-antlr3/tree/gh-pages/download) to go to the relevant GitHub repository tree, fetch `antlr-3.4-complete.jar` and save it to the directory `/usr/local/share/java` (you may need to create the directory).
 
 Belle-sip's `configure` script looks for a file specifically named `antlr.jar` or `antlr3.jar`, so we need to create a symbolic link with one of these names:
 
