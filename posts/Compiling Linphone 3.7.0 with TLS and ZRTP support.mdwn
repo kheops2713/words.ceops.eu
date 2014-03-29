@@ -40,7 +40,7 @@ Compilation steps are however a little bit tricky at the moment, for two reasons
 
 Second, the `configure` script in Linphone tree fails to detect libzrtpcpp because it looks for a slightly different name, `libzrtpcppcore`. My guess is that the same library has been given different names depending on the distribution.
 
-Luckily enough, PolarSSL is in AUR.
+Luckily enough, PolarSSL is in AUR. We can overcome the two issues mentioned just above.
 
 # Let's build it!
 
