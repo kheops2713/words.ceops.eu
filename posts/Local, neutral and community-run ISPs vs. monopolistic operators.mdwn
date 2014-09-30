@@ -1,3 +1,5 @@
+[[!tag network_neutrality freedom_not_fear diyisp.org]]
+
 The few major European telecom companies generally do not defend individual
 rights that should stem from Internet access, as we can notice by their
 [opposition to network neutrality
@@ -7,9 +9,9 @@ divide](https://en.wikipedia.org/wiki/Digital_Divide)", as their investments
 follow their profit scheme rather than pursuing better Internet access for
 everyone.
 
-Some local community-run initiatives aim at providing citizens with Internet
-access that respects network neutrality, including in dark zones and with rates
-that are as reasonable as possible.
+Some [local community-run initiatives](https://www.diyisp.org) aim at providing
+citizens with Internet access that respects network neutrality, including in
+dark zones and with rates that are as reasonable as possible.
 
 Unfortunately, the monopolisic situation of major telecom companies has a
 chilling effect on such initiatives.
@@ -22,6 +24,8 @@ could push to help the development of local and respectful ISP initiatives.
 
 This is a (bit more than a) wrap-up of what was said.
 
+[[!more linktext="Read full article..." text="""
+
 # Local ISPs: missions and examples
 
 ## Missions
@@ -30,9 +34,9 @@ As explained in the [DIY ISP panel I
 held](../../DIY%20ISP%20panel%20at%20RightsCon%202014:%20wrap-up/) at
 [RightCon](https://www.rightscon.org/) 2014 in San Francisco, ISPs committed to
 defend fundamental rights must notably respect network neutrality and users'
-privacy, provide public IP addresses, enable users to be the actual
-decision-makers regarding their Internet access and bring Internet access to
-areas regardless of their profitability.
+privacy, provide public IP addresses, enable users to be the decision-makers
+regarding their Internet access and bring access to areas regardless of their
+profitability.
 
 More generally, having more ISPs with their own infrastructure makes the
 Internet more robust and harder to control for any single private or public
@@ -233,3 +237,5 @@ Yet, the [DIY ISP](https://www.diyisp.org) community should be able to make
 these propositions more acurate and realistic and push them at the European
 level in order to globally improve the conditions to setup local Internet access
 providers.
+
+"""]]
