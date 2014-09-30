@@ -1,0 +1,235 @@
+The few major European telecom companies generally do not defend individual
+rights that should stem from Internet access, as we can notice by their
+[opposition to network neutrality
+enforcement](https://www.laquadrature.net/en/eu-parliament-negotiations-on-net-neutrality-taking-a-disastrous-turn)
+and their lack of care regarding dark zones and the "[digital
+divide](https://en.wikipedia.org/wiki/Digital_Divide)", as their investments
+follow their profit scheme rather than pursuing better Internet access for
+everyone.
+
+Some local community-run initiatives aim at providing citizens with Internet
+access that respects network neutrality, including in dark zones and with rates
+that are as reasonable as possible.
+
+Unfortunately, the monopolisic situation of major telecom companies has a
+chilling effect on such initiatives.
+
+[Bram](http://worlddomination.be) and I held a workshop on this topic at
+[Freedom Not Fear 2014 in
+Brussels](https://wiki.vorratsdatenspeicherung.de/Freedom_Not_Fear_2014/Schedule):
+how this chilling effect materializes in Europe and what EU-level changes we
+could push to help the development of local and respectful ISP initiatives.
+
+This is a (bit more than a) wrap-up of what was said.
+
+# Local ISPs: missions and examples
+
+## Missions
+
+As explained in the [DIY ISP panel I
+held](../../DIY%20ISP%20panel%20at%20RightsCon%202014:%20wrap-up/) at
+[RightCon](https://www.rightscon.org/) 2014 in San Francisco, ISPs committed to
+defend fundamental rights must notably respect network neutrality and users'
+privacy, provide public IP addresses, enable users to be the actual
+decision-makers regarding their Internet access and bring Internet access to
+areas regardless of their profitability.
+
+More generally, having more ISPs with their own infrastructure makes the
+Internet more robust and harder to control for any single private or public
+entity.
+
+## Examples throughout Europe
+
+### France and Belgium: French Data Network Federation (FFDN)
+
+The first French non-profit ISP, [French Data Network](http://www.fdn.fr) (FDN)
+was founded in 1992, when the market was new and easily accessible.
+
+By the time DSL appeared, FDN had earned enough money to establish
+[backhaul](https://en.wikipedia.org/wiki/Backhaul_%28telecommunications%29)
+contracts and enter this new market. It has been a DSL and dial-up provider
+since then.
+
+In 2010, it started encouraging the growth of local initiatives by allowing them
+to use its countrywide backhaul contract while requiring them to respect an
+ethical charter.
+
+Many local operators then popped up, now forming the [FDN
+Federation](http://www.ffdn.org) (FFDN). Many still only re-sell FDN DSL access
+but all aim at growing local independant networks. At least, the human component
+is decentralized and allows better knowledge sharing, advocacy and
+decision-making locally.
+
+The Federation includes at the moment [26
+operators](http://www.ffdn.org/en/members-ffdn), in France and Belgium. Some
+bring Internet access to dark countryside zones whereas others try to pierce
+through in the urban zones market already saturated by major telecom companies.
+
+I am a member of [Neutrinet](http://neutrinet.be) and
+[FAImaison](https://faimaison.net), the former aiming at providing Internet
+access in
+[Belgium](https://www.openstreetmap.org/relation/52411#map=7/50.552/4.702) and
+the latter covering [Brittany](https://www.openstreetmap.org/relation/102740)
+(Bretagne) and [Pays de la Loire](https://www.openstreetmap.org/relation/8650),
+in the North-West of France.
+
+### United Kingdom: rural community fiber networks (B4RN)
+
+The United Kingdom has examples of community-run initiatives in rural dark
+zones. The [B4RN](http://b4rn.org.uk) website has detailed examples of such
+initiatives and how people can get involved.
+
+In these areas, local inhabittants and public authorities gathered to rent
+equipment, dig trenches, lay a fiber network and enable high-speed connection
+for the community.
+
+It is unsure whether these operators are committed to respecting network
+neutrality but they clearly address the dark zone issue, and the cooperation
+between civil society and public authorities to fund and manage the structure
+can probably be replicated in other areas.
+
+# How the lack of free competition hamper and citizens' right to Internet access
+
+## Materialization of the problem
+
+According to the European Union's free competition rules, the infrastructure
+(fiber and copper cables) should be accessible to any operator, the price for
+renting it being controlled by a governmental body. Most often, the privatized
+former state-owned monopolistic telecom operator (e.g.
+[Orange](https://en.wikipedia.org/wiki/Orange_S.A.),
+[Belgacom](https://en.wikipedia.org/wiki/Belgacom), [Deutsche
+Telekom](https://en.wikipedia.org/wiki/Deutsche_Telekom)) still owns the
+infrastructure but has to respect the renting price set by the governmental
+body. This mechanism, also in use for the gas, electricity and train markets is
+supposed to ensure free and fair competition.
+
+In practice, the competition is often limited to a small set of big actors,
+mostly due to the monopolistic status of the formerly state-owned operator along
+with a few others, who are not always keen to share the infrastructure.
+
+Small local operators have consequently big difficulties to access the
+infrastructure that would allow them to reach end-users. French FFDN operators
+are lucky to have FDN's DSL backhaul contract. Those not in position to benefit
+from it have to fall back on setting up their own infrastructure based on
+wireless technology, which is cheap but also less robust and perennial.
+
+Here are more specific examples from France and Belgium.
+
+## France: the new but locked-down FTTH market
+
+[FTTH](https://en.wikipedia.org/wiki/Fiber_to_the_x) deployment in France is
+managed at [regional](https://en.wikipedia.org/wiki/Regions_of_France) and
+[departmental](https://en.wikipedia.org/wiki/Departments_of_France) level. Local
+authorities are supposed to schedule its deployment for the next couple of
+years in order to bring "very-high-speed" Internet access to all people.
+
+Since they have neither enough money nor in-house capacity to do it themselves
+entirely, they let major ISPs lay their own fiber in profitable areas (dense
+urban zones). For areas where major ISPs do not feel like going, authorities pay
+a private company to lay fiber and rent it to potentially interested ISPs.
+
+From the perspective of reaching as many people as possible with high-speed
+Internet and choice of several operators, this system seems really broken:
+
+- profitable areas are served by only one or two of the major ISPs;
+- in other areas, renting prices of the fiber infrastructure must be publicly
+  available, but the companies with which local authorities have contracted put
+  strong efforts in not making their rates public;
+- the rates are very expansive for small operators and there is no transparency
+  on how these rates are decided, although they are supposed to stem from a
+  public decision;
+- when negociating with companies, local authorities often do not manage to
+  enforce real deployment of fiber optics all over the region and tend to let
+  the company act along its own strategy while it should theoretically perform a
+  public service mission, which results in poor or slow coverage of dark zones.
+
+In short: no free competition to have local operators enter the FTTH market, and
+very weak democratization of high-speed Internet access.
+
+## Belgium: Belgacom's monopoly preventing competition on DSL market
+
+Belgacom is the formerly state-owned operator. It is now a private company, but
+more than half of its shares are owned by the state. Belgacom owns the copper
+infrastructure in Belgium.
+
+Establishing a backhaul contract with Belgacom in order to enter the DSL market
+is extremely hard for several reasons (while, again, the theory says that the
+market is open to free competition):
+
+- obtaining the price catalog in the first hand is a long and tiring process;
+- the offers contain hidden additional prices and are hard to understand;
+- rates are expansive.
+
+The result is that any new ISP is completely discouraged from entering the DSL
+market in Belgium. Additionally, there does not seem to be any strong will to
+deploy FTTH in the country.
+
+## Where we must not go: the example of the United States of America
+
+The European situation sounds contradictory: European Union's rules and
+mechanisms should theoretically enable subscribers to have many different ISP
+choices. We however end up with a few monopolistic operators and huge barriers
+for any newcomers on the market, even though they could provide something really
+innovative in our times: be respectful and citizen-controlled technical
+intermediaries.
+
+This situation was maybe initially intended as being really liberal to promote
+free competition. I believe that this strategy is somewhat inspired from the
+American vision of liberalism.
+
+The issue is, the situation in the USA is even worse: a set of three operators
+(Verizon, AT&T and Comcast) control most of the market, sometimes even agreeing
+together to share geographically the market and avoid competing one with the
+other.
+
+They have a powerful lobby force and even manage to push local or federal laws
+to hinder the growth of [local community-run
+initiatives](https://www.eff.org/deeplinks/2014/07/hate-your-isp-maybe-you-need-community-fiber).
+
+In the end, this absence of competition not only kills network neutrality and
+associated fundamental rights but it also makes the prices increase and the
+service quality stall or even decrease.
+
+# What we could do in Europe
+
+First, the administrative fees to register as an operator vary within Europe. In
+France, it is a free and purely declarative process to the regulatory body, the
+[ARCEP](https://en.wikipedia.org/wiki/Autorit%C3%A9_de_R%C3%A9gulation_des_Communications_%C3%89lectroniques_et_des_Postes).
+The process is free in Germany too. In Belgium, it costs €300 per year, which
+can be expansive for a really small association that is just starting over.  We
+could push for **harmonizing the operator status registering process in Europe
+by making it free of charge** at least for small structures.
+
+We also wondered whether **the operator status could be recognized EU-wise**, in
+order to allow an operator that is registered in any EU country to operate in
+any other EU country without further authorization. The
+[BEREC](https://en.wikipedia.org/wiki/Body_of_European_Regulators_of_Electronic_Communications)
+could be used as the regulatory body.
+
+Another idea to ensure accessibility of the infrastructure is to **harmonize
+backhaul offers throughout Europe** in order to force infrastructure managers to
+keep low enough rates. Why not **give the BEREC the power to enforce reasonable
+rates and fair competition throughout Europe**? This would not be enough to
+ensure fair rates but might be the start of a transparent management of the
+(crucial) Internet infrastructure onto which European citizens could have their
+word.
+
+To accelerate fiber deployment, there could be ways to **encourage the laying of
+pipes able to welcome fiber cables whenever trenches are dug along the roads**
+or other infrastructure (e.g. railways). To some extent, this is already
+practiced in some European cities.
+
+More locally, some opportunities to lay fiber cable without having to do all the
+digging work may appear, such as using waste water pipes or benefitting from
+works on other infrastructure (roads, railways).
+
+## We need to document ourselves more
+
+These proposals are very drafty, and the exact European legal status regarding
+free competition on the telecommunications market was not well known by the
+participants of the workshop.
+
+Yet, the [DIY ISP](https://www.diyisp.org) community should be able to make
+these propositions more acurate and realistic and push them at the European
+level in order to globally improve the conditions to setup local Internet access
+providers.
