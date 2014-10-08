@@ -1,16 +1,16 @@
 [[!tag network_neutrality freedom_not_fear diyisp.org]]
 
-The few major European telecom companies generally do not defend individual
+The few major European telecom companies generally do not defend fundamental
 rights on the Internet, as shown by their [opposition to network neutrality
 enforcement](https://www.laquadrature.net/en/eu-parliament-negotiations-on-net-neutrality-taking-a-disastrous-turn)
 and their lack of care regarding dark zones and the "[digital
 divide](https://en.wikipedia.org/wiki/Digital_Divide)", as their investments
-follow their profit scheme rather than pursuing better Internet access for
+follow their profit scheme rather than seeking better Internet access for
 everyone.
 
 Some [local community-run initiatives](https://www.diyisp.org) aim at providing
-citizens with Internet access that respects network neutrality, including in
-dark zones and with rates that are as reasonable as possible.
+citizens with neutral Internet access, including in dark zones and with rates
+that are as reasonable as possible.
 
 Unfortunately, the monopolisic situation of major telecom companies has a
 chilling effect on such initiatives.
@@ -38,11 +38,11 @@ provide public IP addresses, enable users to be the decision-makers regarding
 their Internet access and bring access to areas regardless of their
 profitability.
 
-More generally, having more ISPs with their own infrastructure makes the
+Having as many such initiatives as possible is essential because it makes the
 Internet more robust and harder to control for any single private or public
 entity.
 
-## Examples in Europe
+## Some local ISPs in Europe
 
 ### France and Belgium: French Data Network Federation (FFDN)
 
@@ -66,7 +66,7 @@ decision-making.
 
 The Federation includes at the moment [26
 operators](http://www.ffdn.org/en/members-ffdn) in France and Belgium. Some
-bring Internet access to dark zones whereas others try to pierce through in the
+bring connectivity to dark zones whereas others try to pierce through in the
 urban zones market already saturated by major telecom companies.
 
 I am a member of [Neutrinet](http://neutrinet.be) and
@@ -126,8 +126,8 @@ In practice, the competition is often limited to a small set of big actors, as
 local smaller players cannot afford to rent the infrastructure.
 
 In this context, French FFDN operators are lucky to have FDN's DSL backhaul
-contract. Those not in position to benefit from it have to fall back on using on
-wireless technology, which is cheap but also less perennial.
+contract. Those not in position to benefit from it have to fall back on using
+wireless technology, which is cheap but less perennial.
 
 Here are more specific examples from France and Belgium.
 
@@ -151,7 +151,7 @@ Internet and choice of several operators, this system seems really broken:
 - in other areas, renting prices of the fiber infrastructure must be publicly
   available but the companies with which local authorities have contracted put
   strong efforts in not making their rates public;
-- the rates are very expansive for small operators and there is no transparency
+- the rates are very expensive for small operators and there is no transparency
   on how these rates are set, although they are supposed to stem from a public
   decision;
 - when negociating with companies, local authorities often do not manage to
@@ -174,7 +174,7 @@ competition):
 
 - obtaining the price catalog in the first hand is a long and tiring process;
 - the offers contain hidden additional prices and are hard to understand;
-- rates are expansive.
+- rates are expensive.
 
 The result is that any new ISP is completely discouraged from entering the DSL
 market in Belgium. Additionally, there does not seem to be any strong will to
@@ -212,7 +212,7 @@ First, the administrative fees to register as an operator vary within Europe. In
 France, it is a free and purely declarative process to the regulatory body, the
 [ARCEP](https://en.wikipedia.org/wiki/Autorit%C3%A9_de_R%C3%A9gulation_des_Communications_%C3%89lectroniques_et_des_Postes).
 The process is free in Germany too. In Belgium, it costs €300 per year, which
-can be expansive for a really small association. We could push for **harmonizing
+can be expensive for a really small association. We could push for **harmonizing
 the operator registration process in Europe by making it easy and free of
 charge** at least for small structures.
 
