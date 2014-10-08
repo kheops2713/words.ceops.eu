@@ -234,7 +234,7 @@ Telekom from raising the prices too highly.
 
 To go a bit further, we could push for an actual complete split of the companies
 that manage the infrastructure: they should not be at the same time
-infrastructure manager and infrastructure users (by being DSL access providers,
+infrastructure manager and operator (by being DSL access providers,
 for instance), as it creates a conflict of interest.
 
 To accelerate fiber deployment, there could be ways to **encourage the laying of
