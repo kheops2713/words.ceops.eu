@@ -22,7 +22,8 @@ Brussels](https://wiki.vorratsdatenspeicherung.de/Freedom_Not_Fear_2014/Schedule
 how this chilling effect materializes in Europe and what EU-level changes we
 could push to help the development of local and respectful ISP initiatives.
 
-This is a (bit more than a) wrap-up of what was said.
+This is a (bit more than a) wrap-up of what was said. You can get the slides
+[here](../../files/slides-diyisp-fnf2014-brussels.html).
 
 [[!more linktext="Read full article..." text="""
 
