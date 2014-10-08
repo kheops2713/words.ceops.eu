@@ -33,10 +33,10 @@ This is a (bit more than a) wrap-up of what was said. You can get the slides
 
 As explained in the [DIY ISP panel I
 held](../../DIY%20ISP%20panel%20at%20RightsCon%202014:%20wrap-up/) at
-[RightCon](https://www.rightscon.org/) 2014 in San Francisco, ISPs committed to
-defend fundamental rights must notably respect network neutrality and users'
-privacy, provide public IP addresses, enable users to be the decision-makers
-regarding their Internet access and bring access to areas regardless of their
+[RightsCon](https://www.rightscon.org/) 2014 in San Francisco, ISPs committed to
+defend fundamental rights must respect network neutrality and users' privacy,
+provide public IP addresses, enable users to be the decision-makers regarding
+their Internet access and bring access to areas regardless of their
 profitability.
 
 More generally, having more ISPs with their own infrastructure makes the
@@ -55,17 +55,18 @@ By the time DSL appeared, FDN had earned enough money to establish
 contracts and enter this new market. It has been a DSL and dial-up provider
 since then.
 
-In 2010, it started encouraging the growth of local initiatives by allowing them
-to use its countrywide backhaul contract while requiring them to respect an
-ethical charter. 
+In 2010, it started encouraging local initiatives by allowing them to use its
+countrywide backhaul contract while requiring them to respect [ethical
+principles](http://www.ffdn.org/en/principles).
 
 Many thus popped up, now forming the [FDN Federation](http://www.ffdn.org)
 (FFDN). Most still only re-sell FDN DSL access but all aim at growing local
-independant networks. At least, the human component is decentralized and allows
-better local knowledge sharing, advocacy and decision-making.
+independant networks. At least, the human component is increasingly
+decentralized and allows better local knowledge sharing, advocacy and
+decision-making.
 
 The Federation includes at the moment [26
-operators](http://www.ffdn.org/en/members-ffdn), in France and Belgium. Some
+operators](http://www.ffdn.org/en/members-ffdn) in France and Belgium. Some
 bring Internet access to dark countryside zones whereas others try to pierce
 through in the urban zones market already saturated by major telecom companies.
 
@@ -94,10 +95,27 @@ can probably be replicated in other areas.
 
 ## Materialization of the problem
 
-According to the European Union's free competition rules, the infrastructure
-(fiber and copper cables) should be accessible to any operator, the price for
-renting it being controlled by a governmental body. Most often, the privatized
-former state-owned monopolistic telecom operator (e.g.
+At the moment, bringing Internet access to people implies two main requirements:
+
+- being connected to the big Internet pipes, for instance by having a
+  [computer](https://en.wikipedia.org/wiki/Autonomous_system_(Internet)) racked
+  in a [data center](https://en.wikipedia.org/wiki/Data_center), connected to
+  other operators' network and [making them aware of our
+  existence](https://en.wikipedia.org/wiki/Border_Gateway_Protocol);
+- finding a way to connect users (who can be hundred of kilometers far from the
+  data center) to this computer, as it will in turns allow them to access the
+  Internet.
+
+The second part is most often the hardest one, at least if the idea is to reach
+people with robust enough high-speed wired connections (DSL, optical fiber).
+This is mostly due to the monopolistic situations of formerly state-owned
+operators owning the infrastructure. Small local operators have consequently big
+difficulties to reach end-users.
+
+The European Union's free competition rules say that the infrastructure (fiber
+and copper cables) should be accessible to any operator, the price for renting
+it being controlled by a governmental body. Most often, the privatized and
+formerly state-owned monopolistic operator (e.g.
 [Orange](https://en.wikipedia.org/wiki/Orange_S.A.),
 [Belgacom](https://en.wikipedia.org/wiki/Belgacom), [Deutsche
 Telekom](https://en.wikipedia.org/wiki/Deutsche_Telekom)) still owns the
@@ -109,13 +127,11 @@ In practice, the competition is often limited to a small set of big actors,
 mostly due to the monopolistic status of the formerly state-owned operator along
 with a few others.
 
-Small local operators have consequently big difficulties to access the copper
-and fiber cables that reach end-users. French FFDN operators are lucky to have
-FDN's DSL backhaul contract. Those not in position to benefit from it have to
-fall back on using on wireless technology, which is cheap but also less robust
-and perennial.
+In this context, French FFDN operators are lucky to have FDN's DSL backhaul
+contract. Those not in position to benefit from it have to fall back on using on
+wireless technology, which is cheap but also less robust and perennial.
 
-Here are more specific examples from France and Belgium.
+Here are more specific examples and explanations from France and Belgium.
 
 ## France: the new but locked-down FTTH market
 
