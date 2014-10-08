@@ -97,7 +97,7 @@ probably be replicated in other areas.
 At the moment, bringing Internet access to people implies two main requirements:
 
 - being connected to the big Internet pipes, for instance by having a
-  [computer](https://en.wikipedia.org/wiki/Autonomous_system_(Internet)) racked
+  [computer](https://en.wikipedia.org/wiki/Autonomous_system_(Internet) racked
   in a [data center](https://en.wikipedia.org/wiki/Data_center), connected to
   other operators' network and [making them aware of our
   existence](https://en.wikipedia.org/wiki/Border_Gateway_Protocol);
