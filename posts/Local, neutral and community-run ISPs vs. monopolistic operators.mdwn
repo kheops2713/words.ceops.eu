@@ -1,8 +1,7 @@
 [[!tag network_neutrality freedom_not_fear diyisp.org]]
 
 The few major European telecom companies generally do not defend individual
-rights on the Internet access, as we can notice by their [opposition to network
-neutrality
+rights on the Internet, as shown by their [opposition to network neutrality
 enforcement](https://www.laquadrature.net/en/eu-parliament-negotiations-on-net-neutrality-taking-a-disastrous-turn)
 and their lack of care regarding dark zones and the "[digital
 divide](https://en.wikipedia.org/wiki/Digital_Divide)", as their investments
@@ -32,7 +31,7 @@ This is a (bit more than a) wrap-up of what was said. You can get the slides
 ## Missions
 
 As explained in the [DIY ISP panel I
-held](../../DIY%20ISP%20panel%20at%20RightsCon%202014:%20wrap-up/) at
+held](../DIY%20ISP%20panel%20at%20RightsCon%202014:%20wrap-up/) at
 [RightsCon](https://www.rightscon.org/) 2014 in San Francisco, ISPs committed to
 defend fundamental rights must respect network neutrality and users' privacy,
 provide public IP addresses, enable users to be the decision-makers regarding
@@ -67,8 +66,8 @@ decision-making.
 
 The Federation includes at the moment [26
 operators](http://www.ffdn.org/en/members-ffdn) in France and Belgium. Some
-bring Internet access to dark countryside zones whereas others try to pierce
-through in the urban zones market already saturated by major telecom companies.
+bring Internet access to dark zones whereas others try to pierce through in the
+urban zones market already saturated by major telecom companies.
 
 I am a member of [Neutrinet](http://neutrinet.be) and
 [FAImaison](https://faimaison.net), respectively operating in
@@ -87,9 +86,9 @@ equipment, dig trenches, lay a fiber network and enable high-speed connection
 for the community.
 
 It is unsure whether these operators are all committed to respecting network
-neutrality but they clearly address the dark zone issue, and the cooperation
-between civil society and public authorities to fund and manage the structure
-can probably be replicated in other areas.
+neutrality but they address the dark zone issue, and the cooperation between
+civil society and public authorities to fund and manage the structure can
+probably be replicated in other areas.
 
 # How the lack of free competition hamper citizens' right to Internet access
 
@@ -107,15 +106,15 @@ At the moment, bringing Internet access to people implies two main requirements:
   Internet.
 
 The second part is most often the hardest one, at least if the idea is to reach
-people with robust enough high-speed wired connections (DSL, optical fiber).
-This is mostly due to the monopolistic situations of formerly state-owned
-operators owning the infrastructure. Small local operators have consequently big
-difficulties to reach end-users.
+people with high-speed wired connections (DSL, optical fiber). This is mostly
+due to the monopolistic situations of formerly state-owned operators owning the
+infrastructure and creating difficulties for small local operators to reach
+end-users.
 
-The European Union's free competition rules say that the infrastructure (fiber
-and copper cables) should be accessible to any operator, the price for renting
-it being controlled by a governmental body. Most often, the privatized and
-formerly state-owned monopolistic operator (e.g.
+The European Union's free competition rules say that the infrastructure should
+be accessible to any operator, the price for renting it being controlled by a
+governmental body. Most often, the privatized and formerly state-owned
+monopolistic operator (e.g.
 [Orange](https://en.wikipedia.org/wiki/Orange_S.A.),
 [Belgacom](https://en.wikipedia.org/wiki/Belgacom), [Deutsche
 Telekom](https://en.wikipedia.org/wiki/Deutsche_Telekom)) still owns the
@@ -123,15 +122,14 @@ infrastructure but has to respect the renting price set by the governmental
 body. This mechanism, also in use for the gas, electricity and train markets is
 supposed to ensure free and fair competition.
 
-In practice, the competition is often limited to a small set of big actors,
-mostly due to the monopolistic status of the formerly state-owned operator along
-with a few others.
+In practice, the competition is often limited to a small set of big actors, as
+local smaller players cannot afford to rent the infrastructure.
 
 In this context, French FFDN operators are lucky to have FDN's DSL backhaul
 contract. Those not in position to benefit from it have to fall back on using on
-wireless technology, which is cheap but also less robust and perennial.
+wireless technology, which is cheap but also less perennial.
 
-Here are more specific examples and explanations from France and Belgium.
+Here are more specific examples from France and Belgium.
 
 ## France: the new but locked-down FTTH market
 
@@ -170,9 +168,9 @@ Belgacom is the formerly state-owned operator. It is now a private company, but
 more than half of its shares are owned by the state. Belgacom owns the whole
 copper infrastructure in Belgium.
 
-Establishing a backhaul contract with Belgacom in order to enter the DSL market
-is extremely hard for several reasons (while, again, the theory says that the
-market is open to free competition):
+Establishing a DSL backhaul contract with Belgacom is extremely hard for several
+reasons (while, again, the theory says that the market is open to free
+competition):
 
 - obtaining the price catalog in the first hand is a long and tiring process;
 - the offers contain hidden additional prices and are hard to understand;
@@ -185,15 +183,15 @@ deploy FTTH in the country.
 ## Where we must not go: the example of the United States of America
 
 The European situation looks contradictory: the free competition mechanism
-should theoretically enable subscribers to have many different ISP choices. We
+should theoretically enable subscribers to choose among many different ISPs. We
 however end up with a few monopolistic operators that impose huge barriers for
 newcomers who could provide something really innovative in our times: be
 technical intermediaries that are controlled by citizens and respectful of
 fundamental rights.
 
-This situation was maybe initially intended as being really meant to promote
-free competition. I believe that this strategy is somewhat inspired from the
-American vision of liberalism.
+This situation was maybe initially really meant to promote free competition. I
+believe that this strategy is somewhat inspired from the American vision of
+liberalism.
 
 The issue is, the situation in the USA is worse: a set of three operators
 (Verizon, AT&T and Comcast) controls most of the market, sometimes even agreeing
@@ -225,12 +223,19 @@ any other EU country without further authorization. The
 could be used as the regulatory body.
 
 Another idea to ensure accessibility of the infrastructure is to **harmonize
-backhaul offers throughout Europe** in order to force infrastructure managers to
-keep low enough rates. Why not **give the BEREC the power to enforce reasonable
-rates and fair competition throughout Europe**? This would not be enough to
-ensure fair rates but might be the start of a transparent management of the
-(crucial) Internet infrastructure onto which European citizens could have their
-word.
+backhaul offers throughout Europe** to force infrastructure managers to keep low
+enough rates. Why not **give the BEREC the power to enforce reasonable rates and
+fair competition throughout Europe**? This would not guarantee fair rates but
+might be the start of a transparent management of the public Internet
+infrastructure onto which European citizens could have their word. It was
+mentioned during the workshop that the competition situation is Germany was
+quite satisfactory as the authorities were efficiently preventing Deutsche
+Telekom from raising the prices too highly.
+
+To go a bit further, we could push for an actual complete split of the companies
+that manage the infrastructure: they should not be at the same time
+infrastructure manager and infrastructure users (by being DSL access providers,
+for instance), as it creates a conflict of interest.
 
 To accelerate fiber deployment, there could be ways to **encourage the laying of
 pipes able to welcome fiber cables whenever trenches are dug along the roads**
