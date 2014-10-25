@@ -1,0 +1,4 @@
+[[!meta title="pages tagged opengov"]]
+
+[[!inline pages="tagged(opengov)" actions="no" archive="yes"
+feedshow=10]]
