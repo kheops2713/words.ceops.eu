@@ -1,0 +1,4 @@
+[[!meta title="pages tagged nantes"]]
+
+[[!inline pages="tagged(nantes)" actions="no" archive="yes"
+feedshow=10]]
