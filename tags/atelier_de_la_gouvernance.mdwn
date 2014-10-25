@@ -1,0 +1,4 @@
+[[!meta title="pages tagged atelier de la gouvernance"]]
+
+[[!inline pages="tagged(atelier_de_la_gouvernance)" actions="no" archive="yes"
+feedshow=10]]
