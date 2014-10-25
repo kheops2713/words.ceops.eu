@@ -1,0 +1,171 @@
+[[!tag nantes opengov démocratie_participative atelier_de_la_gouvernance]]
+
+Compte-rendu personnel et incomplet de la seconde session de l'[atelier de la
+gouvernance](http://www.atelierdelagouvernance.fr) qui s'est tenue à la Cantine
+numérique de Nantes le 23 octobre 2014.
+
+La session a été séparée en quatre parties, chacune initiée par une courte
+présentation suivie d'une discussion.
+
+[[!more linktext="Lire l'article complet..." text="""
+
+# Partie 1 : le « grand débat » sur « Nantes, la Loire et nous »
+
+## Résumé
+
+Présentation de [Bassem Asseh](https://twitter.com/3asseh) (adjoint au maire en
+charge du dialogue citoyen) sur l'initiative « [le grand débat, Nantes, la Loire
+et nous](http://www.nanteslaloireetnous.fr/) », qui tente de créer une
+plateforme et un processus permettant aux citoyens et structures de la métropole
+nantaise de s'exprimer sur le futur de la métropole, structurée autour du
+fleuve.
+
+Il y a [quatre thèmes](http://www.nanteslaloireetnous.fr/les-themes) de débat,
+tous volontairement larges :
+
+- « Loire des pratiques et des usages » ;
+- « Loire, espace économique et écologique » ;
+- « Loire, mobilité et franchissements » ;
+- « Cœur métropolitain, attractivité et qualité urbaine ».
+
+Lorsque la plateforme en ligne fonctionnera pleinement, tout le monde devrait
+pouvoir contribuer, et chaque contribution devrait pouvoir être publique, et non
+une simple soumission d'un avis dont on ne sait rien sur ce qu'il devient.
+
+Ils pensent aussi à d'autres modalités de débat, par exemple grâce à des
+réunions physiques dans les quartiers, à des horaires variés pour permettre au
+maximum de catégories de population de participer.
+
+Le site contient des ensembles de données objectives que chacun peut étudier
+pour baser un argumentaire dessus.
+
+À la fin du processus, une « commission indépendante » synthétisera le débat et
+le rapportera à Nantes Métropoles en vue de décider et démarrer des appels
+d'offre.
+
+Le processus devrait prendre fin en juin 2015, mais cela peut varier, notamment
+s'il y a un très grand nombre de contributions à traîter et synthétiser.
+
+Une question : s'il est acté que la participation citoyenne est indispensable,
+pourquoi une telle initiative n'est faite que sur ce type de projet phare ?
+
+Réponse de Bassem : les « modalités de dialogue » existent déjà, mais le
+branding de ce projet vise à mieux les faire connaître. On espère aussi que la
+plateforme sera réutilisable pour d'autres sujets.
+
+## Remarques personnelles
+
+Depuis le site,
+[contribuer](http://www.nanteslaloireetnous.fr/participer/contribution-citoyenne)
+ne se fait pour l'instant que via un courrier électronique envoyé à
+_granddebat@nantesmetropole.fr_ : les gestionnaires du site restent donc un
+passage obligé avant que la contribution ne soit éventuellement publiée. On
+reste donc pour l'instant dans un modèle vertical de prise en compte des
+participations, puisque c'est une modération a priori.
+
+Les infrastructures internet font partie de l'aménagement, et il serait donc
+intéressant de développer un avis dessus.
+
+# Partie 2 : discussion sur les outils nécessaires pour permettre la participation citoyenne
+
+Des personnes pointent le fait que le tout-numérique est excluant pour une large
+partie de la population et que d'autres outils de contribution doivent être mis
+en place, comme les SMS ou le courrier postal.
+
+Selon les outils utilisés, le format de contribution est différent : les mails
+permettent des argumentaires complets alors que les messages de microblogging
+permettent des avis succincts. Il ressort de la discussion que chacun devrait
+être pris en compte puisqu'il peut représenter un type de contribution et de
+personne différent.
+
+Une remarque aborde le problème de la synthétisation d'une grande quantité de
+contributions. Une solution évoquée est les techniques liées au « big data »
+pour l'analyse, y compris sémantique, de grandes quantités de données.
+
+Une question visant à se remémorer les arguments promouvant auprès des
+collectivités le numérique comme outil de participation citoyenne : pourquoi la
+municipalité devrait-elle être intéressée par le financement et la mise en place
+de tels outils ?
+
+Une réponse mentionne le rôle qu'a la collectivité pour inciter les gens à
+participer afin qu'ils se sentent légitimes et moins hésitants à prendre part au
+débat public. Une autre évoque le besoin pour les collectivités de se
+réapproprier un débat citoyen qui existe déjà mais sans elles.
+
+# Partie 3 : transparence
+
+## Résumé
+
+Présentation de Claire Gallon de [LiberTIC](http://libertic.wordpress.com/),
+avec un rappel des problèmes de transparence évoqués lors des discussions de de
+la session précédente : comment et où trouver les données publiques, qui prend
+quelle décision dans les collectivités, à qui s'adresser pour évoquer tel ou tel
+sujet.
+
+Présentation rapide du [site d'ouverture des données publiques de
+Nantes](http://data.nantes.fr) et rappel de critiques issues des retours des
+utilisateurs : des données recherchées n'y figurent pas, et beaucoup de données
+brutes sont très difficiles à comprendre et donc à exploiter (exemple : données
+relatives au budget, où figurent des codifications absconses des lignes
+budgétaires).
+
+La discussion mentionne l'importance que l'analyse, l'exploitation et
+des données puissent être faites par tous afin de fournir au public diverses
+interprétations.
+
+La nécessité que les algorithmes analysant ces données tout comme ceux relevant
+de l'aide à la prise de décision soient libres et ouverts a aussi été évoquée,
+comme brique indispensable à la transparence des processus de prise de décision.
+
+J'ai mentionné le besoin de mettre en place des plateformes de fuitage
+confidentiel de documents qui permettraient à des lanceurs d'alerte locaux de se
+mettre en contact de façon anonyme avec la presse afin de révéler des pratiques
+illégales sans craindre une repression abusive par la suite. J'ai mentionné
+l'exemple d'un conglomérat de journaux hollandais qui maintiennent une
+plateforme [GlobaLeaks](https://globaleaks.org/) dans un but similaire.
+
+## Remarques personnelles
+
+[FAImaison](https://faimaison.net) a organisé une conférence le 10 mai 2014 avec
+[la Maison de l'Europe à Nantes](http://maisoneurope-nantes.eu/) sur le thème de
+la transparence en Europe. [Amaelle Guiton](http://www.techn0polis.net/),
+invitée, y a donné de nombreux exemples de plateformes de fuitage de documents.
+
+J'invite donc le lecteur à regarder la vidéo de la conférence ainsi que le
+support de présentation d'Amaelle, dont vous trouverez les liens
+[ici](https://faimaison.net/actualites/fin-conferences-maison-europe-2014.html#10-mai-lobbies-transparence-et-outils-de-fuitages-de-documents-en-europe).
+
+# Partie 4 : quels outils pour la production collaborative ?
+
+Présentation du site [Parlement et
+citoyens](https://www.parlement-et-citoyens.fr/) qui vise à encourager la
+production collaborative de textes de loi incluant les citoyens. Les
+propositions sont faites à l'initiative de députés puis soumises à un processus
+de coconstruction, et enfin synthétisées par l'équipe du site avant d'être
+présentées au Parlement.
+
+La discussion qui a suivi visait à se demander quels outils et moyens sont
+nécessaires pour une bonne production collaborative de textes et de décisions.
+
+A été mentionnée la volonté actuelle de la municipalité pour mettre de temps en
+temps à l'ordre du jour des points issus des conseils de quartier.
+
+L'outil de prise de décision collective [Loomio](https://www.loomio.org/) a été
+mentionné. Il a été utilisé par certains mouvements Occupy et implémente les
+fonctionnements dits de « [démocratie
+liquide](https://fr.wikipedia.org/wiki/D%C3%A9mocratie_liquide) ».
+
+Le problème des groupes de pression au discours rôdé a également été mentionné,
+du fait de leur capacité à peser lourdement dans un débat face à des citoyens
+individuels moins bien organisés, aux argumentaires moins solides ou moins
+expérimentés en rhétorique. Parmi les réponses à ces problèmes, l'importance de
+laisser le temps aux citoyens pour se renseigner sur un projet a été mentionnée,
+ainsi que les bénéfices d'outils numériques permettant les soumissions écrites
+et évitant les joutes orales dans les débats.
+
+# Prochaine session
+
+Le 27 novembre à 18h, toujours à la Cantine numérique.
+
+"""]]
+
