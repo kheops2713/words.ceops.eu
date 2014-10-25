@@ -1,0 +1,4 @@
+[[!meta title="pages tagged démocratie participative"]]
+
+[[!inline pages="tagged(démocratie_participative)" actions="no" archive="yes"
+feedshow=10]]
