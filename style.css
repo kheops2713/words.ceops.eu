@@ -6,9 +6,19 @@ a {
 	color: #940000;
 }
 
+li {
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+}
+
+p {
+	line-height: 140%;
+	clear: both;
+	text-align: justify;
+	text-justify: newspaper;
+}
+
 #pageheader.container .row .span8 {
-	background-image: url(back_ccc.png);
-	background-repeat: repeat-x;
 	text-align: right;
 }
 
@@ -23,26 +33,27 @@ table.img {
 	float: right;
 }
 
-/* span8 is the class of main column for us (from Bootstrap), and #pagecontent the id containing page content :) */
-#pagecontent .row .span8 h1 {
+h1 {
 	font-size: 170%;
 	clear: both;
+	margin-top: 4em;
 }
 
-#pagecontent .row .span8 h2 {
+h2 {
 	font-size: 150%;
 	clear: both;
+	margin-top: 3em;
 }
 
-#pagecontent .row .span8 h3 {
+h3 {
 	font-size: 130%;
 	clear: both;
+	margin-top: 2em;
 }
 
-#pagecontent .row .span8 p {
-	clear: both;
-	text-align: justify;
-	text-justify: newspaper;
+span.title h1 {
+	font-size: 220%;
+	margin-top: 0em;
 }
 
 /* inline stuff are pages inserted in pages with [[!inline]] */
@@ -57,8 +68,12 @@ table.img {
 	background-color: #ebebeb;
 }
 
+div.inlinecontent h1 {
+	margin-top: 1em;
+}
+
 #pagecontent .row .span8 .inlinepage .inlineheader {
-	font-size: 130%;
+	font-size: 140%;
 	font-weight: bold;
 }
 
@@ -66,9 +81,19 @@ table.img {
 	color: #333333;
 }
 
-#pagecontent .row .span8 .inlinepage .inlinecontent h2 {
-	font-size: 120%;
+#pagecontent .row .span8 .inlinepage .inlinecontent h1 {
+	font-size: 125%;
 }
+
+#pagecontent .row .span8 .inlinepage .inlinecontent h2 {
+	font-size: 115%;
+}
+
+#pagecontent .row .span8 .inlinepage .inlinecontent h3 {
+	font-size: 105%;
+}
+
+
 
 /* OpenLayers workaround with Bootstrap (otherwise [[!osm]] is broken */
 img.olTileImage {
@@ -84,6 +109,11 @@ div.toc {
 	padding: 5px;	
 }
 
+.toc li {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
 div.toc a {
 	color: #606060;
 }
@@ -95,6 +125,11 @@ div.toc a {
 
 .toc ol .L1 ol .L2 {
 	list-style-type: decimal;
+	color: #606060;
+}
+
+.toc ol .L1 ol .L2 ol .L3 {
+	list-style-type: lower-alpha;
 	color: #606060;
 }
 
@@ -118,9 +153,29 @@ div.toc a {
 	background: #ff9900;
 }
 
-/* tag sizes */
+/* tag sizes and */
 .smallestPC { font-size: 70%; }
-.smallPC { font-size: 85%; }
-.normalPC { font-size: 100%; }
-.bigPC { font-size: 115%; }
-.biggestPC { font-size: 130%; }
+.smallPC { font-size: 80%; }
+.normalPC { font-size: 90%; }
+.bigPC { font-size: 100%; }
+.biggestPC { font-size: 110%; }
+
+/* tag list on main page */
+ul.list {
+	margin-left: 0;
+}
+
+ul.list li {
+	list-style-type: none;
+	float: left;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	padding: 0.1em 0.1em 0.1em 0.1em;
+	background: #ebebeb;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.15);
+	border-width: 1px;
+	border-radius: 4px;
+}
