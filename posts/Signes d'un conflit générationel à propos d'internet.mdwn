@@ -1,0 +1,54 @@
+[[!tag internet démocratie saint-herblain censure]]
+
+_Il y avait le 22 janvier dernier à Saint-Herblain (à côté de Nantes), une
+[conférence](http://www.ouest-france.fr/conference-web-et-cyber-haine-avec-frederic-martel-ce-jeudi-3133838)
+intitulée « Démocratie 2.0 contre cyber-haine ». Je n'ai pas pu m'y rendre mais
+en ai reçu un retour dont l'humeur me paraît être un intéressant marqueur
+d'incompréhensions de notre temps vis-à-vis du sujet « internet » et du fait que
+le réseau change progressivement mais radicalement le système démocratique. Le
+voici en l'état, avec quelques ajouts de liens mais sans l'identité de son
+auteur (et si des gens ne sont pas contents de cet anonymat, ils n'ont qu'à
+voter sans isoloir)._
+
+[[!more linktext="Lire la suite" text="""
+
+Je suis allé jeter un œil à cette conférence. Et c'était une horreur, une
+conférence sur la démocratie et le web fait par des ignorants sur le simple
+sujet d'Internet. Remplie d'Internet Bullshit comme « _les commentaires sur le web
+se transforment tous en monologue_ » ou encore « _les internautes qui commentent
+sont toujours les mêmes_ », ces citations ont été pondues par Anaïs Théviot,
+enseignante à Sciences-Po de Bordeaux.
+
+[Frédéric Martel](https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Martel),
+producteur/animateur à France Culture, pense que la démocratie actuelle n'a pas
+d'alternative, et qu'on ne peut pas s'affranchir d'un tel système d'élections.
+Il trouve qu'il y a trop de candidats aux élections présidentielles et
+souhaiterait passer de 500 signatures d'élus à 1000. Juste, le pluri-partie, ça
+le gave.
+
+Et Julian Perdriet voudrait faire taire ceux qui s’auto-radicalisent.
+
+Bref, ça a parlé des différences entre les campagnes présidentielles américaine
+et française et comment les politiques utilisent le web (ouais, uniquement le
+web) et les réseaux sociaux pour faire campagne. Ça a parlé aussi du fait que si
+tu n'es pas sur Facebook ou Twitter, tu n'es pas considéré comme un électeur.
+Oui parce que, pour eux, le web = réseaux sociaux = Facebook et Twitter. Pas un
+mot tel que « [WikiLeaks](https://wikileaks.org) »,
+« [ACTA](https://fr.wikipedia.org/wiki/Accord_commercial_anti-contrefa%C3%A7on) »,
+« [neutralité](https://fr.wikipedia.org/wiki/Neutralit%C3%A9_du_r%C3%A9seau) »,
+« [YouTube](https://www.youtube.com) » ou ne serait-ce que
+« [blog](https://fr.wikipedia.org/wiki/Blog) ». Mais par contre, ils aiment bien
+placer des termes comme « ère du numérique », « le deux point zéro », « rouler
+sur Internet » ou « Internet c’est bien mais... ».
+
+J'aurais bien voulu prendre la parole, mais mon stress généré par l’angoisse de
+prendre justement parole a été trop fort.
+
+Les quelques révoltés qui ont osés contredire les mensonges des intervenants se
+faisaient critiquer à voix basse par les petits vieux qui souhaitaient eux
+regarder une conf comme s’ils regardaient un débat sur TF1 au fond de leur
+canapé.
+
+En somme, une conf où il aurait fallu avoir un public renseigné.
+
+"""]]
