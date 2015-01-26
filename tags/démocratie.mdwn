@@ -1,0 +1,4 @@
+[[!meta title="pages tagged démocratie"]]
+
+[[!inline pages="tagged(démocratie)" actions="no" archive="yes"
+feedshow=10]]
