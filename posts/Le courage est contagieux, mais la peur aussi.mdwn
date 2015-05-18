@@ -1,0 +1,174 @@
+[[!tag ffdn surveillance france]]
+
+À l'[Assemblée
+générale](http://www.ffdn.org/fr/article/2015-05-13/ag-2015-le-courage-est-contagieux)
+de la [Fédération FDN](http://www.ffdn.org/fr/), il avait été décidé par
+l'association organisatrice [FAImaison](https://www.faimaison.net) de noter
+l'adresse MAC de chaque participant à côté de son nom ou pseudonyme avant d'y
+associer une adresse IP publique fixe. Ce choix a été abandonné suite à un coup
+de gueule du charismatique Benjamin Bayart, président de la Fédération.
+
+Dit autrement, la plupart étaient prêts à être fichés pour utiliser un point
+d'accès sans fil. Personne ou presque n'a réagi, parmi cette fédération censée
+défendre vie privée et libertés fondamentales.
+
+La raison de ce fichage, elle, n'est sûrement pas l'envie ou le plaisir de
+surveiller les copains.
+
+Non, c'est la peur. De quoi ? Que « des gens » fassent des conneries avec la
+connexion et qu'on ait des ennuis avec la justice ; que ça retombe sur FAImaison
+en cas de pépin, que les autorités s'en prennent à l'association parce qu'elle
+n'a pas assez surveillé ses copains.
+
+Peur que l'on peut comprendre, vu le
+[climat](https://www.faimaison.net/actualites/charlie-hebdo-liberte-expression-12jan2015.html)
+qui règne en France.
+
+Quid de la (non-) réaction du groupe, et que faire pour que notre fédération ne
+se pisse pas dessus en lisant les gros montants d'amendes prévues par certaines
+lois ?
+
+[[!more linktext="Lire la suite..." text="""
+
+# Les bisounours sont des veaux, les amis gardent les yeux ouverts
+
+Pourquoi presque personne n'a râlé alors que nous sommes sensibles au sujet des
+données personnelles, que nous nous battons contre le [projet de loi
+Renseignement](https://wiki.faimaison.net/doku.php?id=projets:pjl-renseignement),
+etc. ?
+
+En fait, je suis persuadé que la majorité a eu au moins un petit sursaut
+interne, un petit « ah, tiens, bizarre ».
+
+Par contre, si engueuler un représentant politique sur Twitter c'est une façon
+super cool d'être rebelle, passer pour un chieur à l'AG de la FFDN est nettement
+moins facile. 
+
+Certains ont aussi pu penser que leurs données allaient être entre les mains de
+« gens bien » (comprendre membres de la Fédération) et que du coup ce n'était
+pas si grave d'être fichés.
+
+Et puis, certains ne voulaient simplement pas se mettre mal avec les copains.
+
+Là, le bât blesse. La Fédération c'est du militantisme mais aussi de l'amitié.
+On n'a pas envie de blesser, quitte parfois à ramollir notre vigilance ou taire
+d'éventuelles critiques sur des sujets primordiaux.
+
+C'est une erreur. Il n'y a pas de « gens bien » par nature dans la Fédération.
+Croire cela serait une vision bisounours dénuée de consistance, voire dangereuse
+tant elle peut encourager des cultes de la personnalité. Nous sommes amis mais
+cela ne fait pas de nous des gens bien.
+
+Nous ne serons des gens bien que par nos actions en faveur des libertés. Nous
+devrions donc encourager les autres à nous rassurer et à nous engueuler si on a
+trop plié face à la peur. Lève-toi et marche, bon dieu.
+
+Soyons dignes de notre amitié : restons vigilants, gueulons quand il le faut. Ne
+laissons pas les amis sombrer dans la peur. Sinon, nous ne serons plus qu'un
+groupe de potes confortablement vautrés dans l'auto-satisfaction, faisant un peu
+d'internet à ses heures perdues et veillant surtout à ne pas trop se mettre en
+danger.
+
+# Assumer les erreurs
+
+Si on se plante, on doit le dire, provoquer le débat puis réagir ensemble. Si on
+le cache, on sauvera temporairement la face mais on perdra notre intégrité et on
+deviendra aussi pervers que les politiciens verreux.
+
+Je suis très étonné de la timidité de
+l'[article](http://www.ffdn.org/fr/article/2015-05-13/ag-2015-le-courage-est-contagieux)
+(d'autant plus vu son titre) sur le site de la Fédération, qui rappelle qu'il ne
+faut pas avoir peur sans dire un mot sur l'incident à l'origine de ce rappel :
+le fichage et la soumission des présents à ce fichage. Pas envie de contrarier
+les copains, de soulever le vrai lapin ? Du coup pour le courage contagieux,
+bah, je sais pas, je ne suis pas sûr de voir, là.
+
+Nous ne serons ni courageux ni exemplaires sans être transparents. En cachant
+nos dérapages, nous ne serons plus que postures et intentions politiciennes. Les
+billets éminemment politiques comme certains du site de FAImaison et d'autres
+FAI ne seront alors plus qu'une belle peinture cachant une réalité de trouille
+et de soumission.
+
+La Fédération et ses membres sont des microsociétés qui tentent d'être
+démocratiques et intègres. Elles ont donc besoin, de leurs râleurs, de leurs
+lanceurs d'alertes. Le corporatisme est l'ennemi de leur intégrité, au même
+titre que le corporatisme dans les partis politiques est l'ennemi de la
+démocratie et de la transparence.
+
+Gueuler et dévoiler publiquement les erreurs, c'est bel et bien pour défendre
+les libertés, pas pour s'en prendre gratuitement au groupe.
+
+# Fabriquer la loi plutôt qu'en avoir peur
+
+Connaître la loi est indispensable mais n'implique pas de l'interpréter de
+manière à s'auto-oppresser pour se prémunir à tout prix d'éventuelles
+conséquences. C'est pourtant ce que, très humainement, nous avons tendance à
+faire.
+
+Notre but n'est pas de fournir de l'internet
+si-possible-neutre-et-pas-trop-liberticide en minimisant nos risques.
+
+Non, c'est d'être en première ligne pour démocratiser un accès sans fichage. Si
+ce n'est pas nous qui prenons des risques pour ça, qui le fera ?
+
+Vous ne notez pas à chaque fois que vos voisins sortent de chez eux, et c'est
+normal. Ça devrait être pareil sur internet : produire et garder des logs
+devrait être l'exception et non la norme. La société a déjà trop accepté la
+logique du contrôle et de la surveillance entre individus. Associer adresse IP
+et identité nous paraît normal, c'est délirant.
+
+Des milliers de cafés pas militants pour un sous proposent un accès sans fil
+sans fichage. Nous sommes militants pour les libertés et nous poussons dans le
+sens contraire de ce que l'on défend publiquement ? Sans déconner ? Vous voulez
+pas qu'on fournisse les menottes avec le routeur tant qu'on y est ?
+
+Nous pourrions plutôt écrire les normes, celles que nous voulons étendre :
+neutralité du réseau et absence de fichage par les intermédiaires techniques,
+commes conditions indispensables aux libertés et à la diginité.
+
+À nous de changer lois et jurisprudence en encourageant le non-fichage, en
+montrant par l'expérience que la surveillance ne mène nulle part, qu'on peut ne
+pas ficher et que ça se passe bien quand même.
+
+Nous pourrions par exemple utiliser nos statuts pour écrire ces normes et le
+fait que nous les promouvons. Et peut-être un jour en faire loi.
+
+# Nous sommes légion
+
+Nous avons la chance d'être nombreux et de pouvoir réagir solidairement en cas
+de pépin. Servons-nous en pour se rassurer les uns les autres quant à la
+possibilité de prendre des risques.
+
+N'excluons pas la désobéissance car elle peut être nécessaire pour servir le
+bien commun. Ici aussi, notre nombre doit nous aider, nous devons savoir que
+nous serons solidaires les uns avec les autres. La désobéissance, bien
+accompagnée de communication, peut mener à des résultats concrets. Si un FAI
+fédéré choisit de désobéir pour préserver les libertés, envisageons de le faire
+avec lui. Il sera beaucoup plus difficile de nous faire tous tomber que de le
+faire tomber tout seul.
+
+Ici aussi, si ce n'est pas nous qui osons la désobéissance lorsque nécessaire,
+qui le fera ?
+
+Tournons-nous vers l'extérieur et incitons ceux qui ont un peu peur ou se posent
+des questions à faire moins de fichage. Qu'ils adhèrent et soient sûrs d'avoir
+notre soutien en cas de pression.
+
+La pression pourrait être financière ? Pourquoi ne pas utiliser le [Fonds de
+défense de la neutralité du net](http://www.fdn2.org/?lang=fr) pour provisionner
+ce qu'il faut en cas de pépin, ou simplement pour développer nos réseaux ?
+
+Soit nous nous promettons soutien et solidarité, soit nous laissons la stratégie
+« diviser pour régner » de l'État s'installer, et, chacun dans notre coin, nous
+serons individuellement incapables de faire face, à plier un peu plus à chaque
+loi liberticide.
+
+# Maintenant ou jamais ?
+
+La Fédération est une occasion de narguer la surveillance et de créer une autre
+société. Elle nous donne une force, alors servons-nous en tant qu'il est temps,
+car je doute que ce soit éternel. Si on se dit qu'on est juste là pour combattre
+un truc plus gros que nous qui de toute façon finira par nous écraser, on est
+déjà morts.
+
+"""]]
