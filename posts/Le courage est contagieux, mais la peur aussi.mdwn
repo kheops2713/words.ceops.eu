@@ -73,7 +73,7 @@ danger.
 
 Si on se plante, on doit le dire, provoquer le débat puis réagir ensemble. Si on
 le cache, on sauvera temporairement la face mais on perdra notre intégrité et on
-deviendra aussi pervers que les politiciens verreux.
+deviendra aussi pervers que les politiciens véreux.
 
 Je suis très étonné de la timidité de
 l'[article](http://www.ffdn.org/fr/article/2015-05-13/ag-2015-le-courage-est-contagieux)
@@ -124,7 +124,7 @@ pas qu'on fournisse les menottes avec le routeur tant qu'on y est ?
 
 Nous pourrions plutôt écrire les normes, celles que nous voulons étendre :
 neutralité du réseau et absence de fichage par les intermédiaires techniques,
-commes conditions indispensables aux libertés et à la diginité.
+comme conditions indispensables aux libertés et à la dignité.
 
 À nous de changer lois et jurisprudence en encourageant le non-fichage, en
 montrant par l'expérience que la surveillance ne mène nulle part, qu'on peut ne
